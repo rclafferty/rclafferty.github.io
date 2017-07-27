@@ -71,7 +71,6 @@
 		margin-left: 2%;
 		margin-right: 2%;
 		padding: 0;
-		float: middle;
 	}
 	.column:last-child {
 		padding-bottom: 60px;
@@ -195,6 +194,10 @@
 		text-decoration: underline;
 		-webkit-margin-before:0em;
 		-webkit-margin-after: 0em;
+	}
+	.column2 div span a {
+		text-decoration: underline;
+		font-family: "Arial Black", Gadget, sans-serif;
 	}
 
 	/* blur */
