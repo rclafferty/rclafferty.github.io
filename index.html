@@ -1,157 +1,74 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Robert Casey Lafferty</title>
-		<link href="styles/unl.css" rel="stylesheet" type="text/css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="UTF-8">
-		<META HTTP-EQUIV="refresh" CONTENT="300">
-		<!--Snagged from https://www.htmlgoodies.com/tutorials/getting_started/article.html/3479551 -->
-	</head>
-	<body>
-		<div id="navbar">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="programming.html">Programming</a></li>
-				<li><a href="websites.html">Websites</a></li>
-				<li><a href="about.html">About Me</a></li>
-			</ul>
-		</div>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Robert Casey Lafferty Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/unl2.css" />
+        <script src="js/unl2.js"></script>
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Websites</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+        </div>
 
-		<div class="title">
-			<div class="image_me">
-				<a href="about.php">
-					<img src="images/me_unl.jpg" alt="Picture of Me">
-				</a>
-			</div>
-			<a href="about.php"><h2>Robert Casey Lafferty</h2></a>
-			
-			<p>I am a recent graduate of Kansas State University and currently a second semester master's student in the University of Nebraska-Lincoln's Computer Science program. My interests include software development, game development, cyber security, artificial intelligence, web development, and more.</p><br><br>
-			
-			<h3><a href="documents/Robert_Casey_Lafferty_Resume.docx" target="_blank">Download my resume (docx)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="documents/Robert_Casey_Lafferty_Resume.pdf" target="_blank">Download my resume (pdf)</a></h3>
-			<br>
-		</div>
+        <div id="content">
+            <div id="home">
+                <h2>Home</h2>
+                <p>[Home content goes here]</p>
+            </div>
+            <div id="programming">
+                <h2>Programming</h2>
 
-		<br><br><hr>
+                <button id="previous" onclick="programmingPrevious()">&laquo; Previous</button>
+                <button id="next" onclick="programmingNext()">Next &raquo;</button>
 
-		<div id="outerwrapper">
-			<div class="header">
-				<h2><a href="programming.html#games">Programming - Games</a></h2>
-				<br>
-			</div>
-			<div class="hover07 column">
-				<div>
-					<figure>
-						<a href="programming/games/cryocrypt.html">
-							<img alt="" src="images/programming/cryocrypt.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>CryoCrypt Desktop Game (C#)</span>
-				</div>
+                <div id="projectWindow">
 
-				<div>
-					<figure>
-						<a href="programming/games/securing_cyberville.html">
-							<img alt="Securing Cyberville Promo Picture" src="images/programming/securing_cyberville.jpg" height="230" width="380">
-						</a>
-					</figure>
-					<span>KSU Senior Project (C#)</span>
-				</div>
+                    <h2 id="programmingProjectTitle">CryoCrypt</h2>
 
-				<div>
-					<figure>
-						<a href="programming/games/sand.html">
-							<img alt="" src="images/programming/sand.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>Sand Desktop Game (C#)</span>
-				</div>
-			</div>
+                    <div id="programmingImageSection">
+                        <img src="images/programming/cryocrypt.png" id="programmingImage" alt="CryoCrypt">
+                    </div>
 
-			<br><br><br><br>
+                    <div id="programmingTextSection">
+                        <p id="programmingText"></p>
+                        <p>&nbsp;</p>
+                        <p id="programmingDuties"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="websites">
+                <h2>Websites</h2>
 
-			<div class="hover07 column">
-				
+                <button id="previous" onclick="websitesPrevious()">&laquo; Previous</button>
+                <button id="next" onclick="websitesNext()">Next &raquo;</button>
 
-				<div>
-					<figure>
-						<a href="programming/games/maze.html">
-							<img alt="" src="images/programming/maze_1st_person.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>3D Maze Desktop Game (C#)</span>
-				</div>
-			</div>
+                <div id="projectWindow">
 
-			<br><br><br><br><hr><br><br>
+                    <h2 id="websitesProjectTitle">History of Overland Park</h2>
+                    
+                    <div id="websitesImageSection">
+                        <img src="images/websites/overland_park.png" id="websitesImage" alt="CryoCrypt">
+                    </div>
 
-			<div class="header">
-				<h2><a href="programming.html#projects">Programming - Personal Projects</a></h2>
-				<br>
-			</div>
-			<div class="hover07 column">
-				<div>
-					<figure>
-						<a href="programming/personal/finance_tracker.html">
-							<img alt="" src="images/programming/personal/finance_tracker.png" height="300" width="220">
-						</a>
-					</figure>
-					<span>Finance Tracker (C#)</span>
-				</div>
-			
-				<div>
-					<figure>
-						<a href="programming/personal/exp_calculator.html">
-							<img alt="" src="images/programming/personal/exp_calculator.png" height="300" width="220">
-						</a>
-					</figure>
-					<span>RS Experience Calculator (C#)</span>
-				</div>
-			</div>
-
-			<br><br><br><br><hr>
-
-			<div class="header">
-				<h2><a href="websites.html">Websites</a></h2>
-				<br>
-			</div>
-			<div class="hover07 column">
-				<div>
-					<figure>
-						<a href="websites/overland_park.html">
-							<img alt="" src="images/websites/overland_park.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>History of Overland Park</span>
-				</div>
-			
-				<div>
-					<figure>
-						<a href="about.html">
-							<img alt="" src="images/websites/personal.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>My Personal Website</span>
-				</div>
-
-				<div>
-					<figure>
-						<a href="websites/my_lai.html">
-							<img alt="" src="images/websites/my_lai.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>Report on My Lai Massacre</span>
-				</div>
-			</div>
-
-
-			<br><br>
-
-		</div>
-
-		<p>&nbsp;</p>
-		<footer>
-			<p>Last Updated: March 4, 2018</p>
-		</footer>
-	</body>
+                    <div id="websitesTextSection">
+                        <p id="websitesText"></p>
+                        <p>&nbsp;</p>
+                        <p id="websitesDuties"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="about">
+                <h2>About</h2>
+                <p>[About content goes here]</p>
+            </div>
+        </div>
+    </body>
 </html>
