@@ -105,6 +105,13 @@ button:focus {
     margin-left: 2rem;
     width: 7rem;
 }
+
+#githubButton {
+    float: right;
+    margin-right: 0rem;
+    width: 10rem;
+    bottom: -26rem;
+}
 /* End Buttons */
 
 h2 {

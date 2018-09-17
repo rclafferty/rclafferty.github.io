@@ -1,4 +1,5 @@
-github_warning = "javascript:alert(\"Sorry, this project is not available on GitHub\");";
+github_warning_text = "Sorry, this project is not available on GitHub";
+github_warning = "javascript:alert(\"" + github_warning_text + "\");";
 
 programmingIndex = 0;
 programming_titles = [ "CryoCrypt (C#)", "Sand (C#)", "Securing Cyberville (C#)"];
@@ -62,6 +63,18 @@ function setProgrammingDetails(index)
     document.getElementById("programmingImage").alt = programming_titles[index];
     document.getElementById("programmingText").textContent = programming_text[index];
     document.getElementById("programmingDuties").textContent = 'My contributions included: ' + programming_duties[index];
+}
+
+function showOnGitHub()
+{
+    if (programming_urls[programmingIndex] == github_warning)
+    {
+        alert(github_warning_text);
+    }
+    else
+    {
+        window.open(programming_urls[programmingIndex], '_blank');
+    }
 }
 // End Programming Functions
 
