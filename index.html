@@ -11,7 +11,7 @@
     <body>
         <div id="navbar">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#top">Home</a></li>
                 <li><a href="#programming">Programming</a></li>
                 <li><a href="#websites">Websites</a></li>
                 <li><a href="#about">About Me</a></li>
@@ -31,9 +31,10 @@
 
                 <div id="projectWindow">
 
-                    <button id="githubButton" onclick="showOnGitHub()">View on GitHub</button>
-
                     <h2 id="programmingProjectTitle">CryoCrypt</h2>
+
+                    <button class="externalLinkButton" id="githubButton" onclick="showOnGitHub()">View on GitHub</button>
+                    <button class="externalLinkButton" id="downloadButton" onclick="downloadZip()">Download ZIP</button>
 
                     <div id="programmingImageSection">
                         <img src="images/programming/cryocrypt.png" id="programmingImage" alt="CryoCrypt">
@@ -55,6 +56,8 @@
                 <div id="projectWindow">
 
                     <h2 id="websitesProjectTitle">History of Overland Park</h2>
+
+                    <button class="externalLinkButton" id="websiteLinkButton" onclick="showWebsite()">View Website</button>
                     
                     <div id="websitesImageSection">
                         <img src="images/websites/overland_park.png" id="websitesImage" alt="CryoCrypt">

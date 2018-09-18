@@ -88,11 +88,18 @@ button {
     /* color: #D9D9D9; */
     color: var(--grey);
     position: relative;
-    bottom: -15rem;
+    bottom: -17rem;
+    cursor: pointer;
+    border-radius: 25px;
 }
 
 button:focus {
     outline: 0;
+}
+
+.externalLinkButton {
+    bottom: -24rem;
+    width: 10rem;
 }
 
 #next {
@@ -109,8 +116,16 @@ button:focus {
 #githubButton {
     float: right;
     margin-right: 0rem;
-    width: 10rem;
-    bottom: -26rem;
+}
+
+#downloadButton {
+    float: right;
+    margin-right: 2rem;
+}
+
+#websiteLinkButton {
+    float: right;
+    margin-right: 0rem;
 }
 /* End Buttons */
 
@@ -181,6 +196,8 @@ h2 {
     border-radius: 25px;
     float: left;
     max-height: 350px;
+    margin: auto auto;
+    vertical-align: middle;
 }
 
 #websitesTextSection {
