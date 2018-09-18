@@ -79,6 +79,16 @@ html {
     margin-top: 3rem;
 }
 
+#home h2 {
+    font-size: 1.5rem;
+}   
+#programming h2 {
+    font-size: 1.5rem;
+}   
+#websites h2 {
+    font-size: 1.5rem;
+}
+
 /* Start Buttons */
 button {
     width: 7rem;
@@ -140,6 +150,11 @@ h2 {
     border: 2px solid;
     border-radius: 100px;
     height: 500px;
+}
+
+#projectWindow h2 {
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 /* Start Programming */
