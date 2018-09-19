@@ -1,8 +1,8 @@
 github_warning_text = "Sorry, this project is not available on GitHub";
-github_warning = "javascript:alert(\"" + github_warning_text + "\");";
+// github_warning = "javascript:alert(\"" + github_warning_text + "\");";
 
 download_warning_text = "Sorry, there is no zip file currently available for this project";
-download_warning = "javascript:alert(\"" + download_warning_text + "\");";
+// download_warning = "javascript:alert(\"" + download_warning_text + "\");";
 
 programmingIndex = 0;
 programming_titles = [
@@ -53,23 +53,23 @@ programming_text = [
     "CryoCrypt was my first significant step into game development. I worked alongside three other team members at the 2015 Kansas State University Game Jam to create this game in a span of 48 hours. As a team, we started with brainstorming storyboard ideas, and then quickly moved into programming, art, and so forth. Two students used Adobe Photoshop to hand-craft the art for characters and scenery. Another team member and myself both focused on using Unity C# scripts in order to program the puzzles, algorithms, movement, timers, and more. Myself and one of the artists also recorded voices for the characters using Audacity. Unfortunately, the voice-overs are not implemented in this build.",
     "Sand was the product of my most recent Game Jam, which was Texas A&M University's Chillennium 2016. Teams from different parts of the country gathered to compete in this Game Jam and as a result, created some awesome games. My team consisted of 1 artist and 3 programmers. All aspects of this game, excluding audio, were made by hand. I found and implemented open source audio files for the background music as well as sound effects. 1 student used Adobe Photoshop to create the art. Myself and 3 others used Unity C# scripts to program character movement, enemy activity, interactivity, controls, and more. Everyone collaborated closely to develop gameplay, theme, and other overall aspects of the game.",
     "Securing Cyberville was created as a senior project at Kansas State University. I worked alongside 1 other team member throughout the semester to create this game. As a team, we started with researching how people learn about cyber security threats, and used that to brainstorm gameplay ideas, map the world, and so forth. The game was created using the Unity game engine, Creative Commons models, and Creative Commons textures.",
-    "[Text about YGGDRASIL here]",
-    "[Text about Space Shooter here]",
-    "[Text about Machine Learning Material here]",
+    "YGGDRASIL was a product game made for Kansas State University's 4th Annual Game Jam, created by myself and three others. On this team, there were two programmers, two artists, and all four of us contributed to designing the story, levels, and overall design. This project was created using the Unity game engine, Blender (for 3D models), and open-licensed audio and textures.",
+    "Space Shooter was my first exposure to Unreal Engine 4, created as part of an Unreal Engine tutorial on Udemy. The game utilizes simple shapes (cubes and spheres) as well as simple material techniques to provide an easy start to the Unreal Engine development environment. It also exposed me to UI and C++ coding aspects in Unreal Engine 4.",
+    "My Machine Learning materials were developed as part of a tutorial on Udemy. I am new to the concept of Machine Learning, so this is my first exposure. The tools used include Anaconda's Spyder environment (Python) and R Studio (R). ",
     "[Text about Laser Defender here]",
     "[Text about Block Breaker here]",
     "[Text about Game Dev Boilerplate Code here]"
 ];
 programming_duties = [
-    "Creating scripts to control user events, environments (such as timing out), storyboarding, recording voice-over audio, assisting in level design",
+    "Creating scripts to control user events, environment events (such as timing out), storyboarding, recording voice-over audio, assisting in level design",
     "Finding open-licensed music, player controls, multiplayer controls, level design",
     "Level design, vehicle mechanics, dynamically assigning UI choices, UI design, assist with storyboarding and gameplay design",
-    "#",
-    "#",
-    "#",
-    "#",
-    "#",
-    "#"
+    "Level design, gameplay design, sound effects, level design, storyboarding, UI design, event scripting",
+    "UI implementations, C++ scripting, User Input, Material Design",
+    "Learn Python, Learn R, implement algorithms to train model on certain topics",
+    "UI implementations, Level Design, Character Select functionality, C# scripting, User Input, Material Design",
+    "UI implementations, Level design, C# scripting, user input, collision detection",
+    "C# scripting, script design, asset design, apply code in a generalized and scalable manner to be applied outside of a single use-case"
 ];
 
 websitesIndex = 0;
@@ -106,12 +106,12 @@ websites_text = [
     "[Text about Personal Website here]"
 ];
 websites_duties = [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Layout design, implement HTML/CSS design specifications using given content",
+    "Design entire website, UI design, content development, content research",
+    "Utilizing a pre-existing project to fulfill a research need, database development, PHP script development (to interact between database and web app), HTML/CSS development, searching and sorting functionality",
+    "PHP development, HTML/CSS design, database design, content development",
+    "Layout design, implement HTML/CSS design specifications using given content, JavaScript development, UI implementation",
+    "HTML/CSS design, JavaScript/PHP development, content development"
 ];
 
 
