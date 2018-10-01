@@ -9,3 +9,6 @@ master:
       
 PHP:
   The PHP branch is a reflection of the code that is ACTUALLY posted on my website. GitHub will not host PHP code for the website, unfortunately.
+
+new_design:
+   The new_design branch shows the new code I'm working on, but is not yet published.
