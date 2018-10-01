@@ -6,11 +6,13 @@ const DOWNLOAD_WARNING_TEXT = "Sorry, there is no zip file currently available f
 // Programming index variables
 programmingIndex = 0;
 const PROGRAMMING_TITLE_INDEX = 0;
-const PROGRAMMING_URL_INDEX = 1;
+const PROGRAMMING_GITHUB_INDEX = 1;
 const PROGRAMMING_IMAGES_INDEX = 2;
-const PROGRAMMING_GITHUB_INDEX = 3;
+const PROGRAMMING_DOWNLOAD_INDEX = 3;
 const PROGRAMMING_TEXT_INDEX = 4;
 const PROGRAMMING_CONTRIBUTIONS_INDEX = 5;
+
+const PHOTO_NOT_AVAILABLE = "images/photo_not_available.jpg";
 
 // A 2D array to hold the values for each project
 //   1st dimension --> Projects
@@ -22,7 +24,7 @@ const programs = [
         "CryoCrypt (C#)",
         "#",
         "images/programming/cryocrypt.png",
-        "#",
+        "http://people.cs.ksu.edu/~rclafferty/project_downloads/programming/games/CryoCrypt.zip",
         "CryoCrypt was my first significant step into game development. I worked alongside three other team members at the 2015 Kansas State University Game Jam to create this game in a span of 48 hours. As a team, we started with brainstorming storyboard ideas, and then quickly moved into programming, art, and so forth. Two students used Adobe Photoshop to hand-craft the art for characters and scenery. Another team member and myself both focused on using Unity C# scripts in order to program the puzzles, algorithms, movement, timers, and more. Myself and one of the artists also recorded voices for the characters using Audacity. Unfortunately, the voice-overs are not implemented in this build.",
         "Creating scripts to control user events, environment events (such as timing out), storyboarding, recording voice-over audio, assisting in level design"
     ],
@@ -44,7 +46,7 @@ const programs = [
         "images/programming/securing_cyberville.jpg",
         "#",
         "Securing Cyberville was created as a senior project at Kansas State University. I worked alongside 1 other team member throughout the semester to create this game. As a team, we started with researching how people learn about cyber security threats, and used that to brainstorm gameplay ideas, map the world, and so forth. The game was created using the Unity game engine, Creative Commons models, and Creative Commons textures.",
-        "Level design, vehicle mechanics, dynamically assigning UI choices, UI design, assist with storyboarding and gameplay design"
+        "Level design, vehicle mechanics, dynamically assigning UI choices, UI design, assist with storyboarding and gameplay design, logging events to database (for research web application)"
     ],
 
     // YGGDRASIL (C#)
@@ -61,7 +63,8 @@ const programs = [
     [
         "Space Shooter (C++)",
         "https://github.com/rclafferty/SpaceShooter-Game",
-        "images/programming/space_shooter.png",
+        // "images/programming/space_shooter.png",
+        PHOTO_NOT_AVAILABLE,
         "#",
         "Space Shooter was my first exposure to Unreal Engine 4, created as part of an Unreal Engine tutorial on Udemy. The game utilizes simple shapes (cubes and spheres) as well as simple material techniques to provide an easy start to the Unreal Engine development environment. It also exposed me to UI and C++ coding aspects in Unreal Engine 4.",
         "UI implementations, C++ scripting, User Input, Material Design"
@@ -71,7 +74,8 @@ const programs = [
     [
         "Machine Learning Material (Python and R)",
         "https://github.com/rclafferty/Machine-Learning-Tutorial",
-        "images/programming/machine_learning.png",
+        // "images/programming/machine_learning.png",
+        PHOTO_NOT_AVAILABLE,
         "#",
         "My Machine Learning materials were developed as part of a tutorial on Udemy. I am new to the concept of Machine Learning, so this is my first exposure. The tools used include Anaconda's Spyder environment (Python) and R Studio (R).",
         "Learn Python, Learn R, implement algorithms to train model on certain topics"
@@ -101,7 +105,8 @@ const programs = [
     [
         "Game Dev Boilerplate Code (C#)",
         "https://github.com/rclafferty/Game-Dev-Boilerplate-Code",
-        "images/programming/boilerplate_code.png",
+        // "images/programming/boilerplate_code.png",
+        PHOTO_NOT_AVAILABLE,
         "#",
         "I began developing what I'm calling \"game dev boilerplate code\" as my own form of a universal starter assets package. So far, it's focused on universal player controls, but I will soon begin developing other features such as universal environment events, objects, etc. This will help me and my collaborators begin projects quickly without essentially \"recreating the wheel\" for every game",
         "C# scripting, script design, asset design, apply code in a generalized and scalable manner to be applied outside of a single use-case"
@@ -208,6 +213,16 @@ function setProgrammingDetails(program)
 {
     document.getElementById("programmingProjectTitle").textContent = program[PROGRAMMING_TITLE_INDEX];
     document.getElementById("programmingImage").src = program[PROGRAMMING_IMAGES_INDEX];
+
+    if (program[PROGRAMMING_IMAGES_INDEX] == PHOTO_NOT_AVAILABLE)
+    {
+        document.getElementById("programmingImage").style.width = '300px';
+    }
+    else
+    {
+        document.getElementById("programmingImage").style.width = '100%';
+    }
+
     document.getElementById("programmingImage").alt = "Image for " + program[PROGRAMMING_TITLE_INDEX];
     document.getElementById("programmingText").textContent = program[PROGRAMMING_TEXT_INDEX];
     document.getElementById("programmingDuties").textContent = program[PROGRAMMING_CONTRIBUTIONS_INDEX];
@@ -215,7 +230,7 @@ function setProgrammingDetails(program)
 
 function showOnGitHub()
 {
-    github_link = programs[programmingIndex][PROGRAMMING_URL_INDEX];
+    github_link = programs[programmingIndex][PROGRAMMING_GITHUB_INDEX];
     if (github_link == "#")
     {
         alert(GITHUB_WARNING_TEXT);
@@ -228,7 +243,7 @@ function showOnGitHub()
 
 function downloadZip()
 {
-    download_link = programs[programmingIndex][PROGRAMMING_GITHUB_INDEX];
+    download_link = programs[programmingIndex][PROGRAMMING_DOWNLOAD_INDEX];
     if (download_link == "#")
     {
         alert(DOWNLOAD_WARNING_TEXT);
@@ -283,3 +298,11 @@ function showWebsite()
     window.open(websites[websitesIndex][WEBSITES_URL_INDEX], '_blank');
 }
 // End Website Functions
+
+function error(object)
+{
+    object.onerror = null;
+    object.src = PHOTO_NOT_AVAILABLE;
+    object.style.width = '300px';
+    object.style.height = '300px';
+}

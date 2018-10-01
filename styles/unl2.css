@@ -16,6 +16,10 @@ html {
     min-width: 1366px;
 }
 
+a {
+    color: var(--blue);
+}
+
 #outerwrapper {
     margin: 10px;
 }
@@ -68,6 +72,14 @@ html {
     color: var(--blue);
 }
 /* End Navbar */
+
+.image_me img{
+    float:left;
+	border-radius: 25px;
+	height: 320px;
+	width: 240px;
+    margin-right: 3rem;
+}
 
 #content {
     margin-top: 3rem;
