@@ -77,7 +77,7 @@ const programs = [
         // "images/programming/machine_learning.png",
         PHOTO_NOT_AVAILABLE,
         "#",
-        "My Machine Learning materials were developed as part of a tutorial on Udemy. I am new to the concept of Machine Learning, so this is my first exposure. The tools used include Anaconda's Spyder environment (Python) and R Studio (R).",
+        "My Machine Learning materials were developed as part of a tutorial I'm working through on Udemy. I am new to the concept of Machine Learning, so this is my first exposure. The tools used include Anaconda's Spyder environment (Python) and R Studio (R).",
         "Learn Python, Learn R, implement algorithms to train model on certain topics"
     ],
 

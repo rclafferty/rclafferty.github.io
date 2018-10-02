@@ -13,7 +13,7 @@
 html {
     background-color: var(--grey);
     color: var(--blue);
-    min-width: 1366px;
+    min-width: 1720px;
 }
 
 a {
@@ -73,11 +73,30 @@ a {
 }
 /* End Navbar */
 
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.portrait {
+    height: 320px;
+}
+
+.section {
+    border-bottom: 1px solid;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image_me {
+    width: 250px;
+}
+
 .image_me img{
     float:left;
 	border-radius: 25px;
-	height: 320px;
-	width: 240px;
     margin-right: 3rem;
 }
 
@@ -85,9 +104,17 @@ a {
     margin-top: 3rem;
 }
 
+#home_content {
+    float: right;
+    width: 85%;
+}
+
 #home h2 {
     font-size: 1.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
 }   
+
 #programming h2 {
     font-size: 1.5rem;
 }   

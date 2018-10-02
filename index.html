@@ -19,81 +19,91 @@
         </div>
 
         <div id="content">
-            <div id="home">
-                <div class="image_me">
+            <div class="section">
+                <div id="home">
                     <a href="#about">
-                        <img src="images/me_unl.jpg" alt="Picture of Me">
+                        <h2>Robert Casey Lafferty</h2>
                     </a>
-                </div>
-                <a href="#about">
-                    <h2>Robert Casey Lafferty</h2>
-                </a>
-                <p>I am a third semester master's student at the University of Nebraska-Lincoln studying Computer Science. I also have a Bachelor's of Science in Computer Science from Kansas State University, where I focused my studies on cyber security and video game development. I currently lead a game development group at UNL and am involved in a cyber security lab.</p>
-                <br>
-                <p>My interests include software development, game development, cyber security, artificial intelligence, web development, and more.</p>
-                <br>
-                <br>
-                <h3><a href="documents/Robert_Casey_Lafferty_Resume.docx" target="_blank">Download my resume (docx)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="documents/Robert_Casey_Lafferty_Resume.pdf" target="_blank">Download my resume (pdf)</a></h3>
-                <br>
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div id="programming">
-                <h2>Programming</h2>
-
-                <button id="previous" onclick="programmingPrevious()">&laquo; Previous</button>
-                <button id="next" onclick="programmingNext()">Next &raquo;</button>
-
-                <div id="projectWindow">
-
-                    <h2 id="programmingProjectTitle">CryoCrypt</h2>
-
-                    <button class="externalLinkButton" id="githubButton" onclick="showOnGitHub()">View on GitHub</button>
-                    <button class="externalLinkButton" id="downloadButton" onclick="downloadZip()">Download EXE</button>
-
-                    <div id="programmingImageSection">
-                        <img src="images/programming/cryocrypt.png" id="programmingImage" alt="CryoCrypt">
+                    <div id="home_content">
+                        <p>I am a third semester master's student at the University of Nebraska-Lincoln studying Computer Science. I also have a Bachelor's of Science in Computer Science from Kansas State University, where I focused my studies on cyber security and video game development. I currently lead a game development group at UNL and am involved in a cyber security lab.</p>
+                        <br>
+                        <p>My interests include software development, game development, cyber security, artificial intelligence, web development, and more.</p>
+                        <br>
+                        <br>
+                        <h3><a href="documents/Robert_Casey_Lafferty_Resume.docx" target="_blank">Download my resume (docx)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="documents/Robert_Casey_Lafferty_Resume.pdf" target="_blank">Download my resume (pdf)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="resume.html" target="_blank">View my online resume</a></h3>
+                        <br>
                     </div>
-
-                    <div id="programmingTextSection">
-                        <p id="programmingText"></p>
-                        <p>&nbsp;</p>
-                        <h3>My Contributions:</h3>
-                        <p id="programmingDuties"></p>
+                    <div class="image_me">
+                        <div class="portrait">
+                            <a href="#about">
+                                <img src="images/me_unl.jpg" alt="Picture of Me">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <br>
-            <hr>
-            <br>
-            <div id="websites">
-                <h2>Websites</h2>
+            <!-- <br> -->
+            <!-- <hr> -->
+            <!-- <br> -->
+            <div class="section">
+                <div id="programming">
+                    <h2>Programming</h2>
 
-                <button id="previous" onclick="websitesPrevious()">&laquo; Previous</button>
-                <button id="next" onclick="websitesNext()">Next &raquo;</button>
+                    <button id="previous" onclick="programmingPrevious()">&laquo; Previous</button>
+                    <button id="next" onclick="programmingNext()">Next &raquo;</button>
 
-                <div id="projectWindow">
+                    <div id="projectWindow">
 
-                    <h2 id="websitesProjectTitle">History of Overland Park</h2>
+                        <h2 id="programmingProjectTitle">CryoCrypt</h2>
 
-                    <button class="externalLinkButton" id="websiteLinkButton" onclick="showWebsite()">View Website</button>
-                    
-                    <div id="websitesImageSection">
-                        <img src="images/websites/overland_park.png" id="websitesImage" alt="CryoCrypt">
-                    </div>
+                        <button class="externalLinkButton" id="githubButton" onclick="showOnGitHub()">View on GitHub</button>
+                        <button class="externalLinkButton" id="downloadButton" onclick="downloadZip()">Download EXE</button>
 
-                    <div id="websitesTextSection">
-                        <p id="websitesText"></p>
-                        <p>&nbsp;</p>
-                        <h3>My Contributions:</h3>
-                        <p id="websitesDuties"></p>
+                        <div id="programmingImageSection">
+                            <img src="images/programming/cryocrypt.png" id="programmingImage" alt="CryoCrypt">
+                        </div>
+
+                        <div id="programmingTextSection">
+                            <p id="programmingText"></p>
+                            <p>&nbsp;</p>
+                            <h3>My Contributions:</h3>
+                            <p id="programmingDuties"></p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <br>
+            <!-- <br>
             <hr>
-            <br>
+            <br> -->
+            <div class="section">
+                <div id="websites">
+                    <h2>Websites</h2>
+
+                    <button id="previous" onclick="websitesPrevious()">&laquo; Previous</button>
+                    <button id="next" onclick="websitesNext()">Next &raquo;</button>
+
+                    <div id="projectWindow">
+
+                        <h2 id="websitesProjectTitle">History of Overland Park</h2>
+
+                        <button class="externalLinkButton" id="websiteLinkButton" onclick="showWebsite()">View Website</button>
+                        
+                        <div id="websitesImageSection">
+                            <img src="images/websites/overland_park.png" id="websitesImage" alt="CryoCrypt">
+                        </div>
+
+                        <div id="websitesTextSection">
+                            <p id="websitesText"></p>
+                            <p>&nbsp;</p>
+                            <h3>My Contributions:</h3>
+                            <p id="websitesDuties"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <br>
+            <hr>
+            <br> -->
             <div id="about">
                 <h2>About</h2>
                 <p>[About content goes here]</p>
