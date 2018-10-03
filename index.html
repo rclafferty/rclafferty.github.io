@@ -1,157 +1,144 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Robert Casey Lafferty</title>
-		<link href="styles/unl.css" rel="stylesheet" type="text/css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="UTF-8">
-		<META HTTP-EQUIV="refresh" CONTENT="300">
-		<!--Snagged from https://www.htmlgoodies.com/tutorials/getting_started/article.html/3479551 -->
-	</head>
-	<body>
-		<div id="navbar">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="programming.html">Programming</a></li>
-				<li><a href="websites.html">Websites</a></li>
-				<li><a href="about.html">About Me</a></li>
-			</ul>
-		</div>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Robert Casey Lafferty Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+        <script src="js/unl2.js"></script>
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#programming">Programming</a></li>
+                <li><a href="#websites">Websites</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+        </div>
 
-		<div class="title">
-			<div class="image_me">
-				<a href="about.php">
-					<img src="images/me_unl.jpg" alt="Picture of Me">
-				</a>
-			</div>
-			<a href="about.php"><h2>Robert Casey Lafferty</h2></a>
-			
-			<p>I am a recent graduate of Kansas State University and currently a second semester master's student in the University of Nebraska-Lincoln's Computer Science program. My interests include software development, game development, cyber security, artificial intelligence, web development, and more.</p><br><br>
-			
-			<h3><a href="documents/Robert_Casey_Lafferty_Resume.docx" target="_blank">Download my resume (docx)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="documents/Robert_Casey_Lafferty_Resume.pdf" target="_blank">Download my resume (pdf)</a></h3>
-			<br>
-		</div>
+        <div class="content">
+            <div class="section">
+                <div id="home">
+                    <a href="#about">
+                        <h1>Robert Casey Lafferty</h1>
+                    </a>
+                    <div id="home_content">
+                        <p>I am a third semester master's student at the University of Nebraska-Lincoln studying Computer Science. I also have a Bachelor's of Science in Computer Science from Kansas State University, where I focused my studies on cyber security and video game development. I currently lead a game development group at UNL and am involved in a cyber security research lab in the department.</p>
+                        <br>
+                        <p>My interests include software development, game development, cyber security, artificial intelligence, web development, and more.</p>
+                        <br>
+                        <br>
+                        <h3><a href="documents/Robert_Casey_Lafferty_Resume.docx" target="_blank">Download my resume (docx)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="documents/Robert_Casey_Lafferty_Resume.pdf" target="_blank">Download my resume (pdf)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="resume.html" target="_blank">View my online resume</a></h3>
+                        <br>
+                        <h3><a href="https://github.com/rclafferty" target="_blank">View my GitHub account</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/rclafferty" target="_blank">View my LinkedIn</a></h3>
+                        <br>
+                    </div>
+                    <div id="image_me">
+                        <div class="portrait">
+                            <a href="#about">
+                                <img src="images/me_unl.jpg" alt="Picture of Me">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <br> -->
+            <!-- <hr> -->
+            <!-- <br> -->
+            <div class="section">
+                <div id="programming">
+                    <h2>Programming</h2>
 
-		<br><br><hr>
+                    <button class="previous" onclick="programmingPrevious()">&laquo; Previous</button>
+                    <button class="next" onclick="programmingNext()">Next &raquo;</button>
 
-		<div id="outerwrapper">
-			<div class="header">
-				<h2><a href="programming.html#games">Programming - Games</a></h2>
-				<br>
-			</div>
-			<div class="hover07 column">
-				<div>
-					<figure>
-						<a href="programming/games/cryocrypt.html">
-							<img alt="" src="images/programming/cryocrypt.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>CryoCrypt Desktop Game (C#)</span>
-				</div>
+                    <div class="project_window">
 
-				<div>
-					<figure>
-						<a href="programming/games/securing_cyberville.html">
-							<img alt="Securing Cyberville Promo Picture" src="images/programming/securing_cyberville.jpg" height="230" width="380">
-						</a>
-					</figure>
-					<span>KSU Senior Project (C#)</span>
-				</div>
+                        <h2 class="project_window_title" id="programmingProjectTitle">CryoCrypt</h2>
 
-				<div>
-					<figure>
-						<a href="programming/games/sand.html">
-							<img alt="" src="images/programming/sand.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>Sand Desktop Game (C#)</span>
-				</div>
-			</div>
+                        <div class="project_window_image" id="programmingImageSection">
+                            <img src="images/programming/cryocrypt.png" id="programmingImage" alt="CryoCrypt">
+                        </div>
 
-			<br><br><br><br>
+                        <div class="project_window_text" id="programmingTextSection">
+                            <p id="programmingText"></p>
+                            <p>&nbsp;</p>
+                            <h3>My Contributions:</h3>
+                            <p class="project_window_duties" id="programmingDuties"></p>
+                        </div>
 
-			<div class="hover07 column">
-				
+                    </div>
+                    <button class="external_link_button github_button" id="githubButton" onclick="showOnGitHub()">View on GitHub</button>
+                    <button class="external_link_button download_button" id="downloadButton" onclick="downloadZip()">Download EXE</button>
+                    
+                </div>
+            </div>
+            <!-- <br>
+            <hr>
+            <br> -->
+            <div class="section">
+                <div id="websites">
+                    <h2>Websites</h2>
 
-				<div>
-					<figure>
-						<a href="programming/games/maze.html">
-							<img alt="" src="images/programming/maze_1st_person.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>3D Maze Desktop Game (C#)</span>
-				</div>
-			</div>
+                    <button class="previous" onclick="websitesPrevious()">&laquo; Previous</button>
+                    <button class="next" onclick="websitesNext()">Next &raquo;</button>
 
-			<br><br><br><br><hr><br><br>
+                    <div class="project_window">
 
-			<div class="header">
-				<h2><a href="programming.html#projects">Programming - Personal Projects</a></h2>
-				<br>
-			</div>
-			<div class="hover07 column">
-				<div>
-					<figure>
-						<a href="programming/personal/finance_tracker.html">
-							<img alt="" src="images/programming/personal/finance_tracker.png" height="300" width="220">
-						</a>
-					</figure>
-					<span>Finance Tracker (C#)</span>
-				</div>
-			
-				<div>
-					<figure>
-						<a href="programming/personal/exp_calculator.html">
-							<img alt="" src="images/programming/personal/exp_calculator.png" height="300" width="220">
-						</a>
-					</figure>
-					<span>RS Experience Calculator (C#)</span>
-				</div>
-			</div>
+                        <h2 class="project_window_title" id="websitesProjectTitle">History of Overland Park</h2>
+                        
+                        <div class="project_window_image" id="websitesImageSection">
+                            <img src="images/websites/overland_park.png" id="websitesImage" alt="CryoCrypt">
+                        </div>
 
-			<br><br><br><br><hr>
+                        <div class="project_window_text" id="websitesTextSection">
+                            <p id="websitesText"></p>
+                            <p>&nbsp;</p>
+                            <h3>My Contributions:</h3>
+                            <p id="websitesDuties"></p>
+                        </div>
+                    </div>
+                    <button class="external_link_button" id="websiteLinkButton" onclick="showWebsite()">View Website</button>
+                </div>
+            </div>
+            <!-- <br>
+            <hr>
+            <br> -->
+            <div class="section">
+                <div id="about">
+                    <h2>About Me</h2>
+                    <p>As a masters student at UNL, I am currently involved in a cyber security research lab and currently lead a <a href="http://UNL-Game-Dev-Club.github.io">video game development group</a> on campus. My contributions to the game dev group include leading weekly meetings, preparing demos, guiding the members through the production cycle of video game development, creating the group's website, and more. I've also been involved as the Graduate Teaching Assistant Student Representative and the Programming Contest Student Representative.</p>
+                    <p>During my undergraduate career, I participated in the <a href="http://ksucyberdefencenews.blogspot.com/">Cyber Defense Club (CDC)</a> at Kansas State University. This club exposes members to vulnerabilities in software and techniques to defend against them. In addition, I also enrolled in the Intro to Cyber Security (CIS 490) course at K-State. Combining that knowledge with the CDC gave me a solid foundation to expand upon and ultimately pursue this field as a masters student.</p>
+                    <h3>ACM Programming Competitions</h3>
+                    <p>Every semester, Kansas State University hosts their local Association for Computing Machinery (ACM) Programming Competition, which mirrors the structure of the regional and world competitions. I have had the privilege of competing in seven total K-State Association of Computing Machinery (ACM) programming competitions and two regional competitions. I was fortunate to place in the top five twice at the local competitions and in the top third both times in the regional competitions. I enjoyed the rush of the competitions and the learning experience that accompanied it.</p>
+                    
+                    <div id="game_jam_video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KX3DRyawhPQ" allowfullscreen style="padding:1em"></iframe>
+                    </div>
+        
+                    <h3>Game Jams</h3>
+                    <p>Game development is a hobby inspired by my coursework and extra-curricular activities at K-State. I was a contender in the three K-State game jams, placing first in the first one. I enjoy competing because it is a great opportunity to highlight skills, network with colleagues and industry representatives, and learn new skills. In my first game jam, I had little experience in game development and absolutely no experience with game engines such as Unity or Unreal. I was fortunate to team up with someone who was familiar with Unity and learned a lot on the spot. In that same competition, we created CryoCrypt and were awarded Best Art, Best Gameplay, and Best Overall.</p>
+                    <p>I also had the privilege of attending the Chillennium Game Jam 2016 at Texas A&M University. This game jam is organized strictly by students for students and hosted by their Department of Visualization. It was a great opportunity to network with out-of-state students as well as companies based closer to Texas such as EA, Blizzard, Six Foot, and more. I personally had a blast and look forward to attending again in the future.<p>
+                    <h3>Boy Scouts of America</h3>
+                    <p>I was a part of the Boy Scouts of America for 16 years, starting with my Tiger cub group in August of 2000. Since then, I continued on into Boy Scouts in 2005, joined Venturing in 2009, and earned the rank of Eagle in September 2012. I stayed involved in Venturing as an adult advisor for Crew 75 in Manhattan, KS until May 2016. I enjoy staying involved because it is a great program and would like to see it continue.</p>
+                    
+                    <div id="virtual_choir_video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cy_yOiWHHHs" allowfullscreen style="padding-right:1em"></iframe>
+                    </div>
 
-			<div class="header">
-				<h2><a href="websites.html">Websites</a></h2>
-				<br>
-			</div>
-			<div class="hover07 column">
-				<div>
-					<figure>
-						<a href="websites/overland_park.html">
-							<img alt="" src="images/websites/overland_park.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>History of Overland Park</span>
-				</div>
-			
-				<div>
-					<figure>
-						<a href="about.html">
-							<img alt="" src="images/websites/personal.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>My Personal Website</span>
-				</div>
+                    <h3>Music Extracurriculars</h3>
+                    <p>As a music minor, I often found myself involved in music-related events, such as performing with community choirs, or music-related aspects of software development, to include audio and music for game development. In the 2015 holiday season, I auditioned and was chosen to be a part of Disney's World of Color Honor Choir. Many US singers submitted recordings of themselves singing individual parts of Glow, the song commissioned by Disney for this event, and submitted for selection. Roughly 700 recordings were chosen, combined into one (fantastic) video and projected onto a wall of water at California Adventure Park during the annual World of Color show. It was a great experience that I was also lucky enough to see it in-person.</p>
+                    <p>Another recent musical experience was the World Choral Festival. I had the pleasure of performing with singers from the USA, Ireland, England, Czech Republic, and a few other places for a week in Kansas City during summer 2016, which concluded with a final performance in the Kauffman Performing Arts Center. We performed songs from different composers in many different languages. It was a great bonding and networking experience for everyone involved.</p>
 
-				<div>
-					<figure>
-						<a href="websites/my_lai.html">
-							<img alt="" src="images/websites/my_lai.png" height="230" width="380">
-						</a>
-					</figure>
-					<span>Report on My Lai Massacre</span>
-				</div>
-			</div>
-
-
-			<br><br>
-
-		</div>
-
-		<p>&nbsp;</p>
-		<footer>
-			<p>Last Updated: March 4, 2018</p>
-		</footer>
-	</body>
+                    <h3>More Information</h3>
+                    <p>For more information about my work, check out my projects on <a href="#programming">this website</a>, <a href="https://github.com/rclafferty" target="_blank">GitHub</a>, <a href="https://linkedin.com/in/rclafferty" target="_blank">LinkedIn</a>, or simply email me and I'll be happy to chat.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>New design implemented on October 3, 2018</p>
+    </footer>
 </html>

@@ -1,0 +1,263 @@
+:root{
+    --blue:#000BCE;
+    --grey:#E1E8DE;
+    --black: black;
+   }
+   
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+html {
+    background-color: var(--grey);
+    color: var(--blue);
+    min-width: 1720px;
+}
+
+a {
+    color: var(--blue);
+}
+
+#outerwrapper {
+    margin: 10px;
+}
+
+/* Start Navbar */
+#navbar {
+    display: block;
+    position: fixed;
+    top:0;
+    height: 45px;
+    background-color: var(--blue);
+    width: 100%;
+
+    z-index: 3;
+}
+#navbar ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+
+}
+#navbar a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    display: block;	
+    float: left;	
+    font-size: 24px;
+    color: var(--grey);
+    margin-top: 9px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    transition: 0.4s;
+
+    border-radius: 25px;
+}
+
+#navbar a:hover {
+    background-color: var(--grey);
+    color: var(--blue);
+}
+/* End Navbar */
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.portrait {
+    height: 320px;
+}
+
+.section {
+    border-bottom: 1px solid;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image_me {
+    width: 250px;
+}
+
+.image_me img{
+    float:left;
+	border-radius: 25px;
+    margin-right: 3rem;
+}
+
+#content {
+    margin-top: 3rem;
+}
+
+#home_content {
+    float: right;
+    width: 85%;
+}
+
+#home h2 {
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}   
+
+#programming h2 {
+    font-size: 1.5rem;
+}   
+#websites h2 {
+    font-size: 1.5rem;
+}
+
+/* Start Buttons */
+button {
+    width: 7rem;
+    background-color: var(--blue);
+    border: none;
+    color: var(--grey);
+    position: relative;
+    bottom: -17rem;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.externalLinkButton {
+    bottom: -24rem;
+    width: 10rem;
+}
+
+#next {
+    float: right;
+    margin-right: 2rem;
+}
+
+#previous {
+    float: left;
+    margin-left: 2rem;
+    width: 7rem;
+}
+
+#githubButton {
+    float: right;
+    margin-right: 0rem;
+}
+
+#downloadButton {
+    float: right;
+    margin-right: 2rem;
+}
+
+#websiteLinkButton {
+    float: right;
+    margin-right: 0rem;
+}
+/* End Buttons */
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#projectWindow {
+    margin: 3% 10%;
+    padding: 3% 5%;
+    border: 2px solid;
+    border-radius: 100px;
+    height: 500px;
+}
+
+#projectWindow h2 {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Start Programming */
+#programmingProjectTitle {
+    padding-bottom: 1rem;
+}
+
+#programmingImageSection {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+#programmingImage {
+    width: 100%;
+    border-radius: 25px;
+    float: left;
+    max-height: 350px;
+}
+
+#programmingTextSection {
+    width: 55%;
+    float: right;
+}
+
+#programmingText {
+    text-align: left;
+    width: 100%;
+    color: black;
+}
+
+#programmingDuties {
+    text-align: left;
+    width: 100%;
+    color: black;
+}
+/* End Programming */
+
+/* Start Websites */
+#websitesProjectTitle {
+    padding-bottom: 1rem;
+}
+
+#websitesImageSection {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+#websitesImage {
+    width: 100%;
+    border-radius: 25px;
+    float: left;
+    max-height: 350px;
+    margin: auto auto;
+    vertical-align: middle;
+}
+
+#websitesTextSection {
+    width: 55%;
+    float: right;
+}
+
+#websitesText {
+    text-align: left;
+    width: 100%;
+    color: black;
+}
+
+#websitesDuties {
+    text-align: left;
+    width: 100%;
+    color: black;
+}
+/* End Websites */
