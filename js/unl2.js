@@ -22,7 +22,7 @@ const programs = [
     // CryoCrypt (C#)
     [
         "CryoCrypt (C#)",
-        "#",
+        "https://github.com/rclafferty/CryoCrypt",
         "images/programming/cryocrypt.png",
         "http://people.cs.ksu.edu/~rclafferty/project_downloads/programming/games/CryoCrypt.zip",
         // "CryoCrypt was my first significant step into game development. I worked alongside three other team members at the 2015 Kansas State University Game Jam to create this game in a span of 48 hours. As a team, we started with brainstorming storyboard ideas, and then quickly moved into programming, art, and so forth. Two students used Adobe Photoshop to hand-craft the art for characters and scenery. Another team member and myself both focused on using Unity C# scripts in order to program the puzzles, algorithms, movement, timers, and more. Myself and one of the artists also recorded voices for the characters using Audacity. Unfortunately, the voice-overs are not implemented in this build.",
@@ -33,7 +33,7 @@ const programs = [
     // Sand (C#)
     [
         "Sand (C#)",
-        "#",
+        "https://github.com/rclafferty/Sand",
         "images/programming/sand.png",
         "#",
         // "Sand was the product of my most recent Game Jam, which was Texas A&M University's Chillennium 2016. Teams from different parts of the country gathered to compete in this Game Jam and as a result, created some awesome games. My team consisted of 1 artist and 3 programmers. All aspects of this game, excluding audio, were made by hand. I found and implemented open source audio files for the background music as well as sound effects. 1 student used Adobe Photoshop to create the art. Myself and 3 others used Unity C# scripts to program character movement, enemy activity, interactivity, controls, and more. Everyone collaborated closely to develop gameplay, theme, and other overall aspects of the game.",
