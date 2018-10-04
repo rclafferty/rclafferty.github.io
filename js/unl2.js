@@ -35,7 +35,7 @@ const programs = [
         "Sand (C#)",
         "https://github.com/rclafferty/Sand",
         "images/programming/sand.png",
-        "#",
+        "http://people.cs.ksu.edu/~rclafferty/project_downloads/programming/games/sand.zip",
         // "Sand was the product of my most recent Game Jam, which was Texas A&M University's Chillennium 2016. Teams from different parts of the country gathered to compete in this Game Jam and as a result, created some awesome games. My team consisted of 1 artist and 3 programmers. All aspects of this game, excluding audio, were made by hand. I found and implemented open source audio files for the background music as well as sound effects. 1 student used Adobe Photoshop to create the art. Myself and 3 others used Unity C# scripts to program character movement, enemy activity, interactivity, controls, and more. Everyone collaborated closely to develop gameplay, theme, and other overall aspects of the game.",
         "Sand was developed by myself and three others at the 2016 Texas A&M Chillennium Game Jam, created and prepared for judging in under 48 hours. All aspects of this game except the music were made by hand. I found and implemented open source audio files for background music and sound effects. One teammate used Adobe Photoshop to create the art while myself and three others used Unity C# scripts to program character movement, enemy activity, interactivity, controls, and more.",
         "Finding open-licensed music, player controls, multiplayer controls, level design"
