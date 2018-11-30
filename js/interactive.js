@@ -193,13 +193,13 @@ const websites = [
         "HTML/CSS design, JavaScript/PHP development, content development"
     ],
 
-    // My Personal Website
+    // UNL Game Development Club Website
     [
         "UNL Game Development Club Website",
         "https://UNL-Game-Dev-Club.github.io",
-        "images/websites/personal_website.png",
-        "My personal website is one that is both a project and a portfolio. I've hand-written all of the HTML5, CSS3, JS, and PHP code used to construct the designs over the years with very few exceptions. I also use it to showcase my projects, both in programming and web development.",
-        "HTML/CSS design, JavaScript/PHP development, content development"
+        "images/websites/unl_game_dev.png",
+        "Details available on the website.",
+        "HTML/CSS design, content development, upkeep"
     ]
 ];
 const NUMBER_OF_WEBSITES = websites.length;
