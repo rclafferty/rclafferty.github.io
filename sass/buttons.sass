@@ -1,0 +1,37 @@
+@import 'common_variables'
+
+button
+    width: $button-width-2
+    background-color: $blue
+    color: $gray
+    border: none
+    position: relative
+    cursor: pointer
+    border-radius: $border-radius
+    transition: $transition-time
+    font-size: $base-font-size
+
+button:focus
+    outline: 0
+
+button:hover
+    background-color: #0050FF
+    transition: $transition-time
+
+.next
+    float: right
+    right: $min-margin
+    bottom: $button-bottom
+
+.previous
+    left: $min-margin
+    bottom: $button-bottom
+    
+.download_button
+    margin-right: $next-margin
+
+.external_link_button
+    width: $button-width-2
+    float: right
+    vertical-align: bottom
+    bottom: 1rem
