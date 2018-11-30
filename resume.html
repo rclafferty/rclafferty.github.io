@@ -2,37 +2,28 @@
 <html>
 	<head>
 		<title>Online Resume</title>
-		<link rel="stylesheet" type="text/css" href="styles/resume.css">
+		<link rel="stylesheet" type="text/css" href="css/resume.css">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
 	</head>
 	<body>
 		<div id="outerwrapper">
 			<div id="education">
 				<h1>Education</h1>
-				<table>
-					<tr>
-						<td><h3>University of Nebraska-Lincoln</h3></td>
-						<td>Lincoln, NE</td>
-					</tr>
-					<tr>
-						<td>Masters in Computer Science</td>
-						<td>August 2017 - Present</td>
-					</tr>
-				</table>
 
-				<table>
-					<tr>
-						<td><h3>Kansas State University</h3></td>
-						<td>Manhattan, KS</td>
-					</tr>
-					<tr>
-						<td>Bachelors of Computer Science</td>
-						<td>August 2012 - May 2017</td>
-					</tr>
-					<tr>
-						<td>Music Minor</td>
-						<td>CS GPA: 3.26</td>
-					</tr>
-				</table>
+				<div class="education_grid">
+					<h3>University of Nebraska-Lincoln</h3>
+					<p>Lincoln, NE</p>
+					<p>Masters of Science in Computer Science</p>
+					<p>August 2017 - Present</p>
+				</div>
+				<div class="education_grid">
+					<h3>Kansas State University</h3>
+					<p>Manhattan, KS</p>
+					<p>Bachelors of Science in Computer Science</p>
+					<p>August 2012 - May 2017</p>
+					<p>Music Minor</p>
+					<p>CS GPA: 3.26</p>
+				</div>
 			</div>
 			
 			<div id="computer_skills">
@@ -96,164 +87,114 @@
 
 			<div id="work">
 				<h1>Professional Work Experience</h1>
+				
+				<h2>Graduate Research Assistant - <i>University of Nebraska-Lincoln</i></h2>
 
+				<div class="work_grid single_element">
+					<div class="job">
+						<p>[Duties go here]</p>
+						<p>[Duties go here]</p>
+						<p>[Duties go here]</p>
+					</div>
+				</div>
 				<h2>Graduate Teaching Assistant - <i>University of Nebraska-Lincoln</i></h2>
 
-				<table>
-					<tr>
-						<th>CSCE 155A</th>
-						<th>CSCE 156</th>
-					</tr>
-					<tr>
-						<td>
-							<ul>
-								<li>Taught students the fundamentals of Java, including data structures, basic programming, and basic IDE usage</li>
-								<li>Prepared and presented lab assignments, handouts, and assisting materials</li>
-								<li>Coordinated grading of homework and labs among UTAs and fellow GTAs</li>
-							</ul>
-						</td>
-						<td>
-							<ul>
-								<li>Taught students advanced Java techniques, including database connectivity, analyzing algorithms, and implementing efficient data structures</li>
-								<li>Prepared and presented lab assignments, handouts, and assisting materials</li>
-								<li>Coordinated grading of homework and labs among fellow GTAs</li>
-							</ul>
-						</td>
-					</tr>
-				</table>
-
+				<div class="work_grid">
+					<div class="job">
+						<h3>CSCE 155A</h3>
+						<p>Taught students the fundamentals of Java, including data structures, basic programming, and basic IDE usage</p>
+						<p>Prepared and presented lab assignments, handouts, and assisting materials</p>
+						<p>Coordinated grading of homework and labs among UTAs and fellow GTAs</p>
+					</div>
+					<div class="job">
+						<h3>CSCE 156</h3>
+						<p>Taught students advanced Java techniques, including database connectivity, analyzing algorithms, and implementing efficient data structures</p>
+						<p>Prepared and presented lab assignments, handouts, and assisting materials</p>
+						<p>Coordinated grading of homework and labs among fellow GTAs</p>
+					</div>
+				</div>
+				
 				<h2>Undergraduate Teaching Assistant - <i>Kansas State University</i></h2>
 
-				<table>
-					<tr>
-						<th>CIS 115</th>
-						<th>CIS 200</th>
-					</tr>
-					<tr>
-						<td>
-							<ul>
-								<li>Taught students a broad specturm of Computer Science topics, including programming basics, artificial intelligence, robotics, cyber security, algorithms, networking, and web design</li>
-								<li>Collaborated with GTAs and fellow UTAs to help improve the students' learning experience</li>
-								<li>Tutored students one-on-one during lab and outside of lab</li>
-							</ul>
-						</td>
-						<td>
-							<ul>
-								<li>Taught students the fundamentals of Java, including data structures, basic programming, and basic IDE usage</li>
-								<li>Collaborated with GTAs and fellow UTAs to help improve the students' learning experience</li>
-								<li>Tutored students one-on-one in a lab setting of over 35 students</li>
-							</ul>
-						</td>
-					</tr>
-				</table>
+				<div class="work_grid">
+					<div class="job">
+						<h3>CIS 115</h3>
+						<p>Taught students a broad specturm of Computer Science topics, including programming basics, artificial intelligence, robotics, cyber security, algorithms, networking, and web design</p>
+						<p>Collaborated with instructor, GTAs, and fellow UTAs to help improve the students' learning experience</p>
+						<p>Tutored students one-on-one during lab and outside of lab</p>
+					</div>
+					<div class="job">
+						<h3>CIS 200</h3>
+						<p>Taught students the fundamentals of Java, including data structures, basic programming, and basic IDE usage</p>
+						<p>Collaborated with instructor, GTAs, and fellow UTAs to help improve the students' learning experience</p>
+						<p>Tutored students one-on-one in a lab setting of over 35 students</p>
+					</div>
+				</div>
 
 				<h2>Production Test Operator</h2>
 
-				<table style="margin-left:25%; margin-right: 25%;width: 50%">
-					<tr>
-						<td>
-							<ul>
-								<li>Ensured products were of expected quality before shipping</li>
-								<li>Resolved product issues quickly to ensure minimal loss of profit to the company</li>
-								<li>Collaborated closely with other departments to ensure smooth execution</li>
-							</ul>
-						</td>
-					</tr>
-				</table>
+				<div class="work_grid single_element last_element">
+					<div class="job">
+						<p>Ensured products were of expected quality before shipping</p>
+						<p>Resolved product issues quickly to ensure minimal loss of profit to the company</p>
+						<p>Collaborated closely with other departments to ensure smooth execution</p>
+					</div>
+				</div>
 			</div>
 
 			<div id="relevant_coursework">
 				<h1>Relevant Coursework</h1>
 
-				<table>
-					<tr>
-						<th>Operating Systems</th>
-						<th>Computer Architecture</th>
-					</tr>
-					<tr>
-						<td>
-							<ul>
-								<li>Explored the basics of Operating System structure, design, and implementation.</li>
-								<li>Emulated schedulers, shell, and more based on the Unix kernel</li>
-							</ul>
-						</td>
-
-						<td>
-							<ul>
-								<li>Studied the basics of machine language and hardware performance.</li>
-								<li>Proposed and executed an idea for using a Raspberry Pi Cluster to demonstrate hardware performace concepts studied in class</li>
-							</ul>
-						</td>
-					</tr>
-				</table>
-
-				<table>
-					<tr>
-						<th>Game Engine Design</th>
-						<th>Software Architecture Design</th>
-					</tr>
-					<tr>
-						<td>
-							<ul>
-								<li>Worked as a team to develop a full game engine from scratch in C++</li>
-								<li>Presented our final product to a public audience at the Kansas State University Open House</li>
-								<li><a href="https://github.com/ksu-gdc/EmawEngine">Link to the game engine (GitHub)</a></li>
-							</ul>
-						</td>
-
-						<td>
-							<ul>
-								<li>...</li>
-								<li>...</li>
-							</ul>
-						</td>
-					</tr>
-				</table>
-
-				<table>
-					<tr>
-						<th>Cyber Defense Basics</th>
-						<th>Database System Concepts</th>
-					</tr>
-					<tr>
-						<td>
-							<ul>
-								<li>Explored a wide variety of network protocols, security exploits and defense techniques</li>
-								<li>Learned about various tools used for penetration testing and network monitoring</li>
-							</ul>
-						</td>
-
-						<td>
-							<ul>
-								<li>Explored database management languages and fundamentals of making a databases</li>
-								<li>Final project consisted of creating a web application for the game World of Warcraft</li>
-								<li><a href="https://github.com/aaronschif/fall2016-cis560">Link to the project (GitHub)</a></li>
-							</ul>
-						</td>
-					</tr>
-				</table>
-
-				<table>
-					<tr>
-						<th>Computer Science Senior Project</th>
-						<th>ACM Programming Competition Prep Class</th>
-					</tr>
-					<tr>
-						<td>
-							<ul>
-								<li>Collaborated with 1 partner to create an educational video game teaching about everyday user security concerns</li>
-								<li>Researched how young adults learn through video games and how to apply this to cyber security</li>
-							</ul>
-						</td>
-
-						<td>
-							<ul>
-								<li>Worked in teams to solve difficult real-world-like problems seen in ACM Programming Contests</li>
-								<li>Learned techniques for fast and efficient programming</li>
-							</ul>
-						</td>
-					</tr>
-				</table>
+				<div class="relevant_coursework_grid">
+					<div class="class">
+						<h3>Operating Systems</h3>
+						<p>Explored the basics of Operating System structure, design, and implementation.</p>
+						<p>Emulated schedulers, shell, and more based on the Unix kernel</p>
+					</div>
+					<div class="class">
+						<h3>Computer Architecture</h3>
+						<p>Studied the basics of machine language and hardware performance.</p>
+						<p>Proposed and executed an idea for using a Raspberry Pi Cluster to demonstrate hardware performace concepts studied in class</p>
+					</div>
+				</div>
+				<div class="relevant_coursework_grid">
+					<div class="class">
+						<h3>Game Engine Design</h3>
+						<p>Worked as a team to develop a full game engine from scratch in C++</p>
+						<p>Presented our final product to a public audience at the Kansas State University Open House</p>
+						<p><a href="https://github.com/ksu-gdc/EmawEngine">Link to the game engine (GitHub)</a></p>
+					</div>
+					<div class="class">
+						<h3>Software Architecture Design</h3>
+						<p>...</p>
+						<p>...</p>
+					</div>
+				</div>
+				<div class="relevant_coursework_grid">
+					<div class="class">
+						<h3>Cyber Defense Basics</h3>
+						<p>Explored a wide variety of network protocols, security exploits and defense techniques</p>
+						<p>Learned about various tools used for penetration testing and network monitoring</p>
+					</div>
+					<div class="class">
+						<h3>Database System Concepts</h3>
+						<p>Explored database management languages and fundamentals of making a databases</p>
+						<p>Final project consisted of creating a web application for the game World of Warcraft</p>
+						<p><a href="https://github.com/aaronschif/fall2016-cis560">Link to the project (GitHub)</a></p>
+					</div>
+				</div>
+				<div class="relevant_coursework_grid last_element">
+					<div class="class">
+						<h3>Computer Science Senior Project</h3>
+						<p>Collaborated with 1 partner to create an educational video game teaching about everyday user security concerns</p>
+						<p>Researched how young adults learn through video games and how to apply this to cyber security</p>
+					</div>
+					<div class="class">
+						<h3>ACM Programming Competition Prep Class</h3>
+						<p>Worked in teams to solve difficult real-world-like problems seen in ACM Programming Contests</p>
+						<p>Learned techniques for fast and efficient programming</p>
+					</div>
+				</div>
 			</div>
 
 			<div id="honors">
