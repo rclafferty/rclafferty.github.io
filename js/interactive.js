@@ -112,6 +112,17 @@ const programs = [
         "#",
         "I began developing what I'm calling \"game dev boilerplate code\" as my own form of a universal starter assets package. So far, it's focused on universal player controls, but I will soon begin developing other features such as universal environment events, objects, etc. This will help me and my collaborators begin projects quickly without essentially \"recreating the wheel\" for every game",
         "C# scripting, script design, asset design, apply code in a generalized and scalable manner to be applied outside of a single use-case"
+    ],
+
+    // Game Dev Boilerplate Code (C#)
+    [
+        "Transformation (C#)",
+        "https://github.com/UNL-Game-Dev-Club/Transformation",
+        // "images/programming/boilerplate_code.png",
+        PHOTO_NOT_AVAILABLE,
+        "#",
+        "Chillennium 2018 Game Jam game based on \"Transformation\" theme",
+        "Level design, gameplay design, sound effects, level design, storyboarding, UI design, event scripting"
     ]
 ];
 const NUMBER_OF_PROGRAMS = programs.length;
@@ -180,6 +191,15 @@ const websites = [
         "images/websites/personal_website.png",
         "My personal website is one that is both a project and a portfolio. I've hand-written all of the HTML5, CSS3, JS, and PHP code used to construct the designs over the years with very few exceptions. I also use it to showcase my projects, both in programming and web development.",
         "HTML/CSS design, JavaScript/PHP development, content development"
+    ],
+
+    // UNL Game Development Club Website
+    [
+        "UNL Game Development Club Website",
+        "https://UNL-Game-Dev-Club.github.io",
+        "images/websites/unl_game_dev.png",
+        "Details available on the website.",
+        "HTML/CSS design, content development, upkeep"
     ]
 ];
 const NUMBER_OF_WEBSITES = websites.length;
@@ -279,14 +299,14 @@ function websitesPrevious()
 function setWebsitesDetails(website)
 {
     websiteTitle = website[WEBSITES_TITLE_INDEX];
-    if (websiteTitle == "My Personal Website")
-    {
-        document.getElementById("websiteLinkButton").textContent = "View on GitHub";
-    }
-    else
-    {
+    // if (websiteTitle == "My Personal Website")
+    // {
+    //     document.getElementById("websiteLinkButton").textContent = "View on GitHub Pages";
+    // }
+    // else
+    // {
         document.getElementById("websiteLinkButton").textContent = "View Website";
-    }
+    // }
 
     document.getElementById("websitesProjectTitle").textContent = websiteTitle + " - " + (websitesIndex + 1) + "/" + NUMBER_OF_WEBSITES;
     document.getElementById("websitesImage").src = website[WEBSITES_IMAGES_INDEX];
