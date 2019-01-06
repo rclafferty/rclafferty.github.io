@@ -178,7 +178,7 @@ const websites = [
     // Responsive CSS Grid Website
     [
         "Responsive CSS Grid Website",
-        "https://github.com/rclafferty/Responsive-CSS-Grid-Website",
+        "https://people.cs.ksu.edu/~rclafferty/Responsive-CSS-Grid-Website",
         "images/websites/responsive_css_website.png",
         "The CSS Grid website was developed as part of a tutorial on Udemy that I was taking to learn JavaScript. It did not use any particular framework, but instead gave a broad intro to JavaScript, HTML, and CSS Grid development.",
         "Layout design, implement HTML/CSS design specifications using given content, JavaScript development, UI implementation"
