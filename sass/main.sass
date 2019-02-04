@@ -1,0 +1,111 @@
+$off-white: #E5E7E9
+$silver: #C0C0C0
+$green: #dff600 
+
+$navbar-text-color: $silver
+$background-color: $off-white
+$header-background-color: $green
+$standard-padding-horizontal: 20rem
+$standard-padding-vertical: 3rem
+$standard-padding: $standard-padding-vertical $standard-padding-horizontal
+
+
+*
+    margin: 0
+
+body
+    background-color: $background-color
+
+.navbar
+    background-color: black
+    color: $silver
+    // padding: 0.4rem
+    margin: 0
+
+    ul
+        margin: 0
+        padding: 1rem $standard-padding-horizontal
+
+        li
+            display: inline-block
+            margin-left: 4rem
+            font-size: 1.2rem
+
+            &:first-child
+                margin-left: 0
+
+            a
+                padding: 0.5rem 1rem
+                color: $silver
+                text-decoration: none
+                border-radius: 10px
+
+                &:hover
+                    background-color: $navbar-text-color
+                    color: black
+
+.outerwrapper
+    padding: $standard-padding
+
+.header-content
+    padding: 8rem $standard-padding-horizontal
+    background-color: $header-background-color
+    
+    h1
+        padding-bottom: 2rem
+        text-align: center
+        font-size: 3rem
+        
+    h2
+        font-size: 1.7rem
+        text-align: center
+
+    .header-grid
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        
+.main-content
+    padding: $standard-padding
+
+    h1, h2
+        text-align: center
+        padding-bottom: 1rem
+
+    h2
+        font-size: 1.7rem
+
+    h3
+        font-size: 1.3rem
+
+.preview
+    text-align: center
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 2rem
+
+    &-section
+        border-right: 1px solid black
+        padding-right: 2rem
+        h3
+            padding-bottom: 1rem
+            
+        &:last-child
+            padding-right: none
+            border-right: none
+
+        .link
+            padding: 1rem 0
+            font-size: 1.4rem
+
+    &-grid
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-gap: 5px
+        grid-row-gap: 5rem
+
+        img
+            max-width: 18rem
+            margin: 0 auto
+
+hr
+    margin: 4rem 0
