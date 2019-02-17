@@ -1,0 +1,7 @@
+#home_content #header_text {
+  text-align: center;
+  margin: 0.5rem;
+}
+#home_content img {
+  display: none;
+}

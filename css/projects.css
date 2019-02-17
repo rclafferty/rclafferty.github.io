@@ -1,0 +1,22 @@
+.projects {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+.projects img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+figure + span {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: red;
+}
+
+figure img {
+  height: 100%;
+}

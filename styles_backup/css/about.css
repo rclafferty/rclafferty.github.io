@@ -1,0 +1,30 @@
+#about {
+  margin: auto 5rem;
+}
+
+#about h2, #about p {
+  padding-bottom: 1rem;
+}
+
+#about h3 {
+  font-size: 1.3rem;
+}
+
+iframe {
+  border: none;
+}
+
+#game_jam_video {
+  float: right;
+}
+
+#virtual_choir_video {
+  float: left;
+  overflow: hidden;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 1.5rem;
+}

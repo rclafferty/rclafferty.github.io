@@ -1,2 +1,7 @@
-# Sass Cache folder
+# SASS cache directory
 .sass-cache/
+
+# Visual Studio Code cache directory
+.vscode/
+
+sass-watch.batas
