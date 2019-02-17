@@ -10,10 +10,18 @@
   border-radius: 2rem;
 }
 
+.section_subheading {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 figure + span {
   display: block;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: red;
 }
 
