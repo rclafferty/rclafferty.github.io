@@ -4,4 +4,11 @@
 # Visual Studio Code cache directory
 .vscode/
 
-sass-watch.batas
+# SASS Backup Files
+styles_backup/
+
+# Old CSS/SASS Files
+styles/
+
+# I no longer use JavaScript in my website
+js/
