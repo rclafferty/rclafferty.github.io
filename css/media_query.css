@@ -7,15 +7,13 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
-@media (max-width: 1000px)
-{
+@media (max-width: 1000px) {
   .section_subheading {
     padding-left: 0;
     padding-right: 0;
   }
 
   span {
-    font-size: 0.9rem !important;
+    font-size: 0.7rem;
   }
 }

@@ -12,6 +12,14 @@
         width: 100%
         border-radius: 2rem
 
+    a
+        text-decoration: none
+        cursor: pointer
+
+        & span:hover
+            text-decoration: underline
+
+
 .section_subheading
     text-align: center
     padding-left: 10%
@@ -19,12 +27,12 @@
     padding-top: 1rem
     padding-bottom: 1rem
 
-
 figure+span
     display: block
     text-align: center
     font-size: 1.2rem
-    color: red
+    color: $blue
+    // text-decoration: none !important
 
 figure
     img

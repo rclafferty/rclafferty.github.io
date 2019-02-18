@@ -17,6 +17,7 @@
   padding: 0.3% 5%;
   transition: 0.5s;
   border-radius: 0.5rem;
+  border: none;
 }
 #navbar ul li a:hover {
   background-color: #e1e8de;

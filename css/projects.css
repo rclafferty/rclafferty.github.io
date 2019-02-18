@@ -9,6 +9,13 @@
   width: 100%;
   border-radius: 2rem;
 }
+.projects a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.projects a span:hover {
+  text-decoration: underline;
+}
 
 .section_subheading {
   text-align: center;
@@ -22,7 +29,7 @@ figure + span {
   display: block;
   text-align: center;
   font-size: 1.2rem;
-  color: red;
+  color: #000bce;
 }
 
 figure img {

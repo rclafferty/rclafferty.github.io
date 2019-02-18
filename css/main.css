@@ -10,6 +10,8 @@ html {
 h1 {
   color: black;
   text-align: center;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 
 h2 {
@@ -28,6 +30,11 @@ p {
 
 a {
   color: #000bce;
+  text-decoration: none;
+  border-bottom: dotted 1px;
+}
+a:hover {
+  border-bottom: solid 1px;
 }
 a:visited {
   color: #000bce;

@@ -1,0 +1,32 @@
+#education {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#education .school {
+  text-align: center;
+  margin: 1rem auto;
+}
+#education .school h3 {
+  color: #000bce;
+}
+#education .school p {
+  margin: 0.5rem auto;
+}
+
+#computer_skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#computer_skills img {
+  max-width: 100px;
+  max-height: 80px;
+}
+#computer_skills .title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#computer_skills .skill_group {
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
