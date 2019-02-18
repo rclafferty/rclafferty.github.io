@@ -1,0 +1,102 @@
+@import 'common_variables'
+
+#education
+    display: grid
+    grid-template-columns: 1fr 1fr
+
+    .school
+        text-align: center
+        margin: 1rem auto
+
+        h3
+            color: $blue
+
+        p
+            margin: 0.5rem auto
+
+#computer_skills
+    display: grid
+    // grid-template-columns: 1fr 1fr
+
+    h3
+        font-size: 1.4rem
+    
+    img
+        // max-width: 100px
+        max-height: 70px
+        margin: 0 2rem
+
+    .title
+        grid-column-start: 1
+        grid-column-end: 3
+
+    .skill_group
+        // grid-template-columns: 1fr 1fr
+        margin-bottom: 2rem
+        margin-top: 1rem
+        
+        ul
+            display: grid
+            list-style-type: none
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+
+            li
+                margin: 0 auto
+
+                p
+                    // display: none
+                    font-size: 0
+
+#work_experience
+    .work_grid
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-gap: 1rem
+
+        .job
+            h3
+                font-size: 1.4rem
+                text-align: center
+
+            h4
+                font-size: 1.2rem
+                text-align: center
+
+            p
+                margin: 0.5rem 0
+
+#coursework
+    .class_grid
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-gap: 1rem
+
+        .class
+            h3
+                font-size: 1.4rem
+                text-align: center
+
+            h4
+                font-size: 1.2rem
+                text-align: center
+
+            p
+                margin: 0.5rem 0
+                
+#honors
+    .honors_grid
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-gap: 1rem
+
+        .honor
+            h3
+                font-size: 1.4rem
+                text-align: center
+
+            h4
+                font-size: 1.2rem
+                text-align: center
+
+            p
+                margin: 0.5rem 0

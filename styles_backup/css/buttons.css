@@ -1,0 +1,42 @@
+button {
+  width: 10rem;
+  background-color: #000bce;
+  color: #e1e8de;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.4s;
+  font-size: 1.3rem;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  background-color: #0050FF;
+  transition: 0.4s;
+}
+
+.next {
+  float: right;
+  right: 1rem;
+  bottom: -17rem;
+}
+
+.previous {
+  left: 1rem;
+  bottom: -17rem;
+}
+
+.download_button {
+  margin-right: 1.5rem;
+}
+
+.external_link_button {
+  width: 10rem;
+  float: right;
+  vertical-align: bottom;
+  bottom: 1rem;
+}

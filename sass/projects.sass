@@ -1,47 +1,41 @@
 @import 'common_variables'
 
-.project_window
-    margin: $project-window-vertical-margin $project-window-horizontal-margin
-    padding: $project-window-vertical-padding $project-window-horizontal-padding
-    border: $project-window-border
-    border-radius: $project-window-border-radius
-    // height: $project-window-height
+.projects
+    padding-top: 1rem
+    padding-bottom: 1rem
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    // grid-template-rows: 50%
+    grid-gap: 3rem
 
-    h2
+    img
+        width: 100%
+        border-radius: 2rem
+
+    a
         text-decoration: none
-        font-size: $header1-font-size
-        margin-top: 0
-        padding-top: 0
-        padding-bottom: $next-padding
+        cursor: pointer
 
-    #body
-        display: grid
-        grid-template-columns: $grid-two-column
-        grid-gap: 2rem
+        & span:hover
+            text-decoration: underline
 
-        &_img
-            img
-                border-radius: 25px
-                width: 100%
-                margin: auto 0
 
-        &_text
-            font-size: $base-font-size
+.section_subheading
+    text-align: center
+    padding-left: 10%
+    padding-right: 10%
+    padding-top: 1rem
+    padding-bottom: 1rem
 
-@media (max-width: 800px)
-    #home_content
-        #body
-            grid-template-columns: 100%
-            &_left
-                display: none
+figure+span
+    display: block
+    text-align: center
+    font-size: 1.2rem
+    color: $blue
+    // text-decoration: none !important
 
-    .project_window
-        padding-bottom: 2rem
-        
-        #body
-            grid-template-columns: 100%
-
-            &_img
-                width: 60%
-                margin-left: auto
-                margin-right: auto
+figure
+    img
+        // height: 400px
+        height: 100%
+        // height: 260px

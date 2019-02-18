@@ -9,17 +9,17 @@
 #navbar ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-#navbar ul li a {
-  color: #e1e8de;
+#navbar a {
+  text-transform: uppercase;
   text-decoration: none;
+  color: #e1e8de;
   padding: 0.3% 5%;
-  transition: 0.5s;
-  border-radius: 0.5rem;
-  border: none;
+  border-radius: 25px;
+  transition: 0.4s;
 }
-#navbar ul li a:hover {
+#navbar a:hover {
   background-color: #e1e8de;
   color: #000bce;
 }

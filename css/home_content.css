@@ -1,54 +1,23 @@
-#home_content {
-  padding: 0 1rem;
-}
-#home_content #header h1 {
+#home_content #header_text {
   text-align: center;
-  margin: 1rem;
+  margin: 0.5rem;
 }
-#home_content #body {
-  display: grid;
-  grid-template-columns: 15% 84%;
-  grid-gap: 1rem;
-}
-#home_content #body_left img {
-  border-radius: 25px;
-  max-width: 100%;
-}
-#home_content #resources {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  font-weight: bold;
-}
-#home_content #skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 3rem 2rem;
-}
-#home_content #skills .skills_list h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.6rem;
-}
-#home_content #skills .skills_list ul {
-  padding-left: 1rem;
-}
-#home_content #skills .skills_list ul li {
-  margin-top: 0.3rem;
-  font-size: 1.2rem;
+#home_content img {
+  display: none;
 }
 
-@media (max-width: 1000px) {
-  #home_content #body {
-    grid-template-columns: 20% 80%;
-  }
-  #home_content #skills {
-    display: none;
-  }
+#skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr;
+  margin: 3rem 2rem;
+  grid-gap: 0.8rem;
 }
-@media (max-width: 800px) {
-  #home_content #body {
-    grid-template-columns: 100%;
-  }
-  #home_content #body_left {
-    display: none;
-  }
+#skills .skills_list h3 {
+  margin-bottom: 0.6rem;
+}
+#skills .skills_list ul {
+  padding-left: 1rem;
+}
+#skills .skills_list ul li {
+  margin-top: 0.3rem;
 }
