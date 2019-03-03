@@ -35,3 +35,11 @@ figure + span {
 figure img {
   height: 100%;
 }
+
+.questionTitle {
+  color: #000bce;
+}
+
+.questionText {
+  color: black;
+}
