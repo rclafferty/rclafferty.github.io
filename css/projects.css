@@ -43,3 +43,13 @@ figure img {
 .questionText {
   color: black;
 }
+
+.project-image {
+  width: 100%;
+}
+.project-image img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: 20rem;
+}
