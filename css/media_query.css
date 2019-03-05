@@ -103,3 +103,23 @@
     display: none;
   }
 }
+@media (max-width: 400px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  #skills .skills_list h3 {
+    font-size: 1.1rem;
+  }
+  #skills .skills_list ul li {
+    font-size: 0.9rem;
+  }
+}

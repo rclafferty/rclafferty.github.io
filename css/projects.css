@@ -29,19 +29,20 @@ figure + span {
   display: block;
   text-align: center;
   font-size: 1.2rem;
-  color: #000bce;
+  color: #1445a8;
 }
 
 figure img {
   height: 100%;
 }
 
-.questionTitle {
-  color: #000bce;
+.question_title {
+  color: #1445a8;
 }
 
-.questionText {
+.question_text {
   color: black;
+  font-weight: 400;
 }
 
 .project-image {
@@ -51,5 +52,7 @@ figure img {
   display: block;
   margin: auto;
   max-width: 100%;
-  height: 20rem;
+  max-height: 20rem;
+  border: 1px solid black;
+  margin-bottom: 5rem;
 }

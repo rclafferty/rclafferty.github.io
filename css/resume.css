@@ -1,10 +1,10 @@
 body {
   font-size: 1.2rem;
   background: #EEEEEE;
-  color: #000bce;
+  color: #1445a8;
 }
 body a {
-  color: #000bce;
+  color: #1445a8;
 }
 body h1 {
   text-align: center;
@@ -62,7 +62,7 @@ body h2 {
   text-align: center;
   margin: 0.5rem 25%;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #000bce;
+  border-bottom: 1px solid #1445a8;
 }
 .education_grid p {
   vertical-align: bottom;
@@ -109,7 +109,7 @@ body h2 {
 }
 #relevant_coursework table {
   width: 100%;
-  border-bottom: 1px solid #000bce;
+  border-bottom: 1px solid #1445a8;
   margin-top: 1rem;
 }
 #relevant_coursework table:first-child {
@@ -133,7 +133,7 @@ body h2 {
   grid-gap: 0.5rem;
   text-align: center;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #000bce;
+  border-bottom: 1px solid #1445a8;
 }
 .relevant_coursework_grid .class p {
   vertical-align: bottom;
@@ -158,7 +158,7 @@ body h2 {
   grid-gap: 0.5rem;
   text-align: center;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #000bce;
+  border-bottom: 1px solid #1445a8;
 }
 .work_grid .job p {
   vertical-align: bottom;

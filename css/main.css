@@ -22,7 +22,7 @@ h2 {
 h3 {
   color: black;
   margin-top: 1rem;
-  color: #000bce;
+  color: #1445a8;
 }
 
 p {
@@ -35,7 +35,7 @@ li {
 }
 
 a {
-  color: #000bce;
+  color: #1445a8;
   text-decoration: none;
   border-bottom: dotted 1px;
 }
@@ -43,11 +43,11 @@ a:hover {
   border-bottom: solid 1px;
 }
 a:visited {
-  color: #000bce;
+  color: #1445a8;
 }
 
 hr {
-  color: #000bce;
+  color: #1445a8;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
