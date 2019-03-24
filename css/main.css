@@ -17,6 +17,8 @@ h1 {
 h2 {
   color: black;
   text-align: center;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 
 h3 {
@@ -50,6 +52,15 @@ hr {
   color: #1445a8;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.highlight_divider {
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #1445a8;
 }
 
 .outerwrapper {
