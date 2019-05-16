@@ -1,0 +1,76 @@
+@import 'common_variables'
+
+*
+    margin: 0
+    padding: 0
+
+html
+    background-color: $background-color
+
+h1
+    color: $header-text-color
+    text-align: center
+    margin-top: $header-margin !important
+    margin-bottom: $header-margin !important
+    font-size: 2.5rem
+
+h2
+    color: $header-text-color
+    text-align: center
+    margin-top: $header-margin !important
+    margin-bottom: $header-margin/2 !important
+    font-size: 1.7rem
+
+h3
+    color: $header-text-color
+    margin-top: 1rem
+    color: $blue
+
+p
+    color: $text-color
+    font-size: 1.2rem
+
+    &.subheading
+        margin-bottom: 1rem
+
+li
+    font-size: 1.1rem
+
+a
+    color: $link-color
+    text-decoration: none
+    border-bottom: dotted 1px
+
+    &:hover
+        border-bottom: solid 1px
+
+    &:visited
+        color: $link-visited-color
+
+hr
+    color: $divider-color
+    margin-top: 3rem
+    margin-bottom: 3rem
+
+.highlight_divider
+    width: 50%
+    margin-top: 3rem
+    margin-bottom: 3rem
+    margin-left: auto
+    margin-right: auto
+    border: 1px solid $divider-color
+
+.outerwrapper
+    padding: $outerwrapper-padding
+    margin-bottom: $header-margin
+
+.center
+    text-align: center
+
+    &-object
+        margin: 0 auto !important
+
+iframe
+    border: none
+    float: right
+    margin: 2rem

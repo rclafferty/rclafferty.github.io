@@ -1,0 +1,46 @@
+@import 'common_variables'
+
+#navbar
+    position: sticky
+    top: 0
+    display: block
+    max-width: 100%
+    background-color: $blue
+    text-align: center
+    padding: 0.5rem $outerwrapper-padding-horizontal
+    font-size: 1.3rem
+
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+
+    .navbar_link
+        padding: 0.2rem 0
+        a
+            color: $navbar-link-color
+            text-decoration: none
+            transition: 0.5s
+            border-radius: 0.5rem
+            border: none
+            padding: 0.2rem 2rem
+            
+            &:hover
+                background-color: $navbar-link-hover-background
+                color: $navbar-link-hover-color
+
+    // ul
+    //     list-style: none
+    //     display: grid
+    //     grid-template-columns: repeat(4, 1fr)
+
+    //     li
+    //         a
+    //             color: $navbar-link-color
+    //             text-decoration: none
+    //             transition: 0.5s
+    //             border-radius: 0.5rem
+    //             border: none
+    //             text-align: center
+
+    //             &:hover
+    //                 background-color: $navbar-link-hover-background
+    //                 color: $navbar-link-hover-color

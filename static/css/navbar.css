@@ -1,0 +1,27 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  display: block;
+  max-width: 100%;
+  background-color: #1445a8;
+  text-align: center;
+  padding: 0.5rem 15%;
+  font-size: 1.3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#navbar .navbar_link {
+  padding: 0.2rem 0;
+}
+#navbar .navbar_link a {
+  color: #e1e8de;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.2rem 2rem;
+}
+#navbar .navbar_link a:hover {
+  background-color: #e1e8de;
+  color: #1445a8;
+}
