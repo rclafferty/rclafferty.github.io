@@ -1,0 +1,29 @@
+@import 'common_variables'
+
+#navbar
+    position: sticky
+    top: 0
+    display: block
+    width: 100%
+    background-color: $blue
+    text-align: center
+    padding: 0.5rem 0
+    font-size: 1.3rem
+
+    ul
+        list-style: none
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+
+        li
+            a
+                color: $navbar-link-color
+                text-decoration: none
+                padding: 0.3% 5%
+                transition: 0.5s
+                border-radius: 0.5rem
+                border: none
+
+                &:hover
+                    background-color: $navbar-link-hover-background
+                    color: $navbar-link-hover-color

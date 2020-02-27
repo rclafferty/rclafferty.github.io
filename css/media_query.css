@@ -1,0 +1,125 @@
+@media (max-width: 1400px) {
+  .skill_group ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+}
+@media (max-width: 1300px) {
+  .outerwrapper {
+    padding: 1rem 5rem;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1000px) {
+  .section_subheading {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .outerwrapper {
+    padding: 1rem;
+  }
+
+  span {
+    font-size: 0.7rem;
+  }
+
+  iframe {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  #skills {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skill_group ul {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #work_experience .work_grid {
+    grid-template-columns: 100% !important;
+  }
+  #work_experience .work_grid .job h3 {
+    font-size: 1.2rem !important;
+  }
+  #work_experience .work_grid .job p {
+    font-size: 1rem;
+  }
+
+  #coursework .class_grid {
+    grid-template-columns: 100% !important;
+  }
+  #coursework .class_grid .class h3 {
+    font-size: 1.2rem !important;
+  }
+  #coursework .class_grid .class p {
+    font-size: 1rem;
+  }
+
+  #honors .honors_grid {
+    grid-template-columns: 100% !important;
+  }
+  #honors .honors_grid .honor h3 {
+    font-size: 1.2rem !important;
+  }
+  #honors .honors_grid .honor p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  #education {
+    grid-template-columns: 100% !important;
+  }
+
+  .skill_group ul {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (max-width: 600px) {
+  #skills {
+    grid-template-columns: 1fr;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .skill_group ul {
+    grid-template-columns: 100% !important;
+    display: list-item !important;
+    list-style-type: disc !important;
+  }
+  .skill_group ul li p {
+    font-size: 1rem !important;
+  }
+  .skill_group ul li img {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  #skills .skills_list h3 {
+    font-size: 1.1rem;
+  }
+  #skills .skills_list ul li {
+    font-size: 0.9rem;
+  }
+}
