@@ -62,6 +62,18 @@ figure img {
   max-width: 100%;
   max-height: 20rem;
 }
+.project-image-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  grid-column-gap: 4%;
+}
+.project-image-2 img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border: 1px solid black;
+  margin-bottom: 5rem;
+}
 .project_description_container {
   display: grid;
   grid-template-columns: repeat(2, 46%);
