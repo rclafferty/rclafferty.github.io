@@ -1,0 +1,27 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 100%;
+  background-color: #1445a8;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+}
+#navbar ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+#navbar ul li a {
+  color: #e1e8de;
+  text-decoration: none;
+  padding: 0.3% 5%;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  border: none;
+}
+#navbar ul li a:hover {
+  background-color: #e1e8de;
+  color: #1445a8;
+}

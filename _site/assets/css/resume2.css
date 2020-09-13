@@ -1,0 +1,95 @@
+#education {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#education .school {
+  text-align: center;
+  margin: 1rem auto;
+}
+#education .school h3 {
+  color: #1445a8;
+}
+#education .school p {
+  margin: 0.5rem auto;
+}
+
+#computer_skills {
+  display: grid;
+}
+#computer_skills h3 {
+  font-size: 1.4rem;
+}
+#computer_skills img {
+  max-height: 70px;
+  margin: 0 2rem;
+}
+#computer_skills .title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#computer_skills .skill_group {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+#computer_skills .skill_group ul {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#computer_skills .skill_group ul li {
+  margin: 0 auto;
+}
+#computer_skills .skill_group ul li p {
+  font-size: 0;
+}
+
+#work_experience .work_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+#work_experience .work_grid .job h3 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+#work_experience .work_grid .job h4 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+#work_experience .work_grid .job p {
+  margin: 0.5rem 0;
+}
+
+#coursework .class_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+#coursework .class_grid .class h3 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+#coursework .class_grid .class h4 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+#coursework .class_grid .class p {
+  margin: 0.5rem 0;
+}
+
+#honors .honors_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+#honors .honors_grid .honor h3 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+#honors .honors_grid .honor h4 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+#honors .honors_grid .honor p {
+  margin: 0.5rem 0;
+}

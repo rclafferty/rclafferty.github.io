@@ -1,0 +1,85 @@
+{
+    "page_link_prefix": "/programming/games/",
+    "image_prefix": "/assets/images/programming/",
+    "highlights": [
+        {
+            "title": "Packet Delivery",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Platform Switcher",
+            "platform": "Unreal",
+            "language": "C++"
+        },
+        {
+            "title": "The Three Mutineers",
+            "platform": "Unity",
+            "language": "C#"
+        }
+    ],
+    "other": [
+        {
+            "title": "Building Escape",
+            "platform": "Unreal",
+            "language": "C++"
+        },
+        {
+            "title": "Leaf Me Alone!",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Internet, Inc.",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Laser Defender",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Transformation V2",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "CryoCrypt",
+            "platform": "Unity",
+            "language": "C#"
+        }
+    ],
+    "hidden_projects": [
+        {
+            "title": "Securing Cyberville",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Sand",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Glitch Garden",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Space Shooter",
+            "platform": "Unreal",
+            "language": "C++"
+        },
+        {
+            "title": "Wooded",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Yggdrasil",
+            "platform": "Unity",
+            "language": "C#"
+        }
+    ]
+}

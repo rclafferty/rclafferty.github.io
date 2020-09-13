@@ -1,0 +1,52 @@
+---
+layout: wrapper
+---
+
+{% if page.platform %}
+    <h1>{{ page.title }} ({{ page.platform }} {{ page.language }})</h1>
+{% elsif page.language %}
+    <h1>{{ page.title }} ({{ page.language }})</h1>
+{% else %}
+    <h1>{{ page.title }}</h1>
+{% endif %}
+
+{% if page.youtube_link %}
+    <iframe class="project_video" src="{{ page.youtube_link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% elsif page.project_image_2 %}
+    <div class="project-image-2">
+        <img src="{{ page.project_image }}" alt="{{ page.title }} image 1">
+        <img src="{{ page.project_image_2 }}" alt="{{ page.title }} image 2">
+    </div>
+{% else %}
+    <div class="project-image">
+        <img src="{{ page.project_image }}" alt="{{ page.title }}">
+    </div>
+{% endif %}
+
+<p>{{ page.project_blurb }}</p>
+
+{% assign game_url_title= page.title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
+{% assign github_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_title %}
+
+<h3>
+    <div class="question_title">
+        GitHub Link:
+    </div>
+    <div class="question_text">
+        <a href="{{ github_link }}" target="_blank" title="{{ page.title }} on GitHub">
+            {{ github_link }}
+        </a>
+    </div>
+
+    {% if page.alt_title %}
+        {% assign game_url_alt_title= page.alt_title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
+        {% assign github_alt_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_alt_title %}
+        <div class="question_text">
+            <a href="{{ github_alt_link }}" target="_blank" title="{{ page.title }} on GitHub">
+                {{ github_alt_link }}
+            </a>
+        </div>
+    {% endif %}
+</h3>
+
+{{ content }}

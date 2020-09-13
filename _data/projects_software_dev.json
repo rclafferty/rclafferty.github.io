@@ -1,0 +1,18 @@
+{
+    "page_link_prefix": "/programming/software/",
+    "image_prefix": "/assets/images/programming/",
+    "highlights": [
+        {
+            "title": "FrogBot",
+            "language": "NodeJS"
+        },
+        {
+            "title": "Machine Learning",
+            "language": "Python and R"
+        },
+        {
+            "title": "UNL GDC Admin Database",
+            "language": "Python, MySQL, HTML5, CSS3"
+        }
+    ]
+}

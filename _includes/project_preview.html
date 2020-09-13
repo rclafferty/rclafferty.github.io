@@ -1,0 +1,19 @@
+
+<div class="projects">
+    {% for item in include.projects_to_display %}
+        <div>
+            <a href="{{ include.project_info.page_link_prefix }}{{ item.title | downcase | replace: " ", "_" | replace: "!", "" | replace: ".", "" | replace: ",", "" }}.html" target="_blank" title="{{ item.title }}">
+                <figure>
+                    <img src="{{ include.project_info.image_prefix }}{{ item.title | downcase | replace: " ", "_" | replace: "!", "" | replace: ".", "" | replace: ",", "" }}.png" alt="{{ item.title }}">
+                </figure>
+                {% if item.platform %}
+                    <span>{{ item.title }} ({{ item.platform }} {{item.language}})</span>
+                {% elsif item.language %}
+                    <span>{{ item.title }} ({{item.language}})</span>
+                {% else %}
+                    <span>{{ item.title }}</span>
+                {% endif %}
+            </a>
+        </div>
+    {% endfor %}
+</div>

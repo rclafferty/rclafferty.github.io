@@ -1,0 +1,26 @@
+{% assign highlight_projects=include.project_info.highlights %}
+{% assign more_projects=include.project_info.other %}
+
+<div class="section">
+    <h1>{{ include.section_title }}</h1>
+
+    <p class="section_subheading">{{ include.section_blurb }}</p>
+
+    {% if include.preview_graphic %}
+        {% include {{ include.preview_graphic }} %}
+    {% endif %}
+
+    <div class="highlights">
+        {% if include.highlights_title %}
+            <h2>{{ include.highlights_title }}</h2>
+        {% endif %}
+
+        {% include project_preview.html projects_to_display = highlight_projects project_info = include.project_info %}
+    </div>
+
+    {% if include.more_projects_title %}
+        <div class="highlight_divider"></div>
+        <h2>{{ include.more_projects_title }}</h2>
+        {% include project_preview.html projects_to_display = more_projects project_info = include.project_info %}
+    {% endif %}
+</div>
