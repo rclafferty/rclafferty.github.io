@@ -28,6 +28,10 @@ layout: wrapper
 {% assign game_url_title= page.title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
 {% assign github_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_title %}
 
+{% if page.github_link != nil %}
+    {% assign github_link=page.github_link %}
+{% endif %}
+
 <h3>
     <div class="question_title">
         GitHub Link:
@@ -41,6 +45,7 @@ layout: wrapper
     {% if page.alt_title %}
         {% assign game_url_alt_title= page.alt_title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
         {% assign github_alt_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_alt_title %}
+
         <div class="question_text">
             <a href="{{ github_alt_link }}" target="_blank" title="{{ page.title }} on GitHub">
                 {{ github_alt_link }}

@@ -48,6 +48,36 @@
             "title": "CryoCrypt",
             "platform": "Unity",
             "language": "C#"
+        },
+        {
+            "title": "Space Shooter",
+            "platform": "Unreal",
+            "language": "C++"
+        },
+        {
+            "title": "Glitch Garden",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Wooded",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Yggdrasil",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Securing Cyberville",
+            "platform": "Unity",
+            "language": "C#"
+        },
+        {
+            "title": "Sand",
+            "platform": "Unity",
+            "language": "C#"
         }
     ],
     "hidden_projects": [

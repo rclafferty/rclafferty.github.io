@@ -38,7 +38,7 @@ title: Homepage
 <hr id="about">
 
 # About Me
-I am a fourth-semester master's student at the University of Nebraska-Lincoln studying Computer Science. I am currently working towards my thesis, which centers around the concept gamification and educational (or "serious") game development. This thesis work is under the direction of Dr. Stephen Cooper. I also have a Bachelor of Science in Computer Science with a minor in Music from Kansas State University. At KSU, I focused my studies in cyber security and video game development.
+I am a graduating master's student at the University of Nebraska-Lincoln studying computer science. I am currently working towards my thesis, which centers around the use of educational video games for computer science education. I also have a Bachelor of Science in Computer Science with a minor in Music from Kansas State University. At KSU, I focused my studies in cyber security and video game development.
 
 ### Game Dev - Masters
 During my graduate studies, I have developed games as part of my academic studies and for competitions ("Game Jams"). For my thesis, I've developed [Packet Delivery](programming/games/packet_delivery.html "Packet Delivery"){:target="_blank"}, which is an educational video game designed to teach introductory Domain Name System (DNS) Lookup concepts. For more information about this game, including a video of it's gameplay, visit the project page linked above. As an earlier iteration of this DNS game, I also developed [Internet, Inc.](programming/games/internet_inc.html "Internet, Inc."){:target="_blank"} to show the lookup structure of the DNS Lookup process.
