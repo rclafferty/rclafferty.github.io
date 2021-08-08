@@ -1,0 +1,175 @@
+{
+    "title": "Game Development",
+    "subtitle": "Game Dev Projects",
+    "show-subtitle": true,
+    "page-link-prefix": "/games/",
+    "image-prefix": "/assets/images/gamedev/",
+    "preview-graphic": "https://www.youtube.com/embed/TWuPwthgXao",
+    "is-preview-graphic-video": true,
+    "projects": [
+        {
+            "title": "Packet Delivery",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/3yh0G2luPNo",
+            "roles": "Concept design, prototyping, user interface design, programming, animations",
+            "platform-support": "Windows 10, Mac OSX, Linux",
+            "controls": "Mouse left click to choose options, keyboard input to type when prompted, Arrow Keys or WASD to move.",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "Platform Switcher",
+            "platform": "Unreal",
+            "language": "C++",
+            "youtube-link": "https://www.youtube.com/embed/umsPywWQY7w",
+            "roles": "Level design, programming, switching mechanics, and UI programming",
+            "platform-support": "Windows 10",
+            "controls": "Q or Left Shift to switch, Arrow keys or WASD to move, R to restart.",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "The Three Mutineers",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/HJ8OPQiPcB0",
+            "roles": "Puzzle mechanics, programming, movement, tilemap animation, character animation",
+            "platform-support": "Windows 10",
+            "controls": "Player 1: WASD to move, Spacebar to attack/interact. Players 2 and 3: Xbox joysticks to move and A to attack/interact.",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "Building Escape",
+            "platform": "Unreal",
+            "language": "C++",
+            "youtube-link": "https://www.youtube.com/embed/5h68HEsOP3A",
+            "roles": "Level design, programming, pressure plate mechanics, and door animations",
+            "platform-support": "Windows 10",
+            "controls": "WASD to move, right click (hold) to pick up items, release to drop.",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "Leaf Me Alone!",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/G6cvdP6aAT4",
+            "roles": "Character movement, physics, animations, chopping mechanics, apple mechanics, and general scripting",
+            "platform-support": "Windows 10",
+            "controls": "Two player game that uses keyboard and mouse for the lumberjack and the squirrel, with optional controller support for the squirrel. See in-game instructions for full details.",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "Internet, Inc.",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/4w0GL1pk7ks",
+            "roles": "Concept design, prototyping, user interface design, programming, art, animations",
+            "platform-support": "Windows 10",
+            "controls": "Mouse left click to interact.",
+            "requires-privileges": "No",
+            "actively-developing": "No, project was completed in December 2019.",
+            "hidden": false
+        },
+        {
+            "title": "Laser Defender",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/OyY16KzU2P0",
+            "roles": "UI implementations, Level Design, Character Select functionality, C# scripting, User Input, Material Design",
+            "platform-support": "Windows 10",
+            "controls": "Mouse left click to choose options, Arrow Keys or WASD to move, optional controller input.",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "Transformation V2",
+            "alt-title": "Transformation",
+            "platform": "Unity",
+            "language": "C#",
+            "project-image": "transformation.png",
+            "project-image-2": "transformation_v2.png",
+            "roles": "Level design, gameplay design, sound effects, level design, storyboarding, UI design, event scripting",
+            "platform-support": "Windows 10",
+            "controls": "Mouse left click to attack, Arrow Keys or WASD to move, (Optional) Xbox controller: Joystick to move, A to attack.",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "CryoCrypt",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        },
+        {
+            "title": "Space Shooter",
+            "platform": "Unreal",
+            "language": "C++",
+            "hidden": true
+        },
+        {
+            "title": "Glitch Garden",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        },
+        {
+            "title": "Wooded",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        },
+        {
+            "title": "Yggdrasil",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        },
+        {
+            "title": "Securing Cyberville",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        },
+        {
+            "title": "Sand",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        },
+        {
+            "title": "Glitch Garden",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        },
+        {
+            "title": "Space Shooter",
+            "platform": "Unreal",
+            "language": "C++",
+            "project-image": "space_shooter.png",
+            "roles": "Level design, programming, pressure plate mechanics, and door animations",
+            "platform-support": "Windows 10",
+            "controls": "WASD to move, space to shoot",
+            "requires-privileges": "No",
+            "actively-developing": "No, project was completed in December 2019.",
+            "hidden": false
+        },
+        {
+            "title": "Wooded",
+            "platform": "Unity",
+            "language": "C#",
+            "hidden": true
+        }
+    ]
+}

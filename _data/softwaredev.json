@@ -1,0 +1,42 @@
+{
+    "title": "Software Development",
+    "subtitle": "Software Dev Projects",
+    "show-subtitle": false,
+    "page-link-prefix": "/software/",
+    "image-prefix": "/assets/images/softwaredev/",
+    "projects": [
+        {
+            "title": "Frogbot",
+            "language": "NodeJS",
+            "project-image": "frogbot.png",
+            "github-link": "https://github.com/rclafferty/Frogbot-Discord-Bot/",
+            "roles": "NodeJS scripting, algorithm development, hosting",
+            "platform-support": "Discord, can be hosted by any computer with NodeJS installed",
+            "requires-privileges": "No",
+            "actively-developing": "Yes",
+            "hidden": false
+        },
+        {
+            "title": "Machine Learning",
+            "language": "Python and R",
+            "project-image": "machine_learning.png",
+            "github-link": "https://github.com/rclafferty/Machine-Learning-Tutorial/",
+            "roles": "Python programming, R programming",
+            "platform-support": "Windows Computer, Spyder environment",
+            "requires-privileges": "No",
+            "actively-developing": "No, but plan to return to this in the future",
+            "hidden": false
+        },
+        {
+            "title": "UNL GDC Admin Database",
+            "language": "Python, MySQL, HTML5, CSS3",
+            "project-image": "unl_gdc_admin_database.png",
+            "github-link": "https://github.com/rclafferty/CSCE-813-Database",
+            "roles": "Design, MySQL development, Python scripting, HTML/CSS/JS development",
+            "platform-support": "Windows Computer, Web, MySQL",
+            "requires-privileges": "No",
+            "actively-developing": "No, project was completed in December 2019.",
+            "hidden": false
+        }
+    ]
+}

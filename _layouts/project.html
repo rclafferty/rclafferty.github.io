@@ -2,56 +2,121 @@
 layout: wrapper
 ---
 
-{% if page.platform %}
-    <h1>{{ page.title }} ({{ page.platform }} {{ page.language }})</h1>
-{% elsif page.language %}
-    <h1>{{ page.title }} ({{ page.language }})</h1>
+{% assign active_data_set = nil %}
+{% assign active_item = nil %}
+
+{% if page.type == "game" %}
+    {% assign active_data_set = site.data.gamedev %}
+{% elsif page.type == "software" %}
+    {% assign active_data_set = site.data.softwaredev %}
 {% else %}
-    <h1>{{ page.title }}</h1>
+    {% assign active_data_set = site.data.webdev %}
 {% endif %}
 
-{% if page.youtube_link %}
-    <iframe class="project_video" src="{{ page.youtube_link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{% elsif page.project_image_2 %}
+{% for item in active_data_set.projects %}
+    {% if item.title == page.title %}
+        {% assign active_item = item %}
+    {% endif %}
+{% endfor %}
+
+<hr>
+
+{% if active_item.platform %}
+    <h1>{{ active_item.title }} ({{ active_item.platform }} {{ active_item.language }})</h1>
+{% elsif active_item.language %}
+    <h1>{{ active_item.title }} ({{ active_item.language }})</h1>
+{% else %}
+    <h1>{{ active_item.title }}</h1>
+{% endif %}
+
+{% if active_item.youtube-link %}
+    <iframe class="project-video" src="{{ active_item.youtube-link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% elsif active_item.project-image-2 %}
     <div class="project-image-2">
-        <img src="{{ page.project_image }}" alt="{{ page.title }} image 1">
-        <img src="{{ page.project_image_2 }}" alt="{{ page.title }} image 2">
+        <img src="{{ active_data_set.image-prefix }}{{ active_item.project-image }}" alt="{{ active_item.title }} image 1">
+        <img src="{{ active_data_set.image-prefix }}{{ active_item.project-image-2 }}" alt="{{ active_item.title }} image 2">
     </div>
 {% else %}
     <div class="project-image">
-        <img src="{{ page.project_image }}" alt="{{ page.title }}">
+        <img src="{{ active_data_set.image-prefix }}{{ active_item.project-image }}" alt="{{ active_item.title }}">
     </div>
 {% endif %}
 
-<p>{{ page.project_blurb }}</p>
+
+<p>{{ content }}</p>
 
 {% assign game_url_title= page.title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
 {% assign github_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_title %}
 
-{% if page.github_link != nil %}
-    {% assign github_link=page.github_link %}
+{% if active_item.github-link != nil %}
+    {% assign github_link=active_item.github-link %}
 {% endif %}
 
-<h3>
-    <div class="question_title">
-        GitHub Link:
-    </div>
-    <div class="question_text">
-        <a href="{{ github_link }}" target="_blank" title="{{ page.title }} on GitHub">
-            {{ github_link }}
+<h3 class="question-title">GitHub Link:</h3>
+<p class="question-text">
+    <a href="{{ github_link }}" target="_blank" title="{{ page.title }} on GitHub">
+        {{ github_link }}
+    </a>
+</p>
+
+{% if page.alt_title %}
+    {% assign game_url_alt_title= page.alt_title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
+    {% assign github_alt_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_alt_title %}
+
+    <p class="question-text">
+        <a href="{{ github_link }}" target="_blank" title="{{ active_item.title }} on GitHub">
+            {{ github_alt_link }}
         </a>
-    </div>
+    </p>
+{% endif %}
 
-    {% if page.alt_title %}
-        {% assign game_url_alt_title= page.alt_title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
-        {% assign github_alt_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_alt_title %}
-
-        <div class="question_text">
-            <a href="{{ github_alt_link }}" target="_blank" title="{{ page.title }} on GitHub">
-                {{ github_alt_link }}
-            </a>
-        </div>
+{% if page.has_itch_link == "Yes" %}
+    {% assign itch_link="https://" | append: site.itch_username | append: ".itch.io/" | append: game_url_title %}
+    {% if page.itch_link != nil %}
+        {% assign itch_link=page.itch_link %}
     {% endif %}
-</h3>
 
-{{ content }}
+    <h3 class="question-title">Play on Itch.io:</h3>
+    <p>
+        <a href="{{ itch_link }}" title="{{ active_item.title }} on Itch.io" target="_blank">
+            {{ itch_link }}
+        </a>
+    </p>
+{% endif %}
+
+{% if page.alt_itch_link != nil %}
+    <p>
+        <a href="{{ page.alt_itch_link }}" title="{{ active_item.alt-title }} on Itch.io" target="_blank">
+            {{ page.alt_itch_link }}
+        </a>
+    </p>
+{% endif %}
+
+{% if active_item.web-link %}
+<h3 class="question-title">Live Website:</h3>
+<p>
+    <a href="{{ active_item.web-link }}" title="{{ active_item.title }} live site" target="_blank">
+        {{ active_item.web-link }}
+    </a>
+</p>
+{% endif %}
+
+<h3 class="question-title">Roles:</h3>
+<p class="question-text">{{ active_item.roles }}</p>
+
+<h3 class="question-title">Platform Support:</h3>
+<p class="question-text">{{ active_item.platform-support }}</p>
+
+{% if active_item.controls %}
+<h3 class="question-title">Controls:</h3>
+<p class="question-text">{{ active_item.controls }}</p>
+{% endif %}
+
+<h3 class="question-title">Requires Admin Privileges:</h3>
+<p class="question-text">{{ active_item.requires-privileges }}</p>
+
+<h3 class="question-title">Actively Developing:</h3>
+<p class="question-text">{{ active_item.actively-developing }}</p>
+
+<h3 class="question-title">What have I learned from this project?</h3>
+<p class="question-text">{{ page.what_i_learned }}</p>
