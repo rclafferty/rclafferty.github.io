@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+  #outerwrapper {
+    padding: 1rem;
+  }
+
+  .section iframe {
+    width: 50%;
+  }
+
+  #navbar ul {
+    padding: 0;
+  }
+}

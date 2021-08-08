@@ -1,14 +1,5 @@
-# SASS cache directory
-.sass-cache/
-
-# Visual Studio Code cache directory
-.vscode/
-
-# SASS Backup Files
-styles_backup/
-
-# Old CSS/SASS Files
-styles/
-
-# I no longer use JavaScript in my website
-js/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

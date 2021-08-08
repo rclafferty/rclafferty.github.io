@@ -1,0 +1,183 @@
+$blue: #1445a8
+$white: #EEEEEE
+    
+/********************
+ *  GENERIC STYLES  *
+ ********************/
+*
+    margin: 0
+    padding: 0
+
+html
+    background-color: $white
+    scroll-behavior: smooth
+
+a
+    color: $blue
+    text-decoration: none
+    border-bottom: dotted 1px
+
+    &:hover
+        border-bottom: solid 1px
+        transition: 0.2s
+
+h1, h2
+    text-align: center
+    margin: 2rem auto
+
+h3
+    margin-top: 1rem
+
+hr
+    color: $blue
+    margin: 3rem 0
+
+#outerwrapper
+    padding: 1rem 15%
+
+/*********************
+ *   NAVBAR STYLES   *
+ *********************/
+#navbar
+    position: sticky
+    top: 0
+    display: block
+    width: 100%
+    background-color: $blue
+    text-align: center
+    padding: 0.5rem 0
+
+    ul
+        list-style: none
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        padding: 0 10%
+
+        li
+            a
+                color: $white
+                text-decoration: none
+                border-radius: 0.5rem
+                border: none
+                padding: 0.3% 5%
+                
+                &:hover
+                    background-color: $white
+                    color: $blue
+
+/*****************************
+ *   HEADER CONTENT STYLES   *
+ *****************************/
+#header-content
+    h1
+        text-align: center
+        padding: 1rem 0 2rem 0
+
+    ul
+        list-style: none
+        display: grid
+        margin: 2rem 0
+        text-align: center
+        grid-template-columns: repeat(3, 1fr)
+
+        li
+            a
+                text-decoration: none
+                border-radius: 0.5rem
+                border: none
+                background-color: $blue
+                padding: 0.3% 8%
+                color: $white
+                
+                &:hover
+                    background-color: $white
+                    color: $blue
+
+    hr
+        color: $blue
+        margin: 3rem 0
+
+/****************************
+ *   INDEX SECTION STYLES   *
+ ****************************/
+.section
+    h1, h2
+        text-align: center
+        margin-bottom: 2rem
+
+    iframe
+        display: block
+        margin: auto
+        width: 50%
+        height: 25rem
+        margin-bottom: 2rem
+
+    &-projects
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-column-gap: 2rem
+        grid-row-gap: 2rem
+
+        a
+            border-bottom: none
+
+    img
+        width: 100%
+        border-radius: 2rem
+
+figure + span
+    display: block
+    text-align: center
+    color: $blue
+
+/***************************
+ *   PROJECT PAGE STYLES   *
+ ***************************/
+.project
+    &-image
+        width: 100%
+
+        img
+            display: block
+            margin: auto
+            margin-bottom: 2rem
+            border: 1px solid black
+            // max-height: 20rem
+            width: 50%
+
+        &-2
+            display: grid
+            grid-template-columns: repeat(2, 48%)
+            grid-column-gap: 4%
+
+            img
+                display: block
+                margin: auto
+                margin-bottom: 2rem
+                border: 1px solid black
+                max-width: 100%
+
+    &-video
+        display: block
+        margin: auto
+        height: 30rem
+        width: 50%
+        margin-bottom: 2rem
+
+.question
+    &-text
+        color: black
+        font-weight: 400
+
+    &-title
+        color: $blue
+        
+/*************************
+ *   ABOUT PAGE STYLES   *
+ *************************/
+#about-video
+    border: none
+    display: block
+    margin: 2rem auto
+    width: 70%
+    height: 25rem

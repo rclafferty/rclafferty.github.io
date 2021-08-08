@@ -1,0 +1,75 @@
+{
+    "title": "Website Development",
+    "subtitle": "Web Dev Projects",
+    "show-subtitle": false,
+    "page-link-prefix": "/websites/",
+    "image-prefix": "/assets/images/webdev/",
+    "projects": [
+        {
+            "title": "My Personal Website",
+            "language": "HTML/CSS",
+            "project-image": "my_personal_website.png",
+            "github-link": "https://github.com/rclafferty/rclafferty.github.io/",
+            "roles": "UI design, programming, hosting, framework migration",
+            "platform-support": "GitHub Pages, Jekyll",
+            "requires-privileges": "No",
+            "actively-developing": "Yes",
+            "hidden": false
+        },
+        {
+            "title": "UNL Game Dev Club Website",
+            "language": "HTML/CSS",
+            "project-image": "unl_game_dev_club_website.png",
+            "github-link": "https://github.com/rclafferty/UNL-Game-Dev-Club.github.io/",
+            "web-link": "https://unl-game-dev-club.github.io/",
+            "roles": "UI design, programming, hosting, framework migration",
+            "platform-support": "GitHub Pages, Jekyll",
+            "requires-privileges": "No",
+            "actively-developing": "Yes",
+            "hidden": false
+        },
+        {
+            "title": "Securing Cyberville Logs",
+            "language": "PHP",
+            "project-image": "securing_cyberville_logs.png",
+            "roles": "UI design, programming, hosting, integration",
+            "platform-support": "Web, Unity Engine",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "Responsive CSS Grid Website",
+            "language": "HTML/CSS/JS",
+            "web-link": "https://rclafferty.github.io/Responsive-CSS-Grid-Website/",
+            "project-image": "responsive_css_grid_website.png",
+            "roles": "UI design, programming, hosting",
+            "platform-support": "Google Chrome",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "History of Overland Park",
+            "language": "HTML/CSS",
+            "web-link": "https://rclafferty.github.io/History-of-Overland-Park/",
+            "project-image": "history_of_overland_park.png",
+            "roles": "Programming, implementation of pre-existing design",
+            "platform-support": "Google Chrome",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        },
+        {
+            "title": "My Lai Massacre",
+            "language": "HTML/CSS",
+            "web-link": "https://rclafferty.github.io/My-Lai-Massacre/",
+            "project-image": "my_lai_massacre.png",
+            "roles": "UI design, programming, hosting",
+            "platform-support": "Google Chrome",
+            "requires-privileges": "No",
+            "actively-developing": "No",
+            "hidden": false
+        }
+    ]
+}

@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include header.html %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/main.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/media-query.css" />
+        <title>{{ page.title }}</title>
     </head>
     <body>
         <div id="home"></div>
-        {% include navbar.html %}
 
-        <div class="outerwrapper">
-            <div id="home_content">
-                {% include header_content.html %}
+        <div id="navbar">
+            <ul>
+                <li><a href="/index#home">Home</a></li>
+                <li><a href="/index#game-dev">Game Dev</a></li>
+                <li><a href="/index#software-dev">Software Dev</a></li>
+                <li><a href="/index#web-dev">Websites</a></li>
+            </ul>
+        </div>
 
-                {% if page.title == "Homepage" %}
-                    {% include resumes.html %}
-                {% endif %}
+        <div id="outerwrapper">
+            <div id="header-content">
+                <h1>{{ site.title }}</h1>
+                <p>I am a recent graduate of the University of Nebraska-Lincoln where I received my master's degree in Computer Science researching educational video games. I also have a Bachelor's of Science in Computer Science from Kansas State University, where I focused my studies on cyber security and video game development.
+                <br> <br>
+                <p>My interests include software development, game development, cyber security, artificial intelligence, web development, and more.</p>
+
+                <ul>
+                    <li><a href="/assets/documents/Robert_Casey_Lafferty_Resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a></li>
+                    <li><a href="https://{{ site.itch_username }}.itch.io" target="_blank">Itch.io</a></li>
+                </ul>
             </div>
-
-            {% if page.title != "Homepage" %}
-                <hr>
-            {% endif %}
-
+            
             {{ content }}
         </div>
     </body>

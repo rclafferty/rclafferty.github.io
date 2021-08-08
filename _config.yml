@@ -21,24 +21,18 @@
 title: Robert Casey Lafferty
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am a recent graduate of the University of Nebraska-Lincoln where I received my master's degree in Computer Science researching educational video games. I also have a Bachelor's of Science in Computer Science from Kansas State University, where I focused my studies on cyber security and video game development.
+  My interests include software development, game development, cyber security, artificial intelligence, web development, and more.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rclafferty1994
 github_username:  rclafferty
-itch_username: rclafferty
-youtube_channelID: UCOcazPbtBiOzVi5aEwU4aow
-linkedin_username: rclafferty
+itch_username:  rclafferty
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
-software_resume: https://people.cs.ksu.edu/~rclafferty/documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf
-gamedev_resume: https://people.cs.ksu.edu/~rclafferty/documents/Robert_Casey_Lafferty_Resume.pdf
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
