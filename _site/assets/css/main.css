@@ -185,3 +185,19 @@ figure + span {
   width: 70%;
   height: 25rem;
 }
+
+/***********************
+ *   404 PAGE STYLES   *
+ ********************** */
+.container {
+  margin: 1rem auto;
+  max-width: 38rem;
+  text-align: center;
+}
+
+.four-oh-four-h1 {
+  margin: 2rem;
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: -1px;
+}
