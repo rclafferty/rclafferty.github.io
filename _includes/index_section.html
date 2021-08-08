@@ -2,7 +2,7 @@
     <h1>{{ include.section-data.title }}</h1>
 
     {% if include.section-data.preview-graphic %}
-        <iframe src="{{ include.section-data.preview-graphic }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="{{ include.section-data.preview-graphic }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {% endif %}
 
     {% if include.section-data == site.data.gamedev %}

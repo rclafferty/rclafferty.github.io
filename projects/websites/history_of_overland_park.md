@@ -4,6 +4,6 @@ title: "History of Overland Park"
 type: "website"
 permalink: /websites/history_of_overland_park.html
 has_itch_link: "No"
-what_i_learned: "Writing my own website was a great way to learn web development at my own pace and have an avenue to explore new languages and frameworks."
+what_i_learned: "Adobe Dreamweaver CC, HTML/CSS"
 ---
-My personal website is hosted via GitHub pages using the jekyll framework and consists of HTML5-verified code. Previous iterations have included using PHP and JavaScript, but has since been simplified to only HTML5/CSS3.
+I created this website detailing some history of Overland Park, KS, as a class assignment for a web development course. The content was provided for the assignment, so the task was to create the website given the certain specifications.
