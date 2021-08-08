@@ -4,6 +4,6 @@ title: "Responsive CSS Grid Website"
 type: "website"
 permalink: /websites/responsive_css_grid_website.html
 has_itch_link: "No"
-what_i_learned: "Developing a club website taught me how to create a scalable design that would be easy for a newer, less experienced student to takeover after I graduated."
+what_i_learned: "This project was my introduction to CSS Grid and also taught me how to use JavaScript to make non-static websites."
 ---
-My personal website is hosted via GitHub pages using the jekyll framework and consists of HTML5-verified code. Previous iterations have included using PHP and JavaScript, but has since been simplified to only HTML5/CSS3.
+As part of my position as a web developer at the University of Nebraska-Lincoln, I followed a tutorial to build a responsive website for a fictional coffee shop.

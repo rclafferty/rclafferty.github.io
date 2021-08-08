@@ -30,7 +30,7 @@ layout: wrapper
 {% endif %}
 
 {% if active_item.youtube-link %}
-    <iframe class="project-video" src="{{ active_item.youtube-link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="project-video" src="{{ active_item.youtube-link }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% elsif active_item.project-image-2 %}
     <div class="project-image-2">
         <img src="{{ active_data_set.image-prefix }}{{ active_item.project-image }}" alt="{{ active_item.title }} image 1">
@@ -43,7 +43,7 @@ layout: wrapper
 {% endif %}
 
 
-<p>{{ content }}</p>
+{{ content }}
 
 {% assign game_url_title= page.title | replace: " ", "-" | replace: "!", "" | replace: ".", "" | replace: ",", "" %}
 {% assign github_link="https://github.com/" | append: site.github_username | append: "/" | append: game_url_title %}

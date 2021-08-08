@@ -2,9 +2,16 @@
     #outerwrapper
         padding: 1rem
 
-    .section
-        iframe
-            width: 50%
-
     #navbar ul
         padding: 0
+
+@media ( max-width: 650px )
+    .section
+        iframe
+            width: 80%
+            height: 15rem
+
+        &-projects
+            grid-template-columns: 1fr
+            width: 80%
+            margin: 0 auto
