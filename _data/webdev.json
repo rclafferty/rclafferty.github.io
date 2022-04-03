@@ -14,6 +14,7 @@
             "platform-support": "GitHub Pages, Jekyll",
             "requires-privileges": "No",
             "actively-developing": "Yes",
+            "what-i-learned": "Writing my own website was a great way to learn web development at my own pace and have an avenue to explore new languages and frameworks.",
             "hidden": false
         },
         {
@@ -26,6 +27,7 @@
             "platform-support": "GitHub Pages, Jekyll",
             "requires-privileges": "No",
             "actively-developing": "Yes",
+            "what-i-learned": "Developing a club website taught me how to create a scalable design that would be easy for a newer, less experienced student to takeover after I graduated.",
             "hidden": false
         },
         {
@@ -36,6 +38,7 @@
             "platform-support": "Web, Unity Engine",
             "requires-privileges": "No",
             "actively-developing": "No",
+            "what-i-learned": "PHP, MySQL, linking Unity projects to MySQL",
             "hidden": false
         },
         {
@@ -47,6 +50,7 @@
             "platform-support": "Google Chrome",
             "requires-privileges": "No",
             "actively-developing": "No",
+            "what-i-learned": "This project was my introduction to CSS Grid and also taught me how to use JavaScript to make non-static websites.",
             "hidden": false
         },
         {
@@ -58,6 +62,7 @@
             "platform-support": "Google Chrome",
             "requires-privileges": "No",
             "actively-developing": "No",
+            "what-i-learned": "Adobe Dreamweaver CC, HTML/CSS",
             "hidden": false
         },
         {
@@ -69,6 +74,7 @@
             "platform-support": "Google Chrome",
             "requires-privileges": "No",
             "actively-developing": "No",
+            "what-i-learned": "Adobe Dreamweaver CC, HTML/CSS",
             "hidden": false
         }
     ]

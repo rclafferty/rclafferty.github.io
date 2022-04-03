@@ -14,6 +14,7 @@
             "platform-support": "Discord, can be hosted by any computer with NodeJS installed",
             "requires-privileges": "No",
             "actively-developing": "Yes",
+            "what-i-learned": "NodeJS development, how to make a Discord bot, and how to interface with multiple Steam APIs via NodeJS.",
             "hidden": false
         },
         {
@@ -25,6 +26,7 @@
             "platform-support": "Windows Computer, Spyder environment",
             "requires-privileges": "No",
             "actively-developing": "No, but plan to return to this in the future",
+            "what-i-learned": "Basics of Python, basics of machine learning, basics of R.",
             "hidden": false
         },
         {
@@ -36,6 +38,7 @@
             "platform-support": "Windows Computer, Web, MySQL",
             "requires-privileges": "No",
             "actively-developing": "No, project was completed in December 2019.",
+            "what-i-learned": "Python scripting, interfacing Python with a MySQL database, D3JS templates.",
             "hidden": false
         }
     ]
