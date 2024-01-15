@@ -7,6 +7,27 @@
         padding: 0;
     } */
 }
+
+@media (max-width: 870px) {
+    #sizzle-reel {
+         display: none;
+    }
+    #sizzle-reel-button {
+         display: block;
+    }
+    .sizzle-reel-descriptor {
+         display: block;
+    }
+    #resume-navbar {
+        flex-wrap: wrap;
+    }
+
+    #resume-education-section {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
 @media (max-width: 650px) {
     /* .section iframe {
         width: 80%;

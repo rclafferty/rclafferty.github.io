@@ -2,24 +2,6 @@ var gamedev = undefined;
 var software = undefined;
 var webdev = undefined;
 
-if (too_small_for_js_elements())
-{
-    // Hide sizzle reel
-    document.getElementById("sizzle-reel").classList.add("hidden");
-    document.getElementById("sizzle-reel-button").classList.add("shown");
-    
-    var sizzle_reel_elements = document.getElementsByClassName("sizzle-reel-descriptor");
-    if (sizzle_reel_elements != undefined)
-    {
-        for (i = 0; i < sizzle_reel_elements.length; i++)
-            sizzle_reel_elements[i].classList.add("shown");
-    }
-}
-else
-{
-    document.getElementById("sizzle-reel").classList.add("i-can-see-you");
-}
-
 fetch('./json/gamedev.json')
     .then(res => res.json())
     .then(data => {
