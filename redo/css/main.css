@@ -78,11 +78,11 @@ hr {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .shown {
-    display: block;
+    display: block !important;
 }
 
 .no-bottom-margin {
@@ -96,11 +96,15 @@ hr {
  *   SIZZLE REEL STYLES   *
  **************************/
 #sizzle-reel-button {
-    /* display: none; */
+    display: none;
 }
 #sizzle-reel-button a:hover {
     color: var(--highlight-color);
     background-color: var(--background-color);
+}
+
+.sizzle-reel-descriptor {
+    display: none;
 }
 
 /**********************

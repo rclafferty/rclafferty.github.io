@@ -6,18 +6,15 @@
     <title>Robert Casey Lafferty Website</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media-query.css">
-    <script src="js/overlay.js"></script>
-    <script src="js/resume.js"></script>
-    <script src="js/project.js"></script>
 </head>
 <body>
     <div id="home"></div>
 
     <div id="navbar">
-        <a href="/index.html#home" class="button">Home</a>
-        <a href="/index.html#game_dev" class="button">Game Dev</a>
-        <a href="/index.html#software_dev" class="button">Software Dev</a>
-        <a href="/index.html#web_dev" id="webdev-navbar" class="button">Web Dev</a>
+        <a href="#home" class="button">Home</a>
+        <a href="#game_dev" class="button">Game Dev</a>
+        <a href="#software_dev" class="button">Software Dev</a>
+        <a href="#web_dev" id="webdev-navbar" class="button">Web Dev</a>
     </div>
 
     <div id="overlay" onclick="overlay_off()">
@@ -92,16 +89,18 @@
         <div class="section">
             <h1>Game Development</h1>
             <noscript>
-                <a href="https://www.youtube.com/watch?v=TWuPwthgXao" class="button centered-element" id="sizzle-reel-button" target="_blank">Sizzle Reel (YouTube)</a>
-                <p>&nbsp;</p>
-                <p class="centered-element">Click the button above to watch my sizzle reel on YouTube.</p>
-                
                 <style type="text/css">
                     #sizzle-reel { display: none; }
+                    #sizzle-reel-button { display: block; }
+                    .sizzle-reel-descriptor { display: block; }
                 </style>
             </noscript>
             <iframe src="https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi" id="sizzle-reel" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>&nbsp;</p>
+            <!-- <p>&nbsp;</p> -->
+            
+            <a href="https://www.youtube.com/watch?v=TWuPwthgXao" class="button centered-element" id="sizzle-reel-button" target="_blank">Sizzle Reel (YouTube)</a>
+            <p class="sizzle-reel-descriptor">&nbsp;</p>
+            <p class="centered-element sizzle-reel-descriptor">Click the button above to watch my sizzle reel on YouTube.</p>
 
             <h2>Unreal Engine Projects</h2>
             <div class="section-projects">
@@ -225,4 +224,9 @@
         </div>
     </div>
 </body>
+<footer>
+    <script src="js/overlay.js"></script>
+    <script src="js/resume.js"></script>
+    <script src="js/project.js"></script>
+</footer>
 </html>
