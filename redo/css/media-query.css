@@ -2,6 +2,13 @@
     #outerwrapper {
         padding: 1rem;
     }
+    .project-image {
+        /* width: 90%; */
+    }
+
+    .project-image img {
+        min-width: 16rem;
+    }
 
     /* #navbar ul {
         padding: 0;
@@ -25,6 +32,10 @@
     #resume-education-section {
         flex-wrap: wrap;
         gap: 2rem;
+    }
+
+    .project-image img {
+        width: 70%;
     }
 }
 

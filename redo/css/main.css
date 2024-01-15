@@ -288,9 +288,7 @@ figure + span {
     margin: auto;
     margin-bottom: 2rem;
     border: 1px solid black;
-    /* width: 50%; */
-    max-height: 20rem;
-    min-height: 15rem;
+    width: 50%;
 }
 
 .prompt {
