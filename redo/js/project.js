@@ -2,19 +2,19 @@ var gamedev = undefined;
 var software = undefined;
 var webdev = undefined;
 
-fetch('../json/gamedev.json')
+fetch('./json/gamedev.json')
     .then(res => res.json())
     .then(data => {
         gamedev = data;
     });
 
-fetch('../json/software.json')
+fetch('./json/software.json')
     .then(res => res.json())
     .then(data => {
         software = data;
     });
 
-fetch('../json/webdev.json')
+fetch('./json/webdev.json')
     .then(res => res.json())
     .then(data => {
         webdev = data;
