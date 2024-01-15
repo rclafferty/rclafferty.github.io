@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "title": "FrogBot",
+            "language": "NodeJS",
+            "project-image": "images/softwaredev/frogbot.png",
+            "github-link": "https://github.com/rclafferty/Frogbot-Discord-Bot/",
+            "description": "The FrogBot Discord Bot is designed to enhance gaming experiences for my friends and I. One of the initial features was to compare games owned by two Discord users and display a list of mutually owned games. Currently, this bot only supports the Steam gaming platform but I plan to expand to other platforms such as Epic Games. I also plan to add automation features, such as reminders for discord-hosted events.",
+            "roles": "NodeJS scripting, algorithm development, hosting.",
+            "platform-support": "Discord, can be hosted by any computer with NodeJS installed.",
+            "what-i-learned": "NodeJS development, how to make a Discord bot, and how to interface with multiple Steam APIs via NodeJS."
+        },
+        {
+            "title": "Machine Learning",
+            "language": "Python and R",
+            "project-image": "images/softwaredev/machine_learning.png",
+            "github-link": "https://github.com/rclafferty/Machine-Learning-Tutorial/",
+            "description": "This project was an introduction into various subdomains of machine learning, including deep learning, artificial neural networks, clustering, regression, reinforcement learning, natural language processing, and classification. This work was done as part of a tutorial that gives sample problems to solve in both Python (using Spyder) and R (using R Studio).",
+            "roles": "Python programming, R programming",
+            "platform-support": "Windows 10, Spyder IDE",
+            "what-i-learned": "Basics of Python, basics of machine learning, basics of R."
+        },
+        {
+            "title": "UNL GDC Admin Database",
+            "language": "Python, MySQL, HTML5, CSS3",
+            "project-image": "images/softwaredev/unl_gdc_admin_database.png",
+            "github-link": "https://github.com/rclafferty/CSCE-813-Database",
+            "description": "The UNL Game Development Club's Admin Database was created as both a class project and a club project. This database was designed to track club member information, including year, major, meeting attendance, event attendance, and contact information. As part of the class project, this information was put into several D3JS templates to visualize the data in four different charts. The project and the report can be found at the GitHub link below. In addition to the class project, I developed a script to interface with this database that sent emails to all club members using their registered information.",
+            "roles": "Design, MySQL development, Python scripting, HTML/CSS/JS development",
+            "platform-support": "Windows 10, Web, MySQL",
+            "what-i-learned": "Python scripting, interfacing Python with a MySQL database, D3JS templates."
+        }
+    ]
+}

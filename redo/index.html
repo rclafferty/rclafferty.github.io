@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Casey Lafferty Website</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <script src="js/overlay.js"></script>
+    <script src="js/resume.js"></script>
+    <script src="js/project.js"></script>
+</head>
+<body>
+    <div id="home"></div>
+
+    <div id="navbar">
+        <a href="/index.html#home" class="button">Home</a>
+        <a href="/index.html#game_dev" class="button">Game Dev</a>
+        <a href="/index.html#software_dev" class="button">Software Dev</a>
+        <a href="/index.html#web_dev" id="webdev-navbar" class="button">Web Dev</a>
+    </div>
+
+    <div id="overlay" onclick="overlay_off()">
+        <div id="overlay-solid-back">
+            <div id="overlay-solid-back-2">
+                <div id="resume-overlay-contents" class="hidden">
+                    <h1>Resume Select</h1>
+                    <p>&nbsp;</p>
+                    <p class="centered-element">Select a resume from the buttons below:</p>
+
+                    <div id="resume-overlay-button-grid">
+                        <a href="documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" class="button wide-button centered-element" target="_blank">Game Dev Resume</a>
+                        <a href="documents/Robert_Casey_Lafferty_Software_Dev_Resume.pdf" class="button wide-button centered-element" target="_blank">Software Dev Resume</a>
+                        <a href="documents/Robert_Casey_Lafferty_Tutor_Resume.pdf" class="button wide-button centered-element" target="_blank">Tutoring Resume</a>
+                        <a href="resume.html" class="button wide-button centered-element">Online Resume</a>
+                    </div>
+                </div>
+                <div id="project-overlay-contents" class="hidden">
+                    <iframe src="https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi" id="project-overlay-embed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                    <img src="images/gamedev/building_escape.png" alt="" id="project-overlay-alt-picture" class="hidden">
+
+                    <p id="project-overlay-description">Test</p>
+
+                    <p class="project-overlay-github">&nbsp;</p>
+                    <p class="project-overlay-github"><strong>GitHub:</strong> <a href="#" id="project-overlay-github-link">Test</a></p>
+
+                    <p class="project-overlay-itch">&nbsp;</p>
+                    <p class="project-overlay-itch"><strong>Itch.io:</strong> <a href="#" id="project-overlay-itch-link">Test</a></p>
+
+                    <p class="project-overlay-live">&nbsp;</p>
+                    <p class="project-overlay-live"><strong>Live Site:</strong> <a href="#" id="project-overlay-live-link">Test</a></p>
+
+                    <p>&nbsp;</p>
+                    <p id="project-overlay-roles"><strong>Roles:</strong> TBD</p>
+
+                    <p>&nbsp;</p>
+                    <p id="project-overlay-platform"><strong>Platform Support:</strong> TBD</p>
+
+                    <p>&nbsp;</p>
+                    <p id="project-overlay-learn"><strong>What have I learned?</strong> TBD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="outerwrapper">
+        <div id="header-content">
+            <h1>Robert Casey Lafferty</h1>
+            <p>I am an experienced video game developer and software engineer with hands-on experience in projects like Call of Duty, casino slot machines, and military weapon systems. Holding both a Bachelor's and Master's degree in Computer Science, I focused my studies on cyber security and video game development.</p>
+            <p>&nbsp;</p>
+            <p>In addition to my industry background, I have spent eight years as an educator and tutor, with three years as an online tutor, two years as a Graduate Teaching Assistant, and three years as an Undergraduate Teaching Assistant, helping students in the field of computer science and various core subjects. My interests encompass game development, software development, cyber security, artificial intelligence, web development, and more.</p>
+
+            <div id="header-links">
+                <noscript>
+                    <a href="documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" class="button" id="nojs_resume_button" target="_blank">Resume</a>
+
+                    <style type="text/css">
+                        #js_resume_button { display: none; }
+                    </style>
+                </noscript>
+                
+                <a href="#" onclick="return resume_click()" class="button" id="js_resume_button" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/rclafferty/" class="button" target="_blank">LinkedIn</a>
+                <a href="https://github.com/rclafferty" class="button" target="_blank">GitHub</a>
+                <a href="https://rclafferty.itch.io" class="button" target="_blank">Itch.io</a>
+            </div>
+        </div>
+        
+        <hr id="game_dev">
+
+        <div class="section">
+            <h1>Game Development</h1>
+            <noscript>
+                <a href="https://www.youtube.com/watch?v=TWuPwthgXao" class="button centered-element" id="sizzle-reel-button" target="_blank">Sizzle Reel (YouTube)</a>
+                <p>&nbsp;</p>
+                <p class="centered-element">Click the button above to watch my sizzle reel on YouTube.</p>
+                
+                <style type="text/css">
+                    #sizzle-reel { display: none; }
+                </style>
+            </noscript>
+            <iframe src="https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi" id="sizzle-reel" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>&nbsp;</p>
+
+            <h2>Unreal Engine Projects</h2>
+            <div class="section-projects">
+                <a href="gamedev/platform_switcher.html" class="test-image" onclick="return platform_switcher_click()">
+                    <figure>
+                        <img src="images/gamedev/platform_switcher.png" alt="">
+                    </figure>
+                    <span>Platform Switcher</span>
+                </a>
+                <a href="gamedev/building_escape.html" class="test-image" onclick="return building_escape_click();">
+                    <figure>
+                        <img src="images/gamedev/building_escape.png" alt="">
+                    </figure>
+                    <span>Building Escape</span>
+                </a>
+                <a href="gamedev/space_shooter.html" class="test-image" onclick="return space_shooter_click();">
+                    <figure>
+                        <img src="images/gamedev/space_shooter.png" alt="">
+                    </figure>
+                    <span>Space Shooter</span>
+                </a>
+            </div>
+            
+            <h2>Unity Engine Projects</h2>
+            <div class="section-projects">
+                <a href="gamedev/packet_delivery.html" class="test-image" onclick="return packet_delivery_click();">
+                    <figure>
+                        <img src="images/gamedev/packet_delivery.png" alt="">
+                    </figure>
+                    <span>Packet Delivery</span>
+                </a>
+                <a href="gamedev/the_three_mutineers.html" class="test-image" onclick="return the_three_mutineers_click();">
+                    <figure>
+                        <img src="images/gamedev/the_three_mutineers.png" alt="">
+                    </figure>
+                    <span>The Three Mutineers</span>
+                </a>
+                <a href="gamedev/leaf_me_alone.html" class="test-image" onclick="return leaf_me_alone_click();">
+                    <figure>
+                        <img src="images/gamedev/leaf_me_alone.png" alt="">
+                    </figure>
+                    <span>Leaf Me Alone!</span>
+                </a>
+                <a href="gamedev/internet_inc.html" class="test-image" onclick="return internet_inc_click();">
+                    <figure>
+                        <img src="images/gamedev/internet_inc.png" alt="">
+                    </figure>
+                    <span>Internet, Inc.</span>
+                </a>
+                <a href="gamedev/laser_defender.html" class="test-image" onclick="return laser_defender_click();">
+                    <figure>
+                        <img src="images/gamedev/laser_defender.png" alt="">
+                    </figure>
+                    <span>Laser Defender</span>
+                </a>
+                <a href="gamedev/transformation.html" class="test-image" onclick="return transformation_click();">
+                    <figure>
+                        <img src="images/gamedev/transformation.png" alt="">
+                    </figure>
+                    <span>Transformation</span>
+                </a>
+            </div>
+        </div>
+
+        <hr id="software_dev">
+
+        <div class="section">
+            <h1>Software Development</h1>
+            <div class="section-projects">
+                <a href="software/frogbot.html" class="test-image" onclick="return frogbot_click();">
+                    <figure>
+                        <img src="images/softwaredev/frogbot.png" alt="">
+                    </figure>
+                    <span>FrogBot</span>
+                </a>
+                <a href="software/unl_gdc_admin_database.html" class="test-image" onclick="return gdc_database_click();">
+                    <figure>
+                        <img src="images/softwaredev/unl_gdc_admin_database.png" alt="">
+                    </figure>
+                    <span>UNL GDC Admin Database</span>
+                </a>
+                <a href="software/machine_learning.html" class="test-image" onclick="return machine_learning_click();">
+                    <figure>
+                        <img src="images/softwaredev/machine_learning.png" alt="">
+                    </figure>
+                    <span>Machine Learning</span>
+                </a>
+            </div>
+        </div>
+
+        <hr id="web_dev">
+
+        <div class="section">
+            <h1>Website Development</h1>
+            <div class="section-projects">
+                <a href="webdev/personal_website.html" class="test-image" onclick="return personal_website_click();">
+                    <figure>
+                        <img src="images/webdev/my_personal_website.png" alt="">
+                    </figure>
+                    <span>My Personal Website</span>
+                </a>
+                <a href="webdev/unl_game_dev_club_website.html" class="test-image" onclick="return unl_gdc_website_click();">
+                    <figure>
+                        <img src="images/webdev/unl_game_dev_club_website.png" alt="">
+                    </figure>
+                    <span>UNL Game Dev Club Website</span>
+                </a>
+                <a href="webdev/securing_cyberville_logs.html" class="test-image" onclick="return securing_cyberville_click();">
+                    <figure>
+                        <img src="images/webdev/securing_cyberville_logs.png" alt="">
+                    </figure>
+                    <span>Securing Cyberville Logs</span>
+                </a>
+                <a href="webdev/unl_trio_website.html" class="test-image" onclick="return unl_trio_click();">
+                    <figure>
+                        <img src="images/webdev/unl_trio.png" alt="">
+                    </figure>
+                    <span>UNL TRIO Website</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@media (max-width: 1000px) {
+    #outerwrapper {
+        padding: 1rem;
+    }
+
+    /* #navbar ul {
+        padding: 0;
+    } */
+}
+@media (max-width: 650px) {
+    /* .section iframe {
+        width: 80%;
+        height: 15rem;
+    }
+    .section-projects {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
+    } */
+}

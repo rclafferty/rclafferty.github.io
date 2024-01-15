@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Casey Lafferty Website</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/media-query.css">
+    <script src="/js/overlay.js"></script>
+    <script src="/js/resume.js"></script>
+    <script src="/js/project.js"></script>
+</head>
+<body>
+    <div id="home"></div>
+
+    <div id="navbar">
+        <a href="/index.html#home" class="button">Home</a>
+        <a href="/index.html#game_dev" class="button">Game Dev</a>
+        <a href="/index.html#software_dev" class="button">Software Dev</a>
+        <a href="/index.html#web_dev" id="webdev-navbar" class="button">Web Dev</a>
+    </div>
+
+    <div id="overlay" onclick="overlay_off()">
+        <div id="overlay-solid-back">
+            <div id="overlay-solid-back-2">
+                <div id="resume-overlay-contents" class="hidden">
+                    <h1>Resume Select</h1>
+                    <p>&nbsp;</p>
+                    <p class="centered-element">Select a resume from the buttons below:</p>
+
+                    <div id="resume-overlay-button-grid">
+                        <a href="/documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" class="button wide-button centered-element" target="_blank">Game Dev Resume</a>
+                        <a href="/documents/Robert_Casey_Lafferty_Software_Dev_Resume.pdf" class="button wide-button centered-element" target="_blank">Software Dev Resume</a>
+                        <a href="/documents/Robert_Casey_Lafferty_Tutor_Resume.pdf" class="button wide-button centered-element" target="_blank">Tutoring Resume</a>
+                        <a href="/resume.html" class="button wide-button centered-element">Online Resume</a>
+                    </div>
+                </div>
+                <div id="project-overlay-contents" class="hidden">
+                    <iframe src="https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi" id="project-overlay-embed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                    <img src="images/gamedev/building_escape.png" alt="" id="project-overlay-alt-picture" class="hidden">
+
+                    <p id="project-overlay-description">Test</p>
+
+                    <p class="project-overlay-github">&nbsp;</p>
+                    <p class="project-overlay-github"><strong>GitHub:</strong> <a href="#" id="project-overlay-github-link">Test</a></p>
+
+                    <p class="project-overlay-itch">&nbsp;</p>
+                    <p class="project-overlay-itch"><strong>Itch.io:</strong> <a href="#" id="project-overlay-itch-link">Test</a></p>
+
+                    <p class="project-overlay-live">&nbsp;</p>
+                    <p class="project-overlay-live"><strong>Live Site:</strong> <a href="#" id="project-overlay-live-link">Test</a></p>
+
+                    <p>&nbsp;</p>
+                    <p id="project-overlay-roles"><strong>Roles:</strong> TBD</p>
+
+                    <p>&nbsp;</p>
+                    <p id="project-overlay-platform"><strong>Platform Support:</strong> TBD</p>
+
+                    <p>&nbsp;</p>
+                    <p id="project-overlay-learn"><strong>What have I learned?</strong> TBD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="outerwrapper">
+        <div id="header-content">
+            <h1>Robert Casey Lafferty</h1>
+            <p>I am an experienced video game developer and software engineer with hands-on experience in projects like Call of Duty, casino slot machines, and military weapon systems. Holding both a Bachelor's and Master's degree in Computer Science, I focused my studies on cyber security and video game development.</p>
+            <p>&nbsp;</p>
+            <p>In addition to my industry background, I have spent eight years as an educator and tutor, with three years as an online tutor, two years as a Graduate Teaching Assistant, and three years as an Undergraduate Teaching Assistant, helping students in the field of computer science and various core subjects. My interests encompass game development, software development, cyber security, artificial intelligence, web development, and more.</p>
+
+            <div id="header-links">
+                <noscript>
+                    <a href="/documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" class="button" id="nojs_resume_button" target="_blank">Resume</a>
+
+                    <style type="text/css">
+                        #js_resume_button { display: none; }
+                    </style>
+                </noscript>
+                
+                <a href="#" onclick="return resume_click()" class="button" id="js_resume_button" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/rclafferty/" class="button" target="_blank">LinkedIn</a>
+                <a href="https://github.com/rclafferty" class="button" target="_blank">GitHub</a>
+                <a href="https://rclafferty.itch.io" class="button" target="_blank">Itch.io</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <h1>FrogBot (NodeJS)</h1>
+
+        <div class="project-image">
+            <img src="/images/softwaredev/frogbot.png" alt="FrogBot">
+        </div>
+
+        <p>The FrogBot Discord Bot is designed to enhance gaming experiences for my friends and I. One of the initial features was to compare games owned by two Discord users and display a list of mutually owned games. Currently, this bot only supports the Steam gaming platform but I plan to expand to other platforms such as Epic Games. I also plan to add automation features, such as reminders for discord-hosted events.</p>
+        
+        <h3 class="prompt">GitHub Link:</h3>
+        <p class="prompt-text">
+            <a href="https://github.com/rclafferty/Frogbot-Discord-Bot/">https://github.com/rclafferty/Frogbot-Discord-Bot/</a>
+        </p>
+        
+        <h3 class="prompt">Roles:</h3>
+        <p class="prompt-text">NodeJS scripting, algorithm development, hosting</p>
+        
+        <h3 class="prompt">Platform Support:</h3>
+        <p class="prompt-text">Discord, can be hosted by any computer with NodeJS installed</p>
+        
+        <h3 class="prompt">Requires Admin Privileges:</h3>
+        <p class="prompt-text">No</p>
+        
+        <h3 class="prompt">Actively Developing:</h3>
+        <p class="prompt-text">Yes</p>
+        
+        <h3 class="prompt">What have I learned from this project?</h3>
+        <p class="prompt-text">NodeJS development, how to make a Discord bot, and how to interface with multiple Steam APIs via NodeJS.</p>
+    </div>
+</body>
+</html>

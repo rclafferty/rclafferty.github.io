@@ -1,0 +1,108 @@
+{
+    "projects": [
+        {
+            "title": "Packet Delivery",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/3yh0G2luPNo",
+            "github-link": "https://github.com/rclafferty/Packet-Delivery",
+            "itch-link": "https://rclafferty.itch.io/Packet-Delivery",
+            "description": "Packet Delivery was developed as part of my master's thesis research at the University of Nebraska-Lincoln. This game uses a postal service analogy to teach the DNS Lookup process by requiring the player to look up the characters' house addresses in order to successfully deliver the packages.",
+            "roles": "Concept design, prototyping, user interface design, programming, animations.",
+            "platform-support": "Windows 10, Mac OSX, Linux",
+            "what-i-learned": "I learned about the development of serious games used for educational purposes, player engagement, and design techniques to accurately reflect the target concept in an engaging manner."
+        },
+        {
+            "title": "Platform Switcher",
+            "platform": "Unreal",
+            "language": "C++",
+            "youtube-link": "https://www.youtube.com/embed/umsPywWQY7w",
+            "github-link": "https://github.com/rclafferty/Platform-Switcher",
+            "description": "Platform Switcher is a platformer game where the player must use a switching mechanic to get to the orb at the end of the level. This game was started as part of an online tutorial but later expanded upon.",
+            "roles": "Level design, programming, switching mechanics, and UI programming.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "This was a good introduction to Unreal Engine 4 programming, scene design, and UI design."
+        },
+        {
+            "title": "The Three Mutineers",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/HJ8OPQiPcB0",
+            "github-link": "https://github.com/rclafferty/The-Three-Mutineers",
+            "itch-link": "https://rclafferty.itch.io/The-Three-Mutineers",
+            "description": "The Three Mutineers is a 2D three-player cooperative game developed at the 2019 Texas A&M Chillennium Game Jam. Two teammates used Adobe Photoshop to hand-craft the art for characters and scenery while I focused primarily on puzzle mechanics, scripts to program the puzzles, movement, and tilemap manipulation.",
+            "roles": "Puzzle mechanics, programming, movement, tilemap animation, character animation.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "I learned about tilemap manipulation, 3-player controller input challenges, and utilizing mechanics to solve puzzles."
+        },
+        {
+            "title": "Building Escape",
+            "platform": "Unreal",
+            "language": "C++",
+            "youtube-link": "https://www.youtube.com/embed/5h68HEsOP3A",
+            "github-link": "https://github.com/rclafferty/Building-Escape",
+            "description": "Building Escape is a 3D escape game where the player must use pressure plates to open doors and escape to freedom. This game was started as part of an online tutorial but later expanded upon.",
+            "roles": "Level design, programming, pressure plate mechanics, and door animations.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "This was a good introduction to Unreal Engine 4 programming, scene design, and UI design."
+        },
+        {
+            "title": "Leaf Me Alone!",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/G6cvdP6aAT4",
+            "github-link": "https://github.com/rclafferty/Leaf-Me-Alone",
+            "itch-link": "https://rclafferty.itch.io/Leaf-Me-Alone",
+            "description": "Leaf Me Alone was developed by myself and two others at the 2020 Kansas State University Game Jam, created and prepared for judging in under 48 hours based on a given theme: \"What Goes Up Must Come Down.\" One teammate used Adobe Photoshop to hand-craft the art for characters and scenery, one teammate assembled the scene and did UI scripting, while I focused primarily on character movement, physics, animations, chopping mechanics, apple mechanics, and general scripting.",
+            "roles": "Character movement, physics, animations, chopping mechanics, apple mechanics, and general scripting.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "After completing this project, I learned how to better use inheritance in Unity."
+        },
+        {
+            "title": "Internet, Inc.",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/4w0GL1pk7ks",
+            "github-link": "https://github.com/rclafferty/Internet-Inc",
+            "itch-link": "https://rclafferty.itch.io/Internet-Inc",
+            "description": "Internet, Inc. was one iteration in a series of ideas for my master's thesis game. This game has the character do certain web-related tasks to progress through the company. At each level, the player handles tasks related to a certain stage in the DNS-Lookup process.",
+            "roles": "Concept design, prototyping, user interface design, programming, art, animations.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "I learned about UI interactive design, Photoshop, and simplistic educational game design."
+        },
+        {
+            "title": "Laser Defender",
+            "platform": "Unity",
+            "language": "C#",
+            "youtube-link": "https://www.youtube.com/embed/OyY16KzU2P0",
+            "github-link": "https://github.com/rclafferty/Laser-Defender",
+            "description": "Laser Defender was a fun Unity C# game based on a Galaga-type influence that was developed as part of a tutorial on Udemy. It was used to learn 2D collisions, events, player controls, and more from a top-down shooter perspective.",
+            "roles": "UI implementations, Level Design, Character Select functionality, C# scripting, User Input, Material Design.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "I learned UI design, events, and how to dynamically change sprites to implement a rotation effect. I also learned how to dynamically spawn random sprites and animations that can be attached for cool gameplay effects."
+        },
+        {
+            "title": "Transformation",
+            "platform": "Unity",
+            "language": "C#",
+            "project-image": "images/gamedev/transformation.png",
+            "github-link": "https://github.com/rclafferty/Transformation",
+            "itch-link": "https://rclafferty.itch.io/Transformation",
+            "description": "Transformation was developed for the Chillennium 2018 Game Jam. The premise of the game: The player fights to escape a secret government program to create super soldiers and, based on their in-game choices, either breaks free or morally falls victim to the program.",
+            "roles": "Level design, gameplay design, sound effects, storyboarding, UI design, event scripting.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "I learned about importing and animating 3D models and how to better work with detailed 3D models."
+        },
+        {
+            "title": "Space Shooter",
+            "platform": "Unreal",
+            "language": "C++",
+            "project-image": "images/gamedev/space_shooter.png",
+            "github-link": "https://github.com/rclafferty/Space-Shooter",
+            "description": "Space Shooter is a 3D space ship game that mixes a 1945-style feel with a space theme. This game was started as part of an online tutorial but later expanded upon.",
+            "roles": "Programming, UI design, animations, parallax effect.",
+            "platform-support": "Windows 10",
+            "what-i-learned": "This has been a good introduction to Unreal Engine 4 programming, scene design, and UI design."
+        }
+    ]
+}
