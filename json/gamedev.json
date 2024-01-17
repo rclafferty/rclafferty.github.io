@@ -82,6 +82,16 @@
             "what-i-learned": "I learned UI design, events, and how to dynamically change sprites to implement a rotation effect. I also learned how to dynamically spawn random sprites and animations that can be attached for cool gameplay effects."
         },
         {
+            "title": "Wrath of Raoden",
+            "platform": "Unity",
+            "language": "C#",
+            "project-image": "images/gamedev/wrath_of_raoden.png",
+            "description": "I led a team of three developers in developing Wrath of Raoden with the intent to publish on the Google Play store. This game is a 2D roguelike dungeon crawler in which the player is tasked with defeating a godlike antagonist, Raoden, with the power to randomize elements of the world. The player must fight their way through three dungeons in a random order, fight the corresponding boss, and proceed to fight Raoden in the end to save the world.",
+            "roles": "Product owner, managing a team of software engineers, presenting on topics during team learning sessions, mentoring other engineers, C#, animation, UI, and systems.",
+            "platform-support": "Android",
+            "what-i-learned": "This was my first project in a management-like role, so I learned how to manage other developers while balancing my own contributions. I also learned how to write maintainable and scalable code that other less experienced developers can help maintain."
+        },
+        {
             "title": "Transformation",
             "platform": "Unity",
             "language": "C#",

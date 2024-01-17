@@ -305,6 +305,11 @@ function transformation_click() {
     return project_click();
 }
 
+function wrath_of_raoden_click() {
+    set_project_overlay_data(gamedev, "Wrath of Raoden");
+    return project_click();
+}
+
 /**************************************/
 /***** SOFTWARE PROJECT FUNCTIONS *****/
 /**************************************/
