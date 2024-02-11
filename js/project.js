@@ -260,6 +260,11 @@ function set_project_overlay_data(json, projectName) {
     }
 }
 
+function call_of_duty_click() {
+    set_project_overlay_data(gamedev, "Call of Duty: Modern Warfare III");
+    return project_click();
+}
+
 function platform_switcher_click() {
     set_project_overlay_data(gamedev, "Platform Switcher");
     return project_click();
