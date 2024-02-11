@@ -39,7 +39,7 @@ function project_show_contents() {
     document.getElementById("overlay-solid-back").classList.remove("thin-overlay");
 
     // Remove URL (more importantly: stop playing audio)
-    document.getElementById("sizzle-reel").setAttribute("src", "");
+    // document.getElementById("sizzle-reel").setAttribute("src", "");
 }
 
 function project_hide_contents() {
@@ -47,7 +47,7 @@ function project_hide_contents() {
 
     // Remove URL (more importantly: stop playing audio)
     document.getElementById("project-overlay-embed").setAttribute("src", "");
-    document.getElementById("sizzle-reel").setAttribute("src", "https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi");
+    // document.getElementById("sizzle-reel").setAttribute("src", "https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi");
 }
 
 function project_show_embed_video(url) {
