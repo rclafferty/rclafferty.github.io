@@ -130,12 +130,14 @@ hr {
     height: 90%;
     padding: 1rem;
     min-width: 22rem;
+    border-radius: 2rem;
 }
 #overlay-solid-back-2 {
     position: relative;
     width: 100%;
     height: 100%;
     background-color: var(--background-color);
+    border-radius: 2rem;
 }
 
 .thin-overlay {
