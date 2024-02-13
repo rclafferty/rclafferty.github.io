@@ -318,6 +318,11 @@ function wrath_of_raoden_click() {
 /**************************************/
 /***** SOFTWARE PROJECT FUNCTIONS *****/
 /**************************************/
+function wordlist_generator_click() {
+    set_project_overlay_data(software, "Wordlist Generator");
+    return project_click();
+}
+
 function frogbot_click() {
     set_project_overlay_data(software, "FrogBot");
     return project_click();

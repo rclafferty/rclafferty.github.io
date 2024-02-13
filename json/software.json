@@ -1,6 +1,15 @@
 {
     "projects": [
         {
+            "title": "Wordlist Generator",
+            "language": "C++, Qt",
+            "project-image": "images/softwaredev/wordlist_generator.png",
+            "description": "Wordlist Generator was a project commissioned on Fiverr as an improvement to an existing program. The request included adding a GUI, giving the program parameters for tweaking the types of words to be generated, and optimizing performance. This project was completed in C++ using the Qt framework.",
+            "roles": "GUI design, architecture design, performance optimization, C++ development, multi-threading.",
+            "platform-support": "Windows 10.",
+            "what-i-learned": "This was my first project in Qt, so I learned how to use a valuable new framework."
+        },
+        {
             "title": "FrogBot",
             "language": "NodeJS",
             "project-image": "images/softwaredev/frogbot.png",

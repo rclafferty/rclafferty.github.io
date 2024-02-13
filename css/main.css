@@ -176,6 +176,8 @@ hr {
     margin: 0 auto;
     margin-bottom: 2rem;
     height: 17rem;
+    border: 1pt solid black;
+    border-radius: 2rem;
 }
 
 /*********************
@@ -274,6 +276,7 @@ figure + span {
 }
 .test-image figure img {
     height: 13.5rem;
+    border: 1pt solid black;
 }
 
 .project-image {
