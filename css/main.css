@@ -296,6 +296,7 @@ span {
 .index-overlay {
     position: relative;
     width: 100%;
+    height: 13.5rem;
 }
 
 .overlay-text {
