@@ -34,8 +34,10 @@
                     </div>
                 </div>
                 <div id="project-overlay-contents" class="hidden">
-                    <iframe src="https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi" id="project-overlay-embed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h1 id="project-overlay-title">Project Title</h1>
                     
+                    <iframe src="https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi" id="project-overlay-embed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
                     <img src="images/gamedev/building_escape.png" alt="" id="project-overlay-alt-picture" class="hidden">
 
                     <p id="project-overlay-description">Test</p>
@@ -90,87 +92,92 @@
         <div class="section">
             <h1>Game Development</h1>
 
-            <h2>AAA Game Development</h2>
+            <h2>Professional Experience</h2>
             <div class="section-projects">
                 <a href="gamedev/call_of_duty.html" class="test-image" onclick="return call_of_duty_click()">
                     <figure>
-                        <img src="images/gamedev/call_of_duty.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/gamedev/call_of_duty.png" alt="">
+                            <div class="overlay-text">
+                                <p>Proprietary Engine</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>Call of Duty: Modern Warfare III</span>
                 </a>
+                <a href="gamedev/haircut_simulator.html" class="test-image" onclick="return haircut_simulator_click()">
+                    <figure>
+                        <div class="index-overlay">
+                            <img src="https://www.unmc.edu/mmi/research/vr-sim-hairsalon-waiting.png" alt="">
+                            <div class="overlay-text">
+                                <p>Unity Engine</p>
+                            </div>
+                        </div>
+                    </figure>
+                    <span>Haircut Simulator (VR)</span>
+                </a>
             </div>
-            <!-- <noscript>
-                <style type="text/css">
-                    #sizzle-reel { display: none; }
-                    #sizzle-reel-button { display: block; }
-                    .sizzle-reel-descriptor { display: block; }
-                </style>
-            </noscript>
-            <iframe src="https://www.youtube.com/embed/TWuPwthgXao?si=ZPsH08hrkjOIZVxi" id="sizzle-reel" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            <a href="https://www.youtube.com/watch?v=TWuPwthgXao" class="button centered-element" id="sizzle-reel-button" target="_blank">Sizzle Reel (YouTube)</a>
-            <p class="sizzle-reel-descriptor">&nbsp;</p>
-            <p class="centered-element sizzle-reel-descriptor">Click the button above to watch my sizzle reel on YouTube.</p> -->
 
-            <h2>Unreal Engine Projects</h2>
+            <h2>Unreleased Projects</h2>
             <div class="section-projects">
-                <a href="gamedev/platform_switcher.html" class="test-image" onclick="return platform_switcher_click()">
+                <a href="gamedev/unreal_engine_sandbox.html" class="test-image" onclick="return unreal_engine_sandbox_click();">
                     <figure>
-                        <img src="images/gamedev/platform_switcher.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/gamedev/unreal_engine_sandbox.png" alt="">
+                            <div class="overlay-text">
+                                <p>Unreal Engine</p>
+                            </div>
+                        </div>
                     </figure>
-                    <span>Platform Switcher</span>
+                    <span>Unreal Engine Sandbox</span>
                 </a>
-                <a href="gamedev/building_escape.html" class="test-image" onclick="return building_escape_click();">
-                    <figure>
-                        <img src="images/gamedev/building_escape.png" alt="">
-                    </figure>
-                    <span>Building Escape</span>
-                </a>
-                <a href="gamedev/space_shooter.html" class="test-image" onclick="return space_shooter_click();">
-                    <figure>
-                        <img src="images/gamedev/space_shooter.png" alt="">
-                    </figure>
-                    <span>Space Shooter</span>
-                </a>
-            </div>
-            
-            <h2>Unity Engine Projects</h2>
-            <div class="section-projects">
                 <a href="gamedev/wrath_of_raoden.html" class="test-image" onclick="return wrath_of_raoden_click();">
                     <figure>
-                        <img src="images/gamedev/wrath_of_raoden.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/gamedev/wrath_of_raoden.png" alt="">
+                            <div class="overlay-text">
+                                <p>Unity Engine</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>Wrath of Raoden</span>
                 </a>
+                <a href="gamedev/my_game_engine.html" class="test-image" onclick="return my_game_engine_click();">
+                    <figure>
+                        <div class="index-overlay">
+                            <img src="images/gamedev/my_game_engine.png" alt="">
+                            <div class="overlay-text">
+                                <p>Proprietary Engine</p>
+                            </div>
+                        </div>
+                    </figure>
+                    <span>My Game Engine</span>
+                </a>
+            </div>
+
+            <h2>Academic Projects</h2>
+            <div class="section-projects">
                 <a href="gamedev/packet_delivery.html" class="test-image" onclick="return packet_delivery_click();">
                     <figure>
-                        <img src="images/gamedev/packet_delivery.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/gamedev/packet_delivery.png" alt="">
+                            <div class="overlay-text">
+                                <p>Unity Engine</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>Packet Delivery</span>
                 </a>
-                <a href="gamedev/the_three_mutineers.html" class="test-image" onclick="return the_three_mutineers_click();">
-                    <figure>
-                        <img src="images/gamedev/the_three_mutineers.png" alt="">
-                    </figure>
-                    <span>The Three Mutineers</span>
-                </a>
-                <a href="gamedev/leaf_me_alone.html" class="test-image" onclick="return leaf_me_alone_click();">
-                    <figure>
-                        <img src="images/gamedev/leaf_me_alone.png" alt="">
-                    </figure>
-                    <span>Leaf Me Alone!</span>
-                </a>
                 <a href="gamedev/internet_inc.html" class="test-image" onclick="return internet_inc_click();">
                     <figure>
-                        <img src="images/gamedev/internet_inc.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/gamedev/internet_inc.png" alt="">
+                            <div class="overlay-text">
+                                <p>Unity Engine</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>Internet, Inc.</span>
-                </a>
-                <a href="gamedev/transformation.html" class="test-image" onclick="return transformation_click();">
-                    <figure>
-                        <img src="images/gamedev/transformation.png" alt="">
-                    </figure>
-                    <span>Transformation</span>
                 </a>
             </div>
         </div>
@@ -180,12 +187,17 @@
         <div class="section">
             <h1>Software Development</h1>
 
-            <h2>Contract Work</h2>
+            <h2>Professional Experience</h2>
 
             <div class="section-projects">
-                <a href="software/frogbot.html" class="test-image" onclick="return wordlist_generator_click();">
+                <a href="software/wordlist_generator.html" class="test-image" onclick="return wordlist_generator_click();">
                     <figure>
-                        <img src="images/softwaredev/wordlist_generator.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/softwaredev/wordlist_generator.png" alt="">
+                            <div class="overlay-text">
+                                <p>C++ Qt</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>Wordlist Generator</span>
                 </a>
@@ -196,21 +208,41 @@
             <div class="section-projects">
                 <a href="software/frogbot.html" class="test-image" onclick="return frogbot_click();">
                     <figure>
-                        <img src="images/softwaredev/frogbot.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/softwaredev/frogbot.png" alt="">
+                            <div class="overlay-text">
+                                <p>NodeJS + Python</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>FrogBot</span>
                 </a>
-                <a href="software/unl_gdc_admin_database.html" class="test-image" onclick="return gdc_database_click();">
-                    <figure>
-                        <img src="images/softwaredev/unl_gdc_admin_database.png" alt="">
-                    </figure>
-                    <span>UNL GDC Admin Database</span>
-                </a>
                 <a href="software/machine_learning.html" class="test-image" onclick="return machine_learning_click();">
                     <figure>
-                        <img src="images/softwaredev/machine_learning.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/softwaredev/machine_learning.png" alt="">
+                            <div class="overlay-text">
+                                <p>Python + R</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>Machine Learning</span>
+                </a>
+            </div>
+
+            <h2>Academic Projects</h2>
+
+            <div class="section-projects">
+                <a href="software/unl_gdc_admin_database.html" class="test-image" onclick="return gdc_database_click();">
+                    <figure>
+                        <div class="index-overlay">
+                            <img src="images/softwaredev/unl_gdc_admin_database.png" alt="">
+                            <div class="overlay-text">
+                                <p>Python + MySQL + HTML</p>
+                            </div>
+                        </div>
+                    </figure>
+                    <span>UNL GDC Admin Database</span>
                 </a>
             </div>
         </div>
@@ -219,30 +251,62 @@
 
         <div class="section">
             <h1>Website Development</h1>
+
+            <h2>Professional Experience</h2>
+
+            <div class="section-projects">
+                <a href="webdev/unl_trio_website.html" class="test-image" onclick="return unl_trio_click();">
+                    <figure>
+                        <div class="index-overlay">
+                            <img src="images/webdev/unl_trio.png" alt="">
+                            <div class="overlay-text">
+                                <p>HTML/CSS + JS + PHP</p>
+                            </div>
+                        </div>
+                    </figure>
+                    <span>UNL TRIO Website</span>
+                </a>
+            </div>
+
+            <h2>Personal Projects</h2>
+            
             <div class="section-projects">
                 <a href="webdev/personal_website.html" class="test-image" onclick="return personal_website_click();">
                     <figure>
-                        <img src="images/webdev/my_personal_website.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/webdev/my_personal_website.png" alt="">
+                            <div class="overlay-text">
+                                <p>HTML/CSS + JS + Jekyll</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>My Personal Website</span>
                 </a>
+            </div>
+
+            <h2>Academic Projects</h2>
+            <div class="section-projects">
                 <a href="webdev/unl_game_dev_club_website.html" class="test-image" onclick="return unl_gdc_website_click();">
                     <figure>
-                        <img src="images/webdev/unl_game_dev_club_website.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/webdev/unl_game_dev_club_website.png" alt="">
+                            <div class="overlay-text">
+                                <p>HTML/CSS + Jekyll</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>UNL Game Dev Club Website</span>
                 </a>
                 <a href="webdev/securing_cyberville_logs.html" class="test-image" onclick="return securing_cyberville_click();">
                     <figure>
-                        <img src="images/webdev/securing_cyberville_logs.png" alt="">
+                        <div class="index-overlay">
+                            <img src="images/webdev/securing_cyberville_logs.png" alt="">
+                            <div class="overlay-text">
+                                <p>PHP + MySQL</p>
+                            </div>
+                        </div>
                     </figure>
                     <span>Securing Cyberville Logs</span>
-                </a>
-                <a href="webdev/unl_trio_website.html" class="test-image" onclick="return unl_trio_click();">
-                    <figure>
-                        <img src="images/webdev/unl_trio.png" alt="">
-                    </figure>
-                    <span>UNL TRIO Website</span>
                 </a>
             </div>
         </div>

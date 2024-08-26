@@ -153,6 +153,13 @@ function project_hide_github_link() {
         github_elements[i].classList.add("hidden");
 }
 
+function project_set_title(title) {
+    if (title == undefined)
+        return;
+
+    document.getElementById("project-overlay-title").innerHTML = title;
+}
+
 function project_set_description(description) {
     if (description == undefined)
         return;
@@ -208,6 +215,7 @@ function set_project_overlay_data(json, projectName) {
         return;
     }
 
+    project_set_title(projectData['title']);
     project_set_description(projectData['description']);
     project_set_roles(projectData['roles']);
     project_set_platform(projectData['platform-support']);
@@ -312,6 +320,26 @@ function transformation_click() {
 
 function wrath_of_raoden_click() {
     set_project_overlay_data(gamedev, "Wrath of Raoden");
+    return project_click();
+}
+
+function social_sidekick_click() {
+    set_project_overlay_data(gamedev, "Social Sidekick");
+    return project_click();
+}
+
+function haircut_simulator_click() {
+    set_project_overlay_data(gamedev, "Haircut Simulator");
+    return project_click();
+}
+
+function unreal_engine_sandbox_click() {
+    set_project_overlay_data(gamedev, "Unreal Engine Sandbox");
+    return project_click();
+}
+
+function my_game_engine_click() {
+    set_project_overlay_data(gamedev, "My Game Engine");
     return project_click();
 }
 

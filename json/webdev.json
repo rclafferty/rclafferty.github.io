@@ -5,7 +5,7 @@
             "language": "HTML/CSS",
             "project-image": "images/webdev/my_personal_website.png",
             "github-link": "https://github.com/rclafferty/rclafferty.github.io/",
-            "description": "My personal website is hosted via GitHub pages using the jekyll framework and consists of HTML5-verified code. Previous iterations have included using PHP, but has since been simplified to only HTML5/CSS3/JS, with plans to continue updating the design and framework where able.",
+            "description": "My personal website is hosted via GitHub pages using the Jekyll framework and consists of HTML5-verified code. Previous iterations have included using PHP, but has since been simplified to only HTML5/CSS3/JS, with plans to continue updating the design and framework where able.",
             "roles": "UI design, programming, hosting, framework migration.",
             "platform-support": "GitHub Pages, Jekyll",
             "what-i-learned": "Writing my own website was a great way to learn web development at my own pace and have an avenue to explore new languages and frameworks."
@@ -16,7 +16,7 @@
             "project-image": "images/webdev/unl_game_dev_club_website.png",
             "github-link": "https://github.com/rclafferty/UNL-Game-Dev-Club.github.io/",
             "web-link": "https://unl-game-dev-club.github.io/",
-            "description": "The UNL Game Dev Club's website was used to connect with existing and prospective club members to announce club activities, showcase club projects, and provide common resources. The website was developed by hand using a custom jekyll theme to provide ease-of-use maintainability for future club members with less web development experience.",
+            "description": "The UNL Game Dev Club's website was used to connect with existing and prospective club members to announce club activities, showcase club projects, and provide common resources. The website was developed by hand using a custom Jekyll theme to provide ease-of-use maintainability for future club members with less web development experience.",
             "roles": "UI design, programming, hosting, framework migration.",
             "platform-support": "GitHub Pages, Jekyll",
             "what-i-learned": "Developing a club website taught me how to create a scalable design that would be easy for a newer, less experienced student to takeover after I graduated."
@@ -25,7 +25,7 @@
             "title": "Securing Cyberville Logs",
             "language": "PHP",
             "project-image": "images/webdev/securing_cyberville_logs.png",
-            "github-link": "https://github.com/rclafferty/Securing-Cyberville-Logs",
+            "github-link": "https://github.com/rclafferty/Securing-Cyberville-UNL-Research",
             "description": "My first research project as a master's student at the University of Nebraska-Lincoln was to take a video game I'd previously created and modify it to be part of a database-linked web application. I took my undergraduate senior project, Securing Cyberville, and added log events to a database to track scene transitions, loot drops, and dialogue interactions. From there, I read the event logs from the database to a PHP-based web application that was searchable and sortable.",
             "roles": "UI design, programming, hosting, integration with Unity.",
             "platform-support": "Web, Unity Engine",
@@ -36,7 +36,7 @@
             "language": "HTML/CSS/JS/PHP",
             "project-image": "images/webdev/unl_trio.png",
             "web-link": "https://trio.unl.edu/",
-            "description": "During my time as a Graduate Research Assistant with the University of Nebraska-Lincoln's Office of TRIO, I migrated a PHP-based, self-hosted website to the university's content management system that did not support PHP. I also migrated the website to a new university-wide template with new style requirements. Since TRIO is a USA federal program, we had to ensure the website met the federal web guidelines as well as university guidelines. My primary duties included PHP- and HTML5-based web development, ensuring the website met all necessary guidelines, attending university-wide web developer meetings, and office-wide technical support.",
+            "description": "As a Graduate Research Assistant at the University of Nebraska-Lincoln's Office of TRIO, I migrated a PHP-based website to the university's content management system, adapting it to new templates and guidelines. My role involved PHP/HTML5 development, ensuring compliance with federal and university standards, attending web developer meetings, and providing technical support.",
             "roles": "UI design, programming, hosting, framework migration.",
             "platform-support": "UNL's Content Management System, TRIO-hosted servers.",
             "what-i-learned": "I learned how to maintain a larger-scaled website for a university office as opposed to hosting a club or personal website. I also learned how work with a heavily-regulated website, both from federal programs and university-imposed regulations."
