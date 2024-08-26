@@ -1,0 +1,413 @@
+:root {
+    --highlight-color: #1445a8;
+    --background-color: #EEEEEE;
+    --transition-speed: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    transition: var(--transition-speed);
+}
+a:hover {
+    border-bottom: solid 1px;
+    color: var(--highlight-color);
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+hr {
+    margin: 7rem 0;
+    height: 1px;
+    background-color: var(--highlight-color);
+    border: none;
+}
+
+#outerwrapper {
+    padding: 1rem 15%;
+}
+
+/*****************************
+ *   GENERIC HELPER STYLES   *
+ *****************************/
+.button {
+    display: block;
+    width: 8rem;
+    background-color: var(--highlight-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.2rem 0;
+    color: var(--background-color);
+    text-decoration: none;
+    border: none;
+}
+.button:hover {
+    color: var(--highlight-color);
+    background-color: var(--background-color);
+}
+
+.wide-button {
+    width: 15rem;
+}
+
+.centered-element {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.shown {
+    display: block !important;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+.tall-bottom-margin {
+    margin-bottom: 7rem;
+}
+
+/**************************
+ *   SIZZLE REEL STYLES   *
+ **************************/
+#sizzle-reel-button {
+    display: none;
+}
+#sizzle-reel-button a:hover {
+    color: var(--highlight-color);
+    background-color: var(--background-color);
+}
+
+.sizzle-reel-descriptor {
+    display: none;
+}
+
+/**********************
+ *   OVERLAY STYLES   *
+ **********************/
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    /* cursor: pointer; Add a pointer on hover */
+}
+
+#overlay-solid-back {
+    background-color: var(--highlight-color);
+    margin: 2rem auto;
+    height: 90%;
+    padding: 1rem;
+    min-width: 22rem;
+    border-radius: 2rem;
+}
+#overlay-solid-back-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    border-radius: 2rem;
+}
+
+.thin-overlay {
+    width: 25%;
+}
+
+.wide-overlay {
+    width: 50rem;
+}
+
+#resume-overlay-contents {
+    position: relative;
+    width: 80%;
+    padding: 0.5rem;
+    margin: auto;
+}
+#resume-overlay-button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+#project-overlay-contents {
+    box-sizing: border-box;
+    padding: 2rem;
+}
+#project-overlay-contents h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#project-overlay-embed {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 80%;
+    width: 34rem;
+    height: 19rem;
+}
+
+#project-overlay-alt-picture {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    height: 17rem;
+    border: 1pt solid black;
+    border-radius: 2rem;
+}
+
+/*********************
+ *   NAVBAR STYLES   *
+ *********************/
+#navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color: var(--highlight-color);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0.5rem 0;
+    z-index: 1;
+}
+
+/*****************************
+ *   HEADER CONTENT STYLES   *
+ *****************************/
+#header-content h1 {
+    padding: 1rem 0 2rem 0;
+}
+
+#header-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+#header-links a.link {
+    width: 6rem;
+    background-color: var(--highlight-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.2rem 0;
+    color: var(--background-color);
+    text-decoration: none;
+    border-bottom: none;
+}
+#header-links a.link:hover {
+    color: var(--highlight-color);
+    background-color: var(--background-color);
+    border-bottom: none;
+}
+
+/****************************
+ *   INDEX SECTION STYLES   *
+ ****************************/
+.section h1, .section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.section iframe {
+    display: block;
+    margin: auto;
+    width: 45rem;
+    height: 25rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+.section img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+.section-projects {
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.section-projects a {
+    border-bottom: none;
+}
+
+figure + span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: var(--highlight-color);
+}
+span {
+    margin-top: 0.5rem;
+}
+
+/***************************
+ *   PROJECT PAGE STYLES   *
+ ***************************/
+.test-image {
+    width: 25rem;
+}
+.test-image a {
+    width: 100%;
+    height: 100%;
+}
+.test-image figure {
+    display: block;
+}
+.test-image figure img {
+    height: 13.5rem;
+    border: 1pt solid black;
+}
+
+.index-overlay {
+    position: relative;
+    width: 100%;
+    height: 13.5rem;
+}
+
+.overlay-text {
+    position:absolute;
+    bottom: -1%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 0 0 2rem 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index-overlay img {
+    height: 100%;
+    border: 1pt solid black;
+}
+.overlay-text p {
+    font-size: 1rem;
+    text-shadow: 
+        -1px -1px 0 black, /* Top-left shadow */
+        1px -1px 0 black, /* Top-right shadow */
+        -1px  1px 0 black, /* Bottom-left shadow */
+        1px  1px 0 black; /* Bottom-right shadow */
+}
+.overlay-text img {
+    width: 10rem;
+}
+
+.project-image {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.project-image img {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.prompt {
+    color: var(--highlight-color);
+}
+.prompt-text {
+    color: black;
+}
+
+/****************************
+ *   ONLINE RESUME STYLES   *
+ ****************************/
+#resume-navbar {
+    text-align: center;
+    /* margin: auto; */
+    position: sticky;
+    border-top: 1px solid white;
+    top: 2.9rem;
+    width: 100%;
+    background-color: var(--highlight-color);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0.5rem 0;
+}
+
+.resume-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.resume-image {
+    max-height: 5rem;
+}
+
+.resume-job {
+    margin: 4rem 0;
+}
+
+.resume-job-title {
+    color: var(--highlight-color);
+}
+
+.resume-job-detail {
+    text-align: center;
+    margin: 0;
+}
+
+#resume-education-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.resume-education-detail {
+    /* width: 50%; */
+    text-align: center;
+}
+
+.resume-activities-detail {
+    text-align: center;
+}
+.resume-activities-detail h3 {
+    color: var(--highlight-color);
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Casey Lafferty Website</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <script src="js/overlay.js"></script>
+    <script src="js/resume.js"></script>
+    <script src="js/project.js"></script>
+</head>
+<body>
+    <div id="home"></div>
+
+    <div id="navbar">
+        <a href="index.html#home" class="button">Home</a>
+        <a href="index.html#game_dev" class="button">Games</a>
+        <a href="index.html#software_dev" class="button">Software</a>
+        <a href="index.html#web_dev" class="button">Websites</a>
+    </div>
+
+    <div id="overlay" onclick="overlay_off()">
+        <div id="overlay-solid-back">
+            <div id="overlay-solid-back-2">
+                <div id="resume-overlay-contents" class="hidden">
+                    <h1>Resume Select</h1>
+                    <p>&nbsp;</p>
+                    <p class="centered-element">Select a resume from the buttons below:</p>
+
+                    <div id="resume-overlay-button-grid">
+                        <a href="documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" class="button wide-button centered-element" target="_blank">Game Dev Resume</a>
+                        <a href="documents/Robert_Casey_Lafferty_Software_Dev_Resume.pdf" class="button wide-button centered-element" target="_blank">Software Dev Resume</a>
+                        <a href="documents/Robert_Casey_Lafferty_Tutor_Resume.pdf" class="button wide-button centered-element" target="_blank">Tutoring Resume</a>
+                        <a href="resume.html" class="button wide-button centered-element">Online Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="outerwrapper">
+        <div id="header-content">
+            <h1>Robert Casey Lafferty</h1>
+            <p>I am an experienced video game developer and software engineer with hands-on experience in projects like Call of Duty, casino slot machines, and military weapon systems. Holding both a Bachelor's and Master's degree in Computer Science, I focused my studies on cyber security and video game development.</p>
+            <p>&nbsp;</p>
+            <p>In addition to my industry background, I have spent eight years as an educator and tutor, with three years as an online tutor, two years as a Graduate Teaching Assistant, and three years as an Undergraduate Teaching Assistant, helping students in the field of computer science and various core subjects. My interests encompass game development, software development, cyber security, artificial intelligence, web development, and more.</p>
+
+            <div id="header-links">
+                <noscript>
+                    <a href="documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" class="button" id="nojs_resume_button" target="_blank">Resume</a>
+
+                    <style type="text/css">
+                        #js_resume_button { display: none; }
+                    </style>
+                </noscript>
+                
+                <a href="#" onclick="return resume_click()" class="button" id="js_resume_button" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/rclafferty/" class="button" target="_blank">LinkedIn</a>
+                <a href="https://github.com/rclafferty" class="button" target="_blank">GitHub</a>
+                <a href="https://rclafferty.itch.io" class="button" target="_blank">Itch.io</a>
+            </div>
+        </div>
+
+        <hr class="no-bottom-margin" id="computer-skills">
+
+        <div id="resume-navbar" class="tall-bottom-margin">
+            <a href="#computer-skills" class="button">Skills</a>
+            <a href="#work-experience" class="button">Experience</a>
+            <a href="#projects" class="button">Projects</a>
+            <a href="#education" class="button">Education</a>
+            <a href="#honors-and-activities" class="button">Honors</a>
+        </div>
+
+        <h1>Computer Skills</h1>
+        <h2>Programming Languages</h2>
+
+        <div class="resume-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++" title="C++" class="resume-image">
+
+            <img src="https://www.britefish.net/wp-content/uploads/2019/07/logo-c-1.png" alt="C" title="C" class="resume-image">
+
+            <img src="https://miro.medium.com/v2/resize:fit:375/1*NhpIIUL7AFgKKn30gKoDUw.png" alt="C#" title="C#" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" alt="Java" title="Java" class="resume-image">
+
+            <img src="https://austin.kidsoutandabout.com/sites/default/files/Python_0.png" alt="Python" title="Python" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1200px-Lua-Logo.svg.png" alt="Lua" title="Lua" class="resume-image">
+
+            <img src="https://assets-global.website-files.com/632d8bdfaa198525e29dd55e/641c1b4e02e8cc2d3f9b010f_mysql-database-web-development-computer-software-dolphin-3f2ef1a6723e0e7faa8ac845294f02a3.png" alt="MySQL" title="MySQL" class="resume-image">
+
+            <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="SQL Server" title="SQL Server" class="resume-image">
+
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-postgresql-11-1175122.png" alt="PostgreSQL" title="PostgreSQL" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2000px-CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="HTML5/CSS3" title="HTML5/CSS3" class="resume-image">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript" title="JavaScript" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="NodeJS" title="NodeJS" class="resume-image">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/2000px-LaTeX_logo.svg.png" alt="LaTeX" title="LaTeX" class="resume-image">
+        </div>
+
+        <h2>Game Dev Tools</h2>
+
+        <div class="resume-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/UE_Logo_Black_Centered.svg/1879px-UE_Logo_Black_Centered.svg.png" alt="Unreal Engine" title="Unreal Engine" class="resume-image">
+            
+            <img src="https://1000logos.net/wp-content/uploads/2021/10/Unity-logo.png" alt="Unity" title="Unity" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Audacity_Logo_With_Name.png?20121030014318" alt="Audacity" title="Audacity" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Logo_Blender.svg/2560px-Logo_Blender.svg.png" alt="Blender" title="Blender" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png" alt="PyCharm" title="PyCharm" class="resume-image">
+
+            <img src="https://static.wikia.nocookie.net/adobe/images/9/9c/Mixamo_2.0_logo.png" alt="PyCharm" title="PyCharm" class="resume-image">
+        </div>
+
+        <h2>Developer Tools</h2>
+
+        <div class="resume-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png" alt="Git" title="Git" class="resume-image">
+
+            <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="GitHub" title="GitHub" class="resume-image">
+
+            <img src="https://venturebeat.com/wp-content/uploads/2015/06/visual_studio_purple.png?fit=578%2C287&strip=all" alt="Visual Studio" title="Visual Studio" class="resume-image">
+
+            <img src="https://kvinivel.com/wp-content/uploads/2016/02/visualstudio_code_logo_icon_170248.png" alt="Visual Studio Code" title="Visual Studio Code" class="resume-image">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/2560px-Spyder_logo.svg.png" alt="Spyder" title="Spyder" class="resume-image">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1200px-PyCharm_Icon.svg.png" alt="PyCharm" title="PyCharm" class="resume-image">
+
+            <img src="https://kingsgeocomputation.files.wordpress.com/2016/08/rstudio.png?w=640" alt="R Studio" title="R Studio" class="resume-image">
+
+            <img src="https://www.bloorresearch.com/wp-content/uploads/2014/01/Perforce-logo.png" alt="Perforce" title="Perforce" class="resume-image">
+
+            <img src="https://www.onworks.net/imagescropped/tortoisesvnicon.png_3.webp" alt="TortoiseSVN" title="TortoiseSVN" class="resume-image">            
+        </div>
+
+        <hr id="work-experience" class="tall-margin">
+
+        <h1>Professional Work Experience</h1>
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">AI Engineer</h3>
+            <h3 class="resume-job-detail">Phoenix Dawn</h3>
+            <h3 class="resume-job-detail">Unreal Engine C++ and Blueprint</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">March 2024 - Present</h3>
+            <p>I work on AI systems to prototype new mechanics, behaviors, and components to enhance in-game player experiences.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Computer Science Tutor</h3>
+            <h3 class="resume-job-detail">Pear Deck Learning</h3>
+            <h3 class="resume-job-detail">C#, C++, Java, JS, Python, HTML/CSS</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">August 2021 - Present</h3>
+            <p>As a tutor for Pear Deck Learning, I primarily assist students with Computer Science, Math, Physics, Writing, and Music related topics. Many students seek help with school assignments, but I also receive occasional requests for learning extra curricular topics, such as game development.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Math + English Tutor</h3>
+            <h3 class="resume-job-detail">TutorMe</h3>
+            <h3 class="resume-job-detail">Math + English, 2nd - 4th Grade</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">March 2024 - June 2024</h3>
+            <p>As a tutor for TutorMe Education, I primarily supported 2nd to 4th-grade students in Math and English. While many sought help with assignments, I also focused on gamifying lessons and highlighting real-world applications to make learning more engaging.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Gameplay Engineer - Call of Duty</h3>
+            <h3 class="resume-job-detail">Treyarch</h3>
+            <h3 class="resume-job-detail">C++, Python, Lua, Proprietary Tech</h3>
+            <h3 class="resume-job-detail">Full Time</h3>
+            <h3 class="resume-job-detail">October 2022 - September 2023</h3>
+            <p>During my time with Treyarch, I worked as a gameplay engineer on 6v6 multiplayer systems with a primary focus in killstreaks, field upgrades, and equipment. I primarily worked on an unannounced title in a cross-studio collaboration. While at Treyarch, I also gave a presentation about a proprietary tool to help my team improve their workflow. My primary responsibilities were C++, Lua, Python, collaborating with designers to refine designs to meet performance standards, collaborating with artists for animation- and modeling-related tasks, and updating documentation.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Software Engineer - Level Up U</h3>
+            <h3 class="resume-job-detail">Activision Blizzard</h3>
+            <h3 class="resume-job-detail">C++, Unreal Engine, Proprietary Tech</h3>
+            <h3 class="resume-job-detail">Full Time</h3>
+            <h3 class="resume-job-detail">July 2022 - October 2022</h3>
+            <p>Level Up U was a 13-week internal bootcamp to Activision Blizzard. During my time with Level Up U, I learned about the different disciplines within Activision Blizzard, learned how to work in proprietary AAA game engines, and designed and implemented my own game mode within the Call of Duty engine.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Software Engineer II - Game Server & Systems</h3>
+            <h3 class="resume-job-detail">AGS - American Gaming Systems</h3>
+            <h3 class="resume-job-detail">C#, C++, MS SQL Server</h3>
+            <h3 class="resume-job-detail">Full Time</h3>
+            <h3 class="resume-job-detail">December 2021 - July 2022</h3>
+            <p>I worked as a software engineer on the Game Systems and Server team at AGS, where I maintained a .NET-based system actively used in casinos across the USA and Mexico. The Windows Server-based system ran C# and C++ desktop applications for casinos to manage all AGS products on the floor and communicate with the machines directly as needed. My primary responsibilities were maintaining the C++ applications, migrating C++ applications to use C#, creating new C# applications based on internal requests, testing the system, and updating documentation.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Software Engineer - Tomahawk Weapons Control System</h3>
+            <h3 class="resume-job-detail">Naval Surface Warfare Center</h3>
+            <h3 class="resume-job-detail">C++</h3>
+            <h3 class="resume-job-detail">Full Time</h3>
+            <h3 class="resume-job-detail">March 2021 - September 2021</h3>
+            <p>During my time with NSWC, I was a UI engineer on the Tomahawk weapon system team where I focused on maintaining the system's usability and stability. The proprietary system was primarily built in C++. While with NSWC, I also aided in improving the onboarding process via aggregating relevant documentation and creating a "new hire checklist" for any new hires to follow. My primary duties included C++ desktop development, networking, updating documentation, and testing.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Graduate Teaching Assistant - CSCE 155N</h3>
+            <h3 class="resume-job-detail">University of Nebraska-Lincoln</h3>
+            <h3 class="resume-job-detail">MATLAB</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">August 2019 - August 2020</h3>
+            <p>I was the Graduate Teaching Assistant in charge of grading for an introductory Matlab course at the University of Nebraska-Lincoln. This course is taught primarily to non-Computer Science majors in their freshman or sophomore years. My primarily duties include coordinating grading assignments for Graduate Teaching Assistants (GTAs) and Undergraduate Teaching Assistants (UTAs), creating grading policies and rubrics with help from the professors, and handling grading questions brought to me by the students. I also ensure the GTAs and UTAs follow department feedback and grading policies.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">VR Development Intern</h3>
+            <h3 class="resume-job-detail">University of Nebraska Medical Center</h3>
+            <h3 class="resume-job-detail">Unity Engine, C#</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">May 2019 - August 2019</h3>
+            <p>During this summer internship, I helped lead a team of interns in designing and developing a virtual reality simulation for use in autism research and therapy. This simulation, built in Unity C# for the Oculus Rift and Oculus Quest, was a haircut simulator where an autistic patient could train up to realistic environmental variables in a controlled environment with help of a trained therapist. The environmental variables included sensitivity to light, noise, and crowds. My primary duties included character design, character animation, event scripting, behind-the-scenes manager scripting, code optimization, and rendering optimization.</p>
+        </div>
+
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Graduate Research Assistant</h3>
+            <h3 class="resume-job-detail">University of Nebraska-Lincoln</h3>
+            <h3 class="resume-job-detail">HTML/CSS, JS, PHP</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">August 2018 - May 2019</h3>
+            <p>During my time as a Graduate Research Assistant with the University of Nebraska-Lincoln's Office of TRIO, I migrated a PHP-based, self-hosted website to the university's content management system that did not support PHP. I also migrated the website to a new university-wide template with new style requirements. Since TRIO is a USA federal program, we had to ensure the website met the federal web guidelines as well as university guidelines. My primary duties included PHP- and HTML5-based web development, ensuring the website met all necessary guidelines, attending university-wide web developer meetings, and office-wide technical support.</p>
+        </div>
+        
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Graduate Teaching Assistant - CSCE 156</h3>
+            <h3 class="resume-job-detail">University of Nebraska-Lincoln</h3>
+            <h3 class="resume-job-detail">Java</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">January 2018 - May 2018</h3>
+            <p>During my time as a Graduate Teaching Assistant for Intro to Computer Science II, I was primarily in charge of overseeing grading for a course of 150+ students as well as leading several labs. The course taught Java to introductory Computer Science freshman students, concepts from which include intermediate data structures, algorithms, databases, PHP scripting, and intermediate Java techniques. My primarily duties included coordinating grading assignments for Graduate Teaching Assistants (GTAs) and Undergraduate Teaching Assistants (UTAs), leading weekly labs based on course lessons, and meeting with students one-on-one to discuss grades and course concepts.</p>
+        </div>
+        
+        <div class="resume-job">
+            <h3 class="resume-job-detail resume-job-title">Graduate Teaching Assistant - CSCE 155A</h3>
+            <h3 class="resume-job-detail">University of Nebraska-Lincoln</h3>
+            <h3 class="resume-job-detail">Java</h3>
+            <h3 class="resume-job-detail">Part Time</h3>
+            <h3 class="resume-job-detail">August 2017 - December 2017</h3>
+            <p>During my time as a Graduate Teaching Assistant for Intro to Computer Science I, I was primarily in charge of overseeing grading for a course of 150+ students as well as leading several labs. The course taught Java to introductory Computer Science freshman students, concepts from which include basic programming language syntax, data structures, algorithms, and IDE usage. My primarily duties included coordinating grading assignments for Graduate Teaching Assistants (GTAs) and Undergraduate Teaching Assistants (UTAs), leading weekly labs based on course lessons, and meeting with students one-on-one to discuss grades and course concepts.</p>
+        </div>
+
+        <hr id="projects">
+
+        <h1>Projects</h1>
+        <p class="centered-element">See the projects listed on the <a href="index.html">Home page</a> for details.</p>
+
+        <hr id="education">
+
+        <h1>Education</h1>
+
+        <div id="resume-education-section">
+            <div class="resume-education-detail">
+                <h3>University of Nebraska-Lincoln</h3>
+                <p>M.S. in Computer Science</p>
+                <p>Lincoln, NE</p>
+                <p>August 2017 - December 2020</p>
+                <p>C.S. GPA: 3.39</p>
+            </div>
+            <div class="resume-education-detail">
+                <h3>Kansas State University</h3>
+                <p>B.S. in Computer Science</p>
+                <p>Manhattan, KS</p>
+                <p>August 2012 - May 2017</p>
+                <p>C.S. GPA: 3.26</p>
+                <p>Music Minor</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h1 id="honors-and-activities">Honors & Activities</h1>
+
+        <div id="resume-activities-section">
+            <div class="resume-activities-detail">
+                <h3>Game Jam Participant (11 total)</h3>
+                <p>Spring 2015 - Spring 2020</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>Manticore Games Alpha Tester - Core</h3>
+                <p>Fall 2019 - Spring 2020</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>Co-Founder and President of UNL Game Dev Club</h3>
+                <p>Spring 2019 - Fall 2019</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>ACM Programming Contest Graduate Student Representative</h3>
+                <p>Fall 2018</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>Graduate Teaching Assistant Student Representative</h3>
+                <p>Fall 2017 - Spring 2018</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>Contestant in KSU ACM Programming Contest</h3>
+                <p>Fall 2013 - Spring 2017</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>Regional Programming Contest - Top 33%</h3>
+                <p>Fall 2014 and Fall 2016</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>1st Place Overall - KSU Game Jam Competition</h3>
+                <p>Spring 2015</p>
+            </div>
+            <div class="resume-activities-detail">
+                <h3>Eagle Scout</h3>
+                <p>September 2012</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

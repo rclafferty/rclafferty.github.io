@@ -1,0 +1,52 @@
+@media (max-width: 1000px) {
+    #outerwrapper {
+        padding: 1rem;
+    }
+    .project-image {
+        /* width: 90%; */
+    }
+
+    .project-image img {
+        min-width: 16rem;
+    }
+
+    /* #navbar ul {
+        padding: 0;
+    } */
+}
+
+@media (max-width: 870px) {
+    #sizzle-reel {
+         display: none;
+    }
+    #sizzle-reel-button {
+         display: block;
+    }
+    .sizzle-reel-descriptor {
+         display: block;
+    }
+    #resume-navbar {
+        flex-wrap: wrap;
+    }
+
+    #resume-education-section {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .project-image img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 650px) {
+    /* .section iframe {
+        width: 80%;
+        height: 15rem;
+    }
+    .section-projects {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
+    } */
+}

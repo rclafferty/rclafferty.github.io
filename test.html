@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            position: relative;
+            width: 8in;
+            height: 4in;
+        }
+        
+        .img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .overlay {
+            position: absolute;
+            background: #8888;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+        }
+
+        .text {
+            position: relative;
+            text-align: center;
+            margin: 0px;
+            top: 50%;
+            left: 0px;
+            color: white;
+        }
+    </style>
+    <title>Overlay</title>
+</head>
+<body>
+    <div class="container">
+        <img class="img" src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630">
+        <div class="overlay">
+            <p class="text">Some Text</p>
+        </div>
+    </div>
+</body>
+</html>
