@@ -268,8 +268,13 @@ function set_project_overlay_data(json, projectName) {
     }
 }
 
-function call_of_duty_click() {
+function call_of_duty_mw3_click() {
     set_project_overlay_data(gamedev, "Call of Duty: Modern Warfare III");
+    return project_click();
+}
+
+function call_of_duty_bo6_click() {
+    set_project_overlay_data(gamedev, "Call of Duty: Black Ops 6");
     return project_click();
 }
 
