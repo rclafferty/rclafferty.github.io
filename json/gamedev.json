@@ -157,7 +157,7 @@
             "platform": "Unity",
             "language": "C#",
             "youtube-link": "https://www.youtube.com/embed/KbSCLL_fetw",
-            "project-image": "https://www.unmc.edu/mmi/research/vr-sim-hairsalon-waiting.png",
+            "project-image": "https://www.unmc.edu/mmi/_images/research/lab/vr-slideshow-hairsalon-external-view_900x600.jpg",
             "description": "During my VR Development internship at the University of Nebraska Medical Center, I teamed up with another programmer and an artist to create a haircut simulator aimed at autism research and therapy. We designed the simulator for both Oculus Rift and Oculus Quest. My main roles were to develop AI movements and interactions, design therapist-friendly UI controls, integrate in-simulator audio, and ensure a seamless and realistic user experience.",
             "roles": "C# programming, AI behaviors, UI, lighting, audio, player experience.",
             "platform-support": "PC, Oculus Rift, Oculus Quest",
