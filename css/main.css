@@ -61,7 +61,7 @@ hr {
     padding: 0.2rem 0;
     color: var(--background-color);
     text-decoration: none;
-    border: none;
+    border: 1px solid var(--highlight-color);
 }
 .button:hover {
     color: var(--highlight-color);
