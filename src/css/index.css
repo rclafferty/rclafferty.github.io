@@ -116,7 +116,7 @@ hr {
  *   NAVBAR STYLES   *
  *********************/
 #navbar {
-    position: absolute;
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: var(--highlight-color);
