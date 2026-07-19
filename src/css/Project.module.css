@@ -1,0 +1,17 @@
+.project img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
+.project iframe {
+    width: 50%;
+    min-height: 23rem;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border: none;
+}

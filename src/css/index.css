@@ -1,0 +1,172 @@
+:root {
+    --highlight-color: #1445a8;
+    --background-color: #EEEEEE;
+    --transition-speed: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    transition: var(--transition-speed);
+}
+a:hover {
+    border-bottom: solid 1px;
+    color: var(--highlight-color);
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+h3 {
+    margin-top: 1rem;
+    color: var(--highlight-color);
+}
+
+hr {
+    margin: 7rem 0;
+    height: 1px;
+    background-color: var(--highlight-color);
+    border: none;
+}
+
+#outerwrapper {
+    padding: 1rem 15%;
+}
+
+.centered {
+    text-align: center;
+}
+
+/*****************************
+ *   HEADER CONTENT STYLES   *
+ *****************************/
+
+#header-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+#header-links a.link {
+    width: 6rem;
+    background-color: var(--highlight-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.2rem 0;
+    color: var(--background-color);
+    text-decoration: none;
+    border-bottom: none;
+}
+#header-links a.link:hover {
+    color: var(--highlight-color);
+    background-color: var(--background-color);
+    border-bottom: none;
+}
+
+#header-links {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.resume-dropdown {
+    position: relative;
+}
+
+.resume-options {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.resume-dropdown summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.resume-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+/*********************
+ *   NAVBAR STYLES   *
+ *********************/
+#navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: var(--highlight-color);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0.5rem 0;
+    z-index: 1;
+}
+.button, #navbar button {
+    display: block;
+    width: 12rem;
+    background-color: var(--highlight-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.4rem 0;
+    color: var(--background-color);
+    text-decoration: none;
+    border: 1px solid var(--highlight-color);
+    font-size: 1rem;
+    transition: var(--transition-speed);
+    font-weight: bold;
+}
+.button:hover, #navbar button:hover {
+    color: var(--highlight-color);
+    background-color: var(--background-color);
+}
+
+.wide-button {
+    width: 15rem;
+}
+
+footer {
+    margin: 0;
+    margin-top: 7rem;
+    width: 100%;
+    background-color: var(--highlight-color);
+    color: white !important;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.footer-grid-column {
+    text-align: center;
+}
+.footer-grid-column ul li {
+    display: block;
+}
+.footer-grid-column ul li a{
+    color: white;
+}
