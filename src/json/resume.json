@@ -1,0 +1,440 @@
+{
+    "languages": [
+        {
+            "text": "C++",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "C#",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "C",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Java",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Python",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Lua",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "JavaScript",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "NodeJS",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "React",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "JSON",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
+            "hidden": true
+        },
+        {
+            "text": "MySQL",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "PostgreSQL",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Microsoft SQL Server",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "HTML5",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "CSS3",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "SASS",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+            "hide-text": true
+        }
+    ],
+    "tools": [
+        {
+            "text": "Unreal Engine",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Unity Engine",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Love2D",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/love2d/love2d-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Audacity",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Audacity_Logo_With_Name.png?20121030014318",
+            "hide-text": true
+        },
+        {
+            "text": "Blender",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Mixamo",
+            "image": "",
+            "hide-text": true
+        },
+        {
+            "text": "Git",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "GitHub",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Digital Ocean",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "GitKraken",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitkraken/gitkraken-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Tortoise SVN",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tortoisegit/tortoisegit-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Microsoft SQL Server",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg",
+            "hide-text": true
+        }
+    ],
+    "ide": [
+        {
+            "text": "Visual Studio",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Visual Studio Code",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "PyCharm",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Anaconda",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Spyder",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spyder/spyder-original-wordmark.svg",
+            "hide-text": true
+        }
+    ],
+    "os": [
+        {
+            "text": "Windows",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Ubuntu",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original-wordmark.svg",
+            "hide-text": true
+        },
+        {
+            "text": "Kali",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kalilinux/kalilinux-original-wordmark.svg",
+            "hide-text": true
+        }
+    ],
+    "experience": [
+        {
+            "company": "Guild of Beginnings",
+            "title": "Software Engineer",
+            "location": "Remote",
+            "start": "July 2025",
+            "end": "Present",
+            "skills": [
+                "Unreal Engine",
+                "Unity Engine",
+                "C++",
+                "C#",
+                "Python",
+                "React",
+                "Express JS",
+                "PostgreSQL",
+                "Docker"
+            ],
+            "projects": [
+                "trial_of_code"
+            ],
+            "description": "During my time with Guild of Beginnings, I focused on developing web applications, automation systems, and tools to support educational workflows. I designed and implemented full-stack solutions using technologies including React, Express, PostgreSQL, Python, and Docker. One of my primary projects was a Docker-sandboxed auto-judging platform that evaluates programming submissions and provides immediate feedback, allowing clients to validate their learning objectives without waiting for manual review. I also developed systems to support client management and operational workflows, with an emphasis on creating maintainable software that improves efficiency for both users and administrators."
+        },
+        {
+            "company": "Academy of Art University",
+            "title": "Game Programming Instructor",
+            "location": "Remote",
+            "start": "Aug 2024",
+            "end": "Present",
+            "skills": [
+                "Unreal Engine",
+                "Unity Engine",
+                "Love2D",
+                "C++",
+                "C#",
+                "Lua"
+            ],
+            "description": "During my time with Academy of Art University, I taught game programming courses covering software engineering fundamentals, gameplay development, and project planning. I mentored students in applying concepts such as programming fundamentals, data structures, algorithms, and performance considerations to real-world game development scenarios. I also guided students through developing gameplay mechanics and systems using technologies including Unreal Engine, Unity, C++, C#, and Lua."
+        },
+        {
+            "company": "Deviant Games",
+            "title": "Gameplay Engineer (AI)",
+            "location": "Remote",
+            "start": "Aug 2024",
+            "end": "Present",
+            "skills": [
+                "Unreal Engine",
+                "C++",
+                "Game AI",
+                "Character",
+                "Animation"
+            ],
+            "description": "During my time with Deviant Games, I worked as a Gameplay Engineer focused on AI systems and gameplay mechanics. I designed and implemented technical subsystems to coordinate AI behaviors and support player-facing experiences using Unreal Engine 5, C++, and Blueprints. I collaborated with designers and other developers to prototype new mechanics, refine gameplay behaviors, and build maintainable systems that supported iteration throughout development."
+        },
+        {
+            "company": "Pear Deck Learning",
+            "title": "Computer Science Tutor",
+            "location": "Remote",
+            "start": "Aug 2021",
+            "end": "Dec 2023",
+            "skills": [
+                "Communication",
+                "Math",
+                "Physics",
+                "Writing",
+                "Programming",
+                "Music"
+            ],
+            "description": "As a tutor for Pear Deck Learning, I primarily assist students with Computer Science, Math, Physics, Writing, and Music related topics. Many students seek help with school assignments, but I also receive occasional requests for learning extra curricular topics, such as game development.",
+            "hidden": true
+        },
+        {
+            "company": "Treyarch",
+            "title": "Gamelay Engineer",
+            "location": "Remote",
+            "start": "Oct 2022",
+            "end": "Sept 2023",
+            "skills": [
+                "C++",
+                "C#",
+                "Python",
+                "Scripting",
+                "Tools"
+            ],
+            "projects": [
+                "call_of_duty_bo6",
+                "call_of_duty_mwiii"
+            ],
+            "description": "During my time with Treyarch, I worked as a gameplay engineer on 6v6 multiplayer systems with a primary focus in killstreaks, field upgrades, and equipment. I primarily worked on an unannounced title in a cross-studio collaboration. While at Treyarch, I also gave a presentation about a proprietary tool to help my team improve their workflow. My primary responsibilities were C++, Lua, Python, collaborating with designers to refine designs to meet performance standards, collaborating with artists for animation- and modeling-related tasks, and updating documentation."
+        },
+        {
+            "company": "AGS",
+            "title": "Software Engineer",
+            "location": "Remote",
+            "start": "Dec 2021",
+            "end": "July 2022",
+            "skills": [
+                "C++",
+                "C#",
+                "Microsoft SQL Server",
+                "Tools",
+                "Server"
+            ],
+            "description": "I worked as a software engineer on the Game Systems and Server team at AGS, where I maintained a .NET-based system actively used in casinos across the USA and Mexico. The Windows Server-based system ran C# and C++ desktop applications for casinos to manage all AGS products on the floor and communicate with the machines directly as needed. My primary responsibilities were maintaining the C++ applications, migrating C++ applications to use C#, creating new C# applications based on internal requests, testing the system, and updating documentation."
+        },
+        {
+            "company": "Naval Surface Warfare Center",
+            "title": "Software Engineer",
+            "location": "Remote",
+            "start": "March 2021",
+            "end": "Sept 2022",
+            "skills": [
+                "C++",
+                "UI"
+            ],
+            "description": "During my time with NSWC, I was a UI engineer on the Tomahawk weapon system team where I focused on maintaining the system's usability and stability. The proprietary system was primarily built in C++. While with NSWC, I also aided in improving the onboarding process via aggregating relevant documentation and creating a \"new hire checklist\" for any new hires to follow. My primary duties included C++ desktop development, networking, updating documentation, and testing."
+        }
+    ],
+    "education": [
+        {
+            "school": "University of Nebraska-Lincoln",
+            "degree": "M.S.",
+            "major": "Computer Science",
+            "location": "Lincoln, NE",
+            "start": "Aug 2017",
+            "end": "Dec 2020",
+            "skills": [
+                "Unity Engine",
+                "C#",
+                "C++",
+                "Python",
+                "Java",
+                "3D.js",
+                "MongoDB",
+                "Matlab"
+            ],
+            "projects": [
+                {
+                    "category": "research-education",
+                    "id": "packet_delivery"
+                },
+                {
+                    "category": "research-education",
+                    "id": "internet_inc"
+                },
+                {
+                    "category": "research-education",
+                    "id": "unl_gdc_admin_database"
+                },
+                {
+                    "category": "research-education",
+                    "id": "securing_cyberville_logs"
+                },
+                {
+                    "category": "research-education",
+                    "id": "unl_gdc_website"
+                },
+                {
+                    "category": "personal",
+                    "id": "frogbot"
+                }
+            ]
+        },
+        {
+            "school": "Kansas State University",
+            "degree": "B.S.",
+            "major": "Computer Science",
+            "location": "Manhattan, KS",
+            "start": "Aug 2012",
+            "end": "May 2017",
+            "skills": [
+                "Unity Engine",
+                "C#",
+                "Unreal Engine",
+                "C++",
+                "C",
+                "Java",
+                "MySQL",
+                "PostgreSQL",
+                "Matlab"
+            ],
+            "projects": [
+                {
+                    "category": "personal",
+                    "id": "personal_website"
+                }
+            ]
+        }
+    ],
+    "honors": [
+        {
+            "title": "Game Jam Participant (14 total)",
+            "start": "Spring 2015",
+            "end": "Spring 2026",
+            "skills": [
+                "Unity Engine",
+                "C#",
+                "Game Design",
+                "Animation"
+            ]
+        },
+        {
+            "title": "Co-Founder and President - UNL Game Dev Club",
+            "start": "Spring 2015",
+            "end": "Spring 2026",
+            "skills": [
+                "Unity Engine",
+                "C#",
+                "Game Design",
+                "Animation"
+            ],
+            "projects": [
+                {
+                    "category": "research-education",
+                    "id": "unl_gdc_website"
+                },
+                {
+                    "category": "research-education",
+                    "id": "unl_gdc_admin_database"
+                }
+            ]
+        },
+        {
+            "title": "Contestant in ACM Programming Contest",
+            "start": "Fall 2013",
+            "end": "Spring 2017",
+            "skills": [
+                "Java",
+                "C",
+                "C++"
+            ]
+        },
+        {
+            "title": "1st Place Overall - KSU Game Jam Competition",
+            "start": "Spring 2015",
+            "skills": [
+                "Unity Engine",
+                "C#"
+            ]
+        },
+        {
+            "title": "Eagle Scout",
+            "start": "September 2012",
+            "skills": [
+                "Leadership",
+                "Project Planning",
+                "Financial Planning"
+            ]
+        }
+    ]
+}

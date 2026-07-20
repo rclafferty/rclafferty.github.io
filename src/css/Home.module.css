@@ -27,6 +27,10 @@
     border-bottom: none;
 }
 
+.section-entry {
+    width: 100%;
+}
+
 figure + span {
     width: 100%;
     display: block;

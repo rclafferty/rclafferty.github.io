@@ -5,6 +5,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import Home from './pages/Home';
 import Project from './pages/Project';
 import Error404 from './pages/Error404';
+import Resume from './pages/Resume';
 
 import './App.css'
 import Navbar from './components/Navbar';
@@ -22,6 +23,7 @@ function App() {
 				<Routes>
 					<Route path="/" index element={<Home />} />
 					<Route path="/:category/:id" element={<Project />} />
+					<Route path="/resume" element={<Resume />} />
 				
 					<Route path="/Error404" element={<Error404 />} />
 					<Route path="*" element={<Error404 />} />

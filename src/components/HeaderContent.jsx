@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function HeaderContent() {
     return (
         <>
@@ -13,10 +15,10 @@ export default function HeaderContent() {
 						<summary className="button">Resume</summary>
 
 						<div className="resume-options">
+                    		<Link to={'/resume'}>Online Resume</Link>
 							<a href="/documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" target="_blank" rel="noopener noreferrer">Game Dev Resume</a>
 							<a href="/documents/Robert_Casey_Lafferty_Software_Dev_Resume.pdf" target="_blank" rel="noopener noreferrer">Software Resume</a>
 							<a href="/documents/Robert_Casey_Lafferty_Education_Resume.pdf" target="_blank" rel="noopener noreferrer">Education Resume</a>
-							<a href="/documents/Robert_Casey_Lafferty_Game_Dev_Resume.pdf" target="_blank" rel="noopener noreferrer">Online Resume</a>
 						</div>
 					</details>
 

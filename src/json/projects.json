@@ -7,7 +7,6 @@
             "project-image": "call_of_duty_bo6.png",
             "description": "As a Gameplay Engineer at Treyarch, I contributed to Call of Duty: Black Ops 6's 6v6 multiplayer experience by developing and maintaining gameplay systems for killstreaks, field upgrades, and equipment. Working within a large multidisciplinary team, I helped deliver polished gameplay experiences across PC, PlayStation, and Xbox.",
             "platform-support": "Windows, PlayStation, Xbox",
-            "what-i-learned": "I learned how to maintain gameplay systems in a AAA franchise while being mindful of how my changes would affect other games in the franchise.",
             "contributions": "I developed gameplay systems supporting killstreaks, field upgrades, and equipment for Call of Duty: Black Ops 6. My work included gameplay programming, physics, collision, VFX integration, audio interactions, and designer-facing tools across features such as the Sentry Turret, UAV, Advanced UAV (HARP), Secret Agent, War Cry, Proximity Alarm, and Thermobaric Grenade. I also collaborated with tool owners to investigate feature stability and configuration options, documenting best practices that improved my team's development workflow.",
             "technical-challenges": "One of the most technically challenging features I implemented was redesigning the Proximity Alarm's detection system. Rather than relying on a simple trigger volume, I developed a geometry-aware solution capable of respecting world collision, functioning correctly on arbitrary surfaces and orientations, and providing designers with greater flexibility when placing the equipment. This required balancing mathematical accuracy, gameplay consistency, and ease of use within an existing AAA gameplay framework.",
             "links": [
@@ -23,7 +22,7 @@
             "id": "call_of_duty_mwiii",
             "title": "Call of Duty: Modern Warfare III",
             "language": "C++, Python, Proprietary Language",
-            "project-image": "call_of_duty.png",
+            "project-image": "call_of_duty_mwiii.png",
             "description": "As a Gameplay Engineer at Treyarch, I contributed to Call of Duty: Modern Warfare III by developing gameplay systems and supporting multiplayer content within the franchise's proprietary engine. This work involved collaborating with designers, artists, and other engineers to deliver features across multiple platforms.",
             "platform-support": "Windows, PlayStation, Xbox",
             "contributions": "I contributed gameplay programming for weapons and killstreak systems in Call of Duty: Modern Warfare III. While much of the implementation remains under NDA, my work included extending existing gameplay systems and collaborating across gameplay and tooling pipelines to support new multiplayer features within the engine.",
@@ -44,9 +43,7 @@
             "language": "React JS, Express JS, PostgreSQL",
             "project-image": "trial_of_code.png",
             "description": "Trial of Code is an online programming practice platform developed for Guild of Beginnings. The platform allows students to solve programming challenges, receive automated feedback on their solutions, and practice technical interview concepts through an interactive web application.",
-            "roles": "[tbd]",
             "platform-support": "Ubuntu, Web",
-            "what-i-learned": "[tbd]",
             "contributions": "I designed and developed Trial of Code as a full-stack educational platform from the ground up. As the sole engineer, I implemented the React frontend, Express backend, PostgreSQL database, Docker infrastructure, cloud deployment, authentication, instructor dashboard, and automated code judging pipeline. Beyond software engineering, I also develop the educational content, author programming problems, and create automated scripts that generate and validate large sets of test cases.",
             "technical-challenges": "The primary engineering challenge has been balancing accessibility, security, and maintainability within a platform that executes user-submitted code. The system must provide clients with near real-time feedback while securely isolating untrusted programs, maintaining reliable infrastructure, and providing meaningful logging without overwhelming either developers or system resources. Achieving this balance required careful architectural decisions across both the application and deployment environments.",
             "links": [
@@ -64,9 +61,7 @@
             "youtube-link": "https://www.youtube.com/embed/KbSCLL_fetw",
             "project-image": "haircut_simulator.jpg",
             "description": "Haircut Simulator is a virtual reality application developed at the University of Nebraska Medical Center to support autism research and therapy. Designed for Oculus Rift and Oculus Quest, the project recreates the experience of receiving a haircut in a safe, controlled virtual environment.",
-            "roles": "[tbd]",
             "platform-support": "Windows, Oculus Rift, Oculus Quest",
-            "what-i-learned": "I learned how to maintain performant code during a VR simulation to avoid VR sickness.",
             "contributions": "As the project's sole programmer, I developed the gameplay systems that powered the virtual haircut experience, including AI behavior, player interactions, UI systems, navigation, lighting, audio integration, and animation support. Working alongside an artist and project lead, I focused on creating an intuitive experience suitable for autism research and therapy while targeting both Oculus Rift and Oculus Quest hardware.",
             "technical-challenges": "One of the most difficult technical challenges involved achieving realistic salon mirrors while maintaining the frame rates required for a comfortable VR experience. Because visual realism was important to the therapeutic goals of the project, I experimented with rendering techniques such as reflection quality, light bounce limits, and fogged mirror effects to find an acceptable balance between performance and immersion.",
             "links": [
@@ -86,7 +81,6 @@
             "description": "Wordlist Generator is a desktop application commissioned through Fiverr to generate highly configurable wordlists through an intuitive graphical interface. The project focused on expanding the capabilities of an existing application while improving its usability and overall performance.",
             "roles": "GUI design, architecture design, performance optimization, C++ development, multi-threading.",
             "platform-support": "Windows",
-            "what-i-learned": "This was my first project in Qt, so I learned how to use a valuable new framework.",
             "contributions": "I was contracted through Fiverr to extend an existing C++ application by designing a Qt-based graphical interface, improving the application's architecture, and optimizing performance through multithreading. The resulting application provided significantly greater flexibility while making the software more accessible to non-technical users.",
             "technical-challenges": "The project required improving both usability and performance without changing the underlying purpose of the application. Designing a responsive GUI while introducing configurable generation parameters and multithreaded execution required balancing maintainability, responsiveness, and execution speed within an existing codebase."
         },
@@ -98,7 +92,6 @@
             "description": "The University of Nebraska-Lincoln TRIO website serves as the primary online resource for students, staff, and prospective program participants. As part of the TRIO office's web team, I helped maintain and modernize the site while supporting its transition to the university's standardized content management system.",
             "roles": "UI design, programming, hosting, framework migration.",
             "platform-support": "Web, UNL's Proprietary Content Management System, Linux Web Servers.",
-            "what-i-learned": "I learned how to maintain a larger-scaled website for a university office as opposed to hosting a club or personal website. I also learned how work with a heavily-regulated website, both from federal programs and university-imposed regulations.",
             "contributions": "I helped maintain and modernize the University of Nebraska-Lincoln TRIO website while supporting its migration from a custom PHP application to the university's standardized content management system. My responsibilities included implementing new layouts and features, maintaining HTML, CSS, and PHP code, and ensuring compliance with university standards, accessibility requirements, and federal program guidelines.",
             "technical-challenges": "Maintaining an actively used university website while simultaneously migrating it to a new content management system required balancing ongoing feature development with long-term modernization efforts. During one extended server outage, I identified and introduced a local PHP development workflow that allowed our team to continue development offline, eliminating several days of lost productivity and enabling the rest of the team to continue their work uninterrupted.",
             "links": [
@@ -119,19 +112,17 @@
             "description": "Wrath of Raoden is a 2D roguelike dungeon crawler developed for Android. Players battle through three dungeons in a randomized order before confronting the godlike antagonist, Raoden, whose powers reshape elements of the world throughout the adventure.",
             "roles": "Product owner, development lead, mentoring, C# programming, UI, animations, gameplay.",
             "platform-support": "Android",
-            "what-i-learned": "This was my first project in a management-like role, so I learned how to manage other developers while balancing my own contributions. I also learned how to write maintainable and scalable code that other less experienced developers can help maintain.",
             "contributions": "As the development lead for a three-person team, I was responsible for coordinating development while contributing gameplay programming, UI systems, animations, and overall project architecture. In addition to implementing gameplay features, I mentored less experienced developers and helped establish coding practices that allowed the project to remain maintainable as the team expanded.",
             "technical-challenges": "One of the largest challenges was balancing leadership responsibilities with hands-on software development. Designing systems that were modular, maintainable, and approachable for newer developers required careful architectural planning while still allowing the team to iterate quickly on gameplay features."
         },
         {
             "id": "unreal_engine_sandbox",
             "title": "Unreal Engine Sandbox",
-            "language": "[tbd]",
+            "platform": "Unreal Engine",
+            "language": "C++",
             "project-image": "unreal_engine_sandbox.png",
             "description": "Unreal Engine Sandbox is an ongoing playground project created to explore Unreal Engine's gameplay and engine systems through hands-on experimentation. Rather than focusing on a single game, the project serves as a foundation for prototyping mechanics, testing engine features, and expanding my understanding of modern Unreal Engine development.",
-            "roles": "[tbd]",
             "platform-support": "Windows",
-            "what-i-learned": "[tbd]",
             "contributions": "I independently developed gameplay prototypes covering AI behaviors, character abilities, physics interactions, materials, VFX, audio, UI, camera effects, and lighting. The project also serves as a testing ground for experimenting with both C++ and Blueprint workflows before applying those concepts to larger game projects.",
             "technical-challenges": "Because the project intentionally spans many unrelated gameplay systems, one of the primary engineering challenges has been designing code that remains modular as new features are added. Rather than creating isolated prototypes, I focused on building reusable systems that can support future experimentation without requiring large architectural rewrites."
         },
@@ -141,9 +132,7 @@
             "language": "C++, Lua",
             "project-image": "my_game_engine.png",
             "description": "My custom game engine is a custom C++ game engine inspired by Hazel that explores engine-level programming concepts including rendering, physics, editor tooling, serialization, and application architecture. The project was created to deepen my understanding of the systems that power modern game engines.",
-            "roles": "[tbd]",
             "platform-support": "Windows",
-            "what-i-learned": "[tbd]",
             "contributions": "I designed and implemented the engine architecture from the ground up, including rendering systems, event handling, editor tooling, particle systems, scene serialization, and project management features. Throughout development, I emphasized modular software architecture to ensure that individual systems could evolve independently while remaining easy to extend.",
             "technical-challenges": "Developing a rendering engine required understanding how multiple low-level systems interact while keeping the overall architecture maintainable. Building the engine around modular components required carefully defining system boundaries, reducing dependencies between subsystems, and creating an architecture capable of supporting future features without significant refactoring."
         },
@@ -153,9 +142,7 @@
             "language": "Node JS, Python",
             "project-image": "frogbot.png",
             "description": "FrogBot is a Discord bot designed to simplify gaming within Discord communities by automating common tasks and integrating information from external gaming platforms. The project continues to evolve as new automation features and platform integrations are added.",
-            "roles": "[tbd]",
             "platform-support": "Discord",
-            "what-i-learned": "[tbd]",
             "contributions": "I designed and developed the bot using Node.js, implementing Discord integrations, Steam API support, and automation features for gaming communities. The bot currently allows users to compare shared Steam libraries and was architected to support future expansion to additional gaming platforms and community management tools.",
             "technical-challenges": "Integrating multiple external APIs while keeping the bot maintainable required designing clear abstractions between Discord functionality and platform-specific services. This architecture allows new gaming platforms and automated features to be added without requiring significant changes to the existing codebase."
         },
@@ -165,9 +152,7 @@
             "language": "HTML, CSS, React JS",
             "project-image": "my_personal_website.png",
             "description": "My personal website serves as both an online portfolio and a long-term software project. It showcases professional experience, personal projects, and technical interests while providing a platform for experimenting with modern web development practices and continuously refining its design.",
-            "roles": "[tbd]",
             "platform-support": "Web, GitHub Pages",
-            "what-i-learned": "[tbd]",
             "contributions": "I designed, developed, and maintain the website, including its visual design, project architecture, responsive layouts, deployment pipeline, and interactive project showcases. The site has undergone multiple architectural revisions over time as I explored different web technologies and improved its maintainability.",
             "technical-challenges": "One of the primary engineering challenges has been balancing maintainability with flexibility as the portfolio continues to grow. As new projects, categories, and interactive features were added, I continually refined the site's architecture to reduce duplication, simplify content management, and create reusable components that support future expansion."
         }
@@ -180,9 +165,7 @@
             "language": "C#",
             "project-image": "packet_delivery.png",
             "description": "Packet Delivery is a serious educational game developed as part of my master's thesis at the University of Nebraska-Lincoln. Using a postal service analogy, the game teaches players how the Domain Name System (DNS) resolves website addresses through interactive gameplay and problem solving.",
-            "roles": "[tbd]",
             "platform-support": "Windows, Mac, Linux",
-            "what-i-learned": "[tbd]",
             "contributions": "I independently designed and developed the project from concept to completion, including gameplay programming, UI design, animations, educational content, and player interaction systems. In addition to the game itself, I conducted research evaluating how serious games can improve engagement and understanding of computer networking concepts.",
             "technical-challenges": "One of the most significant challenges was balancing educational accuracy with engaging gameplay. Rather than presenting networking concepts as traditional instructional material, I designed mechanics that naturally encouraged players to learn the DNS lookup process through exploration, experimentation, and gameplay progression.",
             "links": [
@@ -209,9 +192,7 @@
             "language": "C#",
             "project-image": "internet_inc.png",
             "description": "Internet, Inc. is an educational simulation game in which players complete a variety of Internet-related tasks while progressing through a technology company. Each level introduces gameplay inspired by a different stage of the DNS lookup process, encouraging players to learn networking concepts through interactive challenges rather than traditional instruction.",
-            "roles": "[tbd]",
             "platform-support": "Windows",
-            "what-i-learned": "[tbd]",
             "contributions": "I independently designed and developed the project, including gameplay programming, UI systems, animations, educational mechanics, and overall game design. The project explored an alternative approach to teaching computer networking concepts by embedding technical content within a workplace simulation instead of relying on direct instruction.",
             "technical-challenges": "One of the primary engineering and design challenges was translating abstract networking concepts into engaging gameplay mechanics that players could intuitively understand. Rather than presenting DNS as a sequence of technical steps, I designed each level around a distinct workplace task that represented a portion of the networking process, requiring careful alignment between educational objectives and player experience.",
             "links": [
@@ -238,9 +219,7 @@
             "language": "C#",
             "project-image": "unl_gdc_admin_database.png",
             "description": "The UNL Game Development Club Admin Database is a web application developed to help club officers manage membership information, attendance records, and communication with members. Originally created as both a university course project and an organizational tool, the application streamlined administrative tasks while providing data visualizations to support club leadership.",
-            "roles": "[tbd]",
             "platform-support": "Windows, Linux, Web",
-            "what-i-learned": "[tbd]",
             "contributions": "I designed and implemented the database schema, developed the web application, integrated Python with MySQL, created automated email functionality, and incorporated D3.js visualizations to help club officers analyze attendance and membership trends. The project combined coursework with practical use by a real student organization.",
             "technical-challenges": "Integrating multiple technologies into a cohesive system required careful planning across both backend and frontend components. Designing a database capable of supporting visualization, reporting, and automation while maintaining clean data relationships required balancing flexibility, maintainability, and long-term usability.",
             "links": [
@@ -256,9 +235,7 @@
             "language": "C#, PHP, MySQL",
             "project-image": "securing_cyberville_logs.png",
             "description": "Securing Cyberville Logs was a university research project that extended an existing educational game by integrating gameplay analytics into a searchable web application. The project enabled researchers to collect, store, and analyze player interactions to better understand learning behaviors and gameplay progression.",
-            "roles": "[tbd]",
             "platform-support": "Linux, Web",
-            "what-i-learned": "[tbd]",
             "contributions": "I modified the Unity game to record gameplay events, designed the database integration, developed the PHP web application used to explore collected data, and implemented searchable and sortable log views for researchers. The project connected gameplay telemetry with web-based reporting tools to support ongoing educational research.",
             "technical-challenges": "The primary challenge involved designing a reliable pipeline that captured gameplay events, stored them efficiently within a relational database, and presented the information through an intuitive web interface. Ensuring that gameplay data remained organized, searchable, and useful for research required coordinating multiple technologies across both the game and web application.",
             "links": [
@@ -274,9 +251,7 @@
             "language": "HTML, CSS, Jekyll",
             "project-image": "unl_gdc_website.png",
             "description": "The UNL Game Development Club website served as the organization's primary online presence, providing information about meetings, events, projects, and club resources. The website was designed to be easily maintained by future student leaders while continuing to support the club after my graduation.",
-            "roles": "[tbd]",
             "platform-support": "Web, GitHub Pages",
-            "what-i-learned": "[tbd]",
             "contributions": "I designed and developed the website, created a custom Jekyll theme, migrated the project to GitHub Pages, and established a structure that allowed future club officers with limited web development experience to maintain the site. The project emphasized long-term maintainability alongside a clean user experience.",
             "technical-challenges": "One of the largest challenges was designing a website that would remain sustainable after my involvement ended. Rather than optimizing solely for development speed, I focused on creating a maintainable architecture that reduced technical barriers for future student volunteers while still supporting the club's evolving needs.",
             "links": [
