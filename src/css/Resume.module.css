@@ -1,0 +1,25 @@
+.computer-skills-image {
+    max-height: 7rem;
+    min-width: 6rem;
+}
+.subsection-header {
+    margin-top: 5rem;
+}
+
+.exp-details {
+    text-align: center;
+    font-weight: bold;
+}
+
+.exp-skill-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem; /* Adds space between items */
+  justify-content: center;
+}
+
+/* Inserts a dot only between list items */
+.exp-skill-list li + li::before {
+  content: '·';
+  margin-right: 1rem; /* Adds space before the dot */
+}
